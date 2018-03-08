@@ -1,0 +1,183 @@
+{"type": "object", "id": "person_ross_geller", "class": "person", "label": "Ross Geller", "seconds": 0.5, "coordinates": [114.8, 201.9, 125.12, 300.7]}
+{"type": "behavior", "class": "walk", "seconds": 0.5, "object": {"id": "person_ross_geller"}}
+{"type": "location", "class": "central_perk", "seconds": 0.5}
+{"type": "object", "id": "person_ross_geller", "class": "person", "label": "Ross Geller", "seconds": 1.0, "coordinates": [109.6, 193.8, 135.24, 301.4]}
+{"type": "behavior", "class": "walk", "seconds": 1.0, "object": {"id": "person_ross_geller"}}
+{"type": "location", "class": "central_perk", "seconds": 1.0}
+{"type": "object", "id": "person_ross_geller", "class": "person", "label": "Ross Geller", "seconds": 1.5, "coordinates": [104.39999999999999, 185.70000000000002, 145.36, 302.09999999999997]}
+{"type": "behavior", "class": "walk", "seconds": 1.5, "object": {"id": "person_ross_geller"}}
+{"type": "location", "class": "central_perk", "seconds": 1.5}
+{"type": "object", "id": "person_ross_geller", "class": "person", "label": "Ross Geller", "seconds": 2.0, "coordinates": [99.19999999999999, 177.60000000000002, 155.48000000000002, 302.79999999999995]}
+{"type": "behavior", "class": "walk", "seconds": 2.0, "object": {"id": "person_ross_geller"}}
+{"type": "location", "class": "central_perk", "seconds": 2.0}
+{"type": "object", "id": "person_ross_geller", "class": "person", "label": "Ross Geller", "seconds": 2.5, "coordinates": [93.99999999999999, 169.50000000000003, 165.60000000000002, 303.49999999999994]}
+{"type": "behavior", "class": "walk", "seconds": 2.5, "object": {"id": "person_ross_geller"}}
+{"type": "location", "class": "central_perk", "seconds": 2.5}
+{"type": "object", "id": "person_ross_geller", "class": "person", "label": "Ross Geller", "seconds": 3.0, "coordinates": [88.79999999999998, 161.40000000000003, 175.72000000000003, 304.19999999999993]}
+{"type": "behavior", "class": "walk", "seconds": 3.0, "object": {"id": "person_ross_geller"}}
+{"type": "location", "class": "central_perk", "seconds": 3.0}
+{"type": "object", "id": "person_ross_geller", "class": "person", "label": "Ross Geller", "seconds": 3.5, "coordinates": [83.59999999999998, 153.30000000000004, 185.84000000000003, 304.8999999999999]}
+{"type": "behavior", "class": "walk", "seconds": 3.5, "object": {"id": "person_ross_geller"}}
+{"type": "location", "class": "central_perk", "seconds": 3.5}
+{"type": "object", "id": "person_ross_geller", "class": "person", "label": "Ross Geller", "seconds": 4.0, "coordinates": [78.39999999999998, 145.20000000000005, 195.96000000000004, 305.5999999999999]}
+{"type": "behavior", "class": "walk", "seconds": 4.0, "object": {"id": "person_ross_geller"}}
+{"type": "location", "class": "central_perk", "seconds": 4.0}
+{"type": "object", "id": "person_ross_geller", "class": "person", "label": "Ross Geller", "seconds": 4.5, "coordinates": [73.19999999999997, 137.10000000000005, 206.08000000000004, 306.2999999999999]}
+{"type": "behavior", "class": "walk", "seconds": 4.5, "object": {"id": "person_ross_geller"}}
+{"type": "location", "class": "central_perk", "seconds": 4.5}
+{"type": "object", "id": "person_ross_geller", "class": "person", "label": "Ross Geller", "seconds": 5.0, "coordinates": [67.99999999999997, 129.00000000000006, 216.20000000000005, 306.9999999999999]}
+{"type": "behavior", "class": "walk", "seconds": 5.0, "object": {"id": "person_ross_geller"}}
+{"type": "location", "class": "central_perk", "seconds": 5.0}
+{"type": "object", "id": "person_ross_geller", "class": "person", "label": "Ross Geller", "seconds": 5.5, "coordinates": [62.79999999999997, 120.90000000000006, 226.32000000000005, 307.6999999999999]}
+{"type": "behavior", "class": "walk", "seconds": 5.5, "object": {"id": "person_ross_geller"}}
+{"type": "location", "class": "central_perk", "seconds": 5.5}
+{"type": "object", "id": "person_ross_geller", "class": "person", "label": "Ross Geller", "seconds": 6.0, "coordinates": [57.599999999999966, 112.80000000000007, 236.44000000000005, 308.39999999999986]}
+{"type": "behavior", "class": "walk", "seconds": 6.0, "object": {"id": "person_ross_geller"}}
+{"type": "location", "class": "central_perk", "seconds": 6.0}
+{"type": "object", "id": "person_ross_geller", "class": "person", "label": "Ross Geller", "seconds": 6.5, "coordinates": [52.39999999999996, 104.70000000000007, 246.56000000000006, 309.09999999999985]}
+{"type": "behavior", "class": "walk", "seconds": 6.5, "object": {"id": "person_ross_geller"}}
+{"type": "location", "class": "central_perk", "seconds": 6.5}
+{"type": "object", "id": "person_ross_geller", "class": "person", "label": "Ross Geller", "seconds": 7.0, "coordinates": [47.19999999999996, 96.60000000000008, 256.68000000000006, 309.79999999999984]}
+{"type": "behavior", "class": "walk", "seconds": 7.0, "object": {"id": "person_ross_geller"}}
+{"type": "location", "class": "central_perk", "seconds": 7.0}
+{"type": "object", "id": "person_ross_geller", "class": "person", "label": "Ross Geller", "seconds": 7.5, "coordinates": [41.99999999999996, 88.50000000000009, 266.80000000000007, 310.49999999999983]}
+{"type": "behavior", "class": "walk", "seconds": 7.5, "object": {"id": "person_ross_geller"}}
+{"type": "location", "class": "central_perk", "seconds": 7.5}
+{"type": "object", "id": "person_ross_geller", "class": "person", "label": "Ross Geller", "seconds": 8.0, "coordinates": [36.799999999999955, 80.40000000000009, 276.9200000000001, 311.1999999999998]}
+{"type": "behavior", "class": "walk", "seconds": 8.0, "object": {"id": "person_ross_geller"}}
+{"type": "location", "class": "central_perk", "seconds": 8.0}
+{"type": "object", "id": "person_ross_geller", "class": "person", "label": "Ross Geller", "seconds": 8.5, "coordinates": [31.599999999999955, 72.3000000000001, 287.0400000000001, 311.8999999999998]}
+{"type": "behavior", "class": "walk", "seconds": 8.5, "object": {"id": "person_ross_geller"}}
+{"type": "location", "class": "central_perk", "seconds": 8.5}
+{"type": "object", "id": "person_ross_geller", "class": "person", "label": "Ross Geller", "seconds": 9.0, "coordinates": [26.399999999999956, 64.2000000000001, 297.1600000000001, 312.5999999999998]}
+{"type": "behavior", "class": "walk", "seconds": 9.0, "object": {"id": "person_ross_geller"}}
+{"type": "location", "class": "central_perk", "seconds": 9.0}
+{"type": "object", "id": "person_ross_geller", "class": "person", "label": "Ross Geller", "seconds": 9.5, "coordinates": [21.199999999999957, 56.1000000000001, 307.2800000000001, 313.2999999999998]}
+{"type": "behavior", "class": "walk", "seconds": 9.5, "object": {"id": "person_ross_geller"}}
+{"type": "location", "class": "central_perk", "seconds": 9.5}
+{"type": "object", "id": "person_ross_geller", "class": "person", "label": "Ross Geller", "seconds": 10.0, "coordinates": [15.999999999999957, 48.0000000000001, 317.4000000000001, 313.9999999999998]}
+{"type": "behavior", "class": "walk", "seconds": 10.0, "object": {"id": "person_ross_geller"}}
+{"type": "location", "class": "central_perk", "seconds": 10.0}
+{"type": "emotion", "class": "happy", "seconds": 10.5, "object": {"id": "person_ross_geller"}}
+{"type": "emotion", "class": "happy", "seconds": 11.0, "object": {"id": "person_ross_geller"}}
+{"type": "emotion", "class": "happy", "seconds": 11.5, "object": {"id": "person_ross_geller"}}
+{"type": "emotion", "class": "happy", "seconds": 12.0, "object": {"id": "person_ross_geller"}}
+{"type": "emotion", "class": "happy", "seconds": 12.5, "object": {"id": "person_ross_geller"}}
+{"type": "object", "id": "person_ross_geller", "class": "person", "label": "Ross Geller", "seconds": 10.5, "coordinates": [15.969999999999958, 47.980000000000096, 317.43000000000006, 314.01999999999975]}
+{"type": "object", "id": "person_ross_geller", "class": "person", "label": "Ross Geller", "seconds": 11.0, "coordinates": [15.939999999999959, 47.96000000000009, 317.46000000000004, 314.03999999999974]}
+{"type": "object", "id": "person_ross_geller", "class": "person", "label": "Ross Geller", "seconds": 11.5, "coordinates": [15.90999999999996, 47.94000000000009, 317.49, 314.0599999999997]}
+{"type": "object", "id": "person_ross_geller", "class": "person", "label": "Ross Geller", "seconds": 12.0, "coordinates": [15.87999999999996, 47.92000000000009, 317.52, 314.0799999999997]}
+{"type": "object", "id": "person_ross_geller", "class": "person", "label": "Ross Geller", "seconds": 12.5, "coordinates": [15.84999999999996, 47.900000000000084, 317.54999999999995, 314.0999999999997]}
+{"type": "object", "id": "person_ross_geller", "class": "person", "label": "Ross Geller", "seconds": 13.0, "coordinates": [15.819999999999961, 47.88000000000008, 317.5799999999999, 314.11999999999966]}
+{"type": "object", "id": "person_ross_geller", "class": "person", "label": "Ross Geller", "seconds": 13.5, "coordinates": [15.789999999999962, 47.86000000000008, 317.6099999999999, 314.13999999999965]}
+{"type": "object", "id": "person_ross_geller", "class": "person", "label": "Ross Geller", "seconds": 14.0, "coordinates": [15.759999999999962, 47.840000000000074, 317.6399999999999, 314.1599999999996]}
+{"type": "object", "id": "person_ross_geller", "class": "person", "label": "Ross Geller", "seconds": 14.5, "coordinates": [15.729999999999963, 47.82000000000007, 317.66999999999985, 314.1799999999996]}
+{"type": "object", "id": "person_ross_geller", "class": "person", "label": "Ross Geller", "seconds": 15.0, "coordinates": [15.699999999999964, 47.80000000000007, 317.6999999999998, 314.1999999999996]}
+{"type": "object", "id": "person_ross_geller", "class": "person", "label": "Ross Geller", "seconds": 15.5, "coordinates": [15.669999999999964, 47.780000000000065, 317.7299999999998, 314.2199999999996]}
+{"type": "object", "id": "person_ross_geller", "class": "person", "label": "Ross Geller", "seconds": 16.0, "coordinates": [15.639999999999965, 47.76000000000006, 317.75999999999976, 314.23999999999955]}
+{"type": "object", "id": "person_ross_geller", "class": "person", "label": "Ross Geller", "seconds": 16.5, "coordinates": [15.609999999999966, 47.74000000000006, 317.78999999999974, 314.25999999999954]}
+{"type": "object", "id": "person_ross_geller", "class": "person", "label": "Ross Geller", "seconds": 17.0, "coordinates": [15.579999999999966, 47.720000000000056, 317.8199999999997, 314.2799999999995]}
+{"type": "object", "id": "person_ross_geller", "class": "person", "label": "Ross Geller", "seconds": 17.5, "coordinates": [15.549999999999967, 47.70000000000005, 317.8499999999997, 314.2999999999995]}
+{"type": "object", "id": "person_ross_geller", "class": "person", "label": "Ross Geller", "seconds": 18.0, "coordinates": [15.519999999999968, 47.68000000000005, 317.87999999999965, 314.3199999999995]}
+{"type": "object", "id": "person_ross_geller", "class": "person", "label": "Ross Geller", "seconds": 18.5, "coordinates": [15.489999999999968, 47.660000000000046, 317.9099999999996, 314.33999999999946]}
+{"type": "object", "id": "person_ross_geller", "class": "person", "label": "Ross Geller", "seconds": 19.0, "coordinates": [15.459999999999969, 47.64000000000004, 317.9399999999996, 314.35999999999945]}
+{"type": "object", "id": "person_ross_geller", "class": "person", "label": "Ross Geller", "seconds": 19.5, "coordinates": [15.42999999999997, 47.62000000000004, 317.9699999999996, 314.3799999999994]}
+{"type": "object", "id": "person_ross_geller", "class": "person", "label": "Ross Geller", "seconds": 20.0, "coordinates": [15.39999999999997, 47.60000000000004, 317.99999999999955, 314.3999999999994]}
+{"type": "object", "id": "person_rachel_green", "class": "person", "label": "Rachel Green", "seconds": 10.5, "coordinates": [320.97, 212.98, 111.03, 300.02]}
+{"type": "object", "id": "person_rachel_green", "class": "person", "label": "Rachel Green", "seconds": 11.0, "coordinates": [320.94000000000005, 212.95999999999998, 111.06, 300.03999999999996]}
+{"type": "object", "id": "person_rachel_green", "class": "person", "label": "Rachel Green", "seconds": 11.5, "coordinates": [320.9100000000001, 212.93999999999997, 111.09, 300.05999999999995]}
+{"type": "object", "id": "person_rachel_green", "class": "person", "label": "Rachel Green", "seconds": 12.0, "coordinates": [320.8800000000001, 212.91999999999996, 111.12, 300.0799999999999]}
+{"type": "object", "id": "person_rachel_green", "class": "person", "label": "Rachel Green", "seconds": 12.5, "coordinates": [320.85000000000014, 212.89999999999995, 111.15, 300.0999999999999]}
+{"type": "object", "id": "person_rachel_green", "class": "person", "label": "Rachel Green", "seconds": 13.0, "coordinates": [320.82000000000016, 212.87999999999994, 111.18, 300.1199999999999]}
+{"type": "object", "id": "person_rachel_green", "class": "person", "label": "Rachel Green", "seconds": 13.5, "coordinates": [320.7900000000002, 212.85999999999993, 111.21000000000001, 300.1399999999999]}
+{"type": "object", "id": "person_rachel_green", "class": "person", "label": "Rachel Green", "seconds": 14.0, "coordinates": [320.7600000000002, 212.83999999999992, 111.24000000000001, 300.15999999999985]}
+{"type": "object", "id": "person_rachel_green", "class": "person", "label": "Rachel Green", "seconds": 14.5, "coordinates": [320.73000000000025, 212.8199999999999, 111.27000000000001, 300.17999999999984]}
+{"type": "object", "id": "person_rachel_green", "class": "person", "label": "Rachel Green", "seconds": 15.0, "coordinates": [320.7000000000003, 212.7999999999999, 111.30000000000001, 300.1999999999998]}
+{"type": "object", "id": "person_rachel_green", "class": "person", "label": "Rachel Green", "seconds": 15.5, "coordinates": [320.6700000000003, 212.7799999999999, 111.33000000000001, 300.2199999999998]}
+{"type": "object", "id": "person_rachel_green", "class": "person", "label": "Rachel Green", "seconds": 16.0, "coordinates": [320.6400000000003, 212.75999999999988, 111.36000000000001, 300.2399999999998]}
+{"type": "object", "id": "person_rachel_green", "class": "person", "label": "Rachel Green", "seconds": 16.5, "coordinates": [320.61000000000035, 212.73999999999987, 111.39000000000001, 300.25999999999976]}
+{"type": "object", "id": "person_rachel_green", "class": "person", "label": "Rachel Green", "seconds": 17.0, "coordinates": [320.5800000000004, 212.71999999999986, 111.42000000000002, 300.27999999999975]}
+{"type": "object", "id": "person_rachel_green", "class": "person", "label": "Rachel Green", "seconds": 17.5, "coordinates": [320.5500000000004, 212.69999999999985, 111.45000000000002, 300.2999999999997]}
+{"type": "object", "id": "person_rachel_green", "class": "person", "label": "Rachel Green", "seconds": 18.0, "coordinates": [320.52000000000044, 212.67999999999984, 111.48000000000002, 300.3199999999997]}
+{"type": "object", "id": "person_rachel_green", "class": "person", "label": "Rachel Green", "seconds": 18.5, "coordinates": [320.49000000000046, 212.65999999999983, 111.51000000000002, 300.3399999999997]}
+{"type": "object", "id": "person_rachel_green", "class": "person", "label": "Rachel Green", "seconds": 19.0, "coordinates": [320.4600000000005, 212.63999999999982, 111.54000000000002, 300.3599999999997]}
+{"type": "object", "id": "person_rachel_green", "class": "person", "label": "Rachel Green", "seconds": 19.5, "coordinates": [320.4300000000005, 212.6199999999998, 111.57000000000002, 300.37999999999965]}
+{"type": "object", "id": "person_rachel_green", "class": "person", "label": "Rachel Green", "seconds": 20.0, "coordinates": [320.40000000000055, 212.5999999999998, 111.60000000000002, 300.39999999999964]}
+{"type": "relation", "class": "emotion", "subclass": "like", "seconds": 0.5, "source": {"id": "person_ross_geller"}, "target": {"id": "person_rachel_green"}}
+{"type": "relation", "class": "emotion", "subclass": "like", "seconds": 1.0, "source": {"id": "person_ross_geller"}, "target": {"id": "person_rachel_green"}}
+{"type": "relation", "class": "emotion", "subclass": "like", "seconds": 1.5, "source": {"id": "person_ross_geller"}, "target": {"id": "person_rachel_green"}}
+{"type": "relation", "class": "emotion", "subclass": "like", "seconds": 2.0, "source": {"id": "person_ross_geller"}, "target": {"id": "person_rachel_green"}}
+{"type": "relation", "class": "emotion", "subclass": "like", "seconds": 2.5, "source": {"id": "person_ross_geller"}, "target": {"id": "person_rachel_green"}}
+{"type": "relation", "class": "emotion", "subclass": "like", "seconds": 3.0, "source": {"id": "person_ross_geller"}, "target": {"id": "person_rachel_green"}}
+{"type": "relation", "class": "emotion", "subclass": "like", "seconds": 3.5, "source": {"id": "person_ross_geller"}, "target": {"id": "person_rachel_green"}}
+{"type": "relation", "class": "emotion", "subclass": "like", "seconds": 4.0, "source": {"id": "person_ross_geller"}, "target": {"id": "person_rachel_green"}}
+{"type": "relation", "class": "emotion", "subclass": "like", "seconds": 4.5, "source": {"id": "person_ross_geller"}, "target": {"id": "person_rachel_green"}}
+{"type": "relation", "class": "emotion", "subclass": "like", "seconds": 5.0, "source": {"id": "person_ross_geller"}, "target": {"id": "person_rachel_green"}}
+{"type": "relation", "class": "emotion", "subclass": "like", "seconds": 5.5, "source": {"id": "person_ross_geller"}, "target": {"id": "person_rachel_green"}}
+{"type": "relation", "class": "emotion", "subclass": "like", "seconds": 6.0, "source": {"id": "person_ross_geller"}, "target": {"id": "person_rachel_green"}}
+{"type": "relation", "class": "emotion", "subclass": "like", "seconds": 6.5, "source": {"id": "person_ross_geller"}, "target": {"id": "person_rachel_green"}}
+{"type": "relation", "class": "emotion", "subclass": "like", "seconds": 7.0, "source": {"id": "person_ross_geller"}, "target": {"id": "person_rachel_green"}}
+{"type": "relation", "class": "emotion", "subclass": "like", "seconds": 7.5, "source": {"id": "person_ross_geller"}, "target": {"id": "person_rachel_green"}}
+{"type": "relation", "class": "emotion", "subclass": "like", "seconds": 8.0, "source": {"id": "person_ross_geller"}, "target": {"id": "person_rachel_green"}}
+{"type": "relation", "class": "emotion", "subclass": "like", "seconds": 8.5, "source": {"id": "person_ross_geller"}, "target": {"id": "person_rachel_green"}}
+{"type": "relation", "class": "emotion", "subclass": "like", "seconds": 9.0, "source": {"id": "person_ross_geller"}, "target": {"id": "person_rachel_green"}}
+{"type": "relation", "class": "emotion", "subclass": "like", "seconds": 9.5, "source": {"id": "person_ross_geller"}, "target": {"id": "person_rachel_green"}}
+{"type": "relation", "class": "emotion", "subclass": "like", "seconds": 10.0, "source": {"id": "person_ross_geller"}, "target": {"id": "person_rachel_green"}}
+{"type": "relation", "class": "emotion", "subclass": "like", "seconds": 10.5, "source": {"id": "person_ross_geller"}, "target": {"id": "person_rachel_green"}}
+{"type": "relation", "class": "emotion", "subclass": "like", "seconds": 11.0, "source": {"id": "person_ross_geller"}, "target": {"id": "person_rachel_green"}}
+{"type": "relation", "class": "emotion", "subclass": "like", "seconds": 11.5, "source": {"id": "person_ross_geller"}, "target": {"id": "person_rachel_green"}}
+{"type": "relation", "class": "emotion", "subclass": "like", "seconds": 12.0, "source": {"id": "person_ross_geller"}, "target": {"id": "person_rachel_green"}}
+{"type": "relation", "class": "emotion", "subclass": "like", "seconds": 12.5, "source": {"id": "person_ross_geller"}, "target": {"id": "person_rachel_green"}}
+{"type": "relation", "class": "emotion", "subclass": "like", "seconds": 13.0, "source": {"id": "person_ross_geller"}, "target": {"id": "person_rachel_green"}}
+{"type": "relation", "class": "emotion", "subclass": "like", "seconds": 13.5, "source": {"id": "person_ross_geller"}, "target": {"id": "person_rachel_green"}}
+{"type": "relation", "class": "emotion", "subclass": "like", "seconds": 14.0, "source": {"id": "person_ross_geller"}, "target": {"id": "person_rachel_green"}}
+{"type": "relation", "class": "emotion", "subclass": "like", "seconds": 14.5, "source": {"id": "person_ross_geller"}, "target": {"id": "person_rachel_green"}}
+{"type": "relation", "class": "emotion", "subclass": "like", "seconds": 15.0, "source": {"id": "person_ross_geller"}, "target": {"id": "person_rachel_green"}}
+{"type": "relation", "class": "emotion", "subclass": "like", "seconds": 15.5, "source": {"id": "person_ross_geller"}, "target": {"id": "person_rachel_green"}}
+{"type": "relation", "class": "emotion", "subclass": "like", "seconds": 16.0, "source": {"id": "person_ross_geller"}, "target": {"id": "person_rachel_green"}}
+{"type": "relation", "class": "emotion", "subclass": "like", "seconds": 16.5, "source": {"id": "person_ross_geller"}, "target": {"id": "person_rachel_green"}}
+{"type": "relation", "class": "emotion", "subclass": "like", "seconds": 17.0, "source": {"id": "person_ross_geller"}, "target": {"id": "person_rachel_green"}}
+{"type": "relation", "class": "emotion", "subclass": "like", "seconds": 17.5, "source": {"id": "person_ross_geller"}, "target": {"id": "person_rachel_green"}}
+{"type": "relation", "class": "emotion", "subclass": "like", "seconds": 18.0, "source": {"id": "person_ross_geller"}, "target": {"id": "person_rachel_green"}}
+{"type": "relation", "class": "emotion", "subclass": "like", "seconds": 18.5, "source": {"id": "person_ross_geller"}, "target": {"id": "person_rachel_green"}}
+{"type": "relation", "class": "emotion", "subclass": "like", "seconds": 19.0, "source": {"id": "person_ross_geller"}, "target": {"id": "person_rachel_green"}}
+{"type": "relation", "class": "emotion", "subclass": "like", "seconds": 19.5, "source": {"id": "person_ross_geller"}, "target": {"id": "person_rachel_green"}}
+{"type": "relation", "class": "emotion", "subclass": "like", "seconds": 20.0, "source": {"id": "person_ross_geller"}, "target": {"id": "person_rachel_green"}}
+{"type": "object", "id": "ross_umbrella", "class": "object", "label": "Umbrella", "seconds": 0.5, "coordinates": [65.8, 54.9, 20.12, 33.7]}
+{"type": "object", "id": "ross_umbrella", "class": "object", "label": "Umbrella", "seconds": 1.0, "coordinates": [60.599999999999994, 46.8, 20.240000000000002, 34.400000000000006]}
+{"type": "object", "id": "ross_umbrella", "class": "object", "label": "Umbrella", "seconds": 1.5, "coordinates": [55.39999999999999, 38.699999999999996, 20.360000000000003, 35.10000000000001]}
+{"type": "object", "id": "ross_umbrella", "class": "object", "label": "Umbrella", "seconds": 2.0, "coordinates": [50.19999999999999, 30.599999999999994, 20.480000000000004, 35.80000000000001]}
+{"type": "object", "id": "ross_umbrella", "class": "object", "label": "Umbrella", "seconds": 2.5, "coordinates": [44.999999999999986, 22.499999999999993, 20.600000000000005, 36.500000000000014]}
+{"type": "object", "id": "ross_umbrella", "class": "object", "label": "Umbrella", "seconds": 3.0, "coordinates": [39.79999999999998, 14.399999999999993, 20.720000000000006, 37.20000000000002]}
+{"type": "object", "id": "ross_umbrella", "class": "object", "label": "Umbrella", "seconds": 3.5, "coordinates": [34.59999999999998, 6.299999999999994, 20.840000000000007, 37.90000000000002]}
+{"type": "object", "id": "ross_umbrella", "class": "object", "label": "Umbrella", "seconds": 4.0, "coordinates": [29.39999999999998, -1.800000000000006, 20.960000000000008, 38.60000000000002]}
+{"type": "object", "id": "ross_umbrella", "class": "object", "label": "Umbrella", "seconds": 4.5, "coordinates": [24.19999999999998, -9.900000000000006, 21.08000000000001, 39.300000000000026]}
+{"type": "object", "id": "ross_umbrella", "class": "object", "label": "Umbrella", "seconds": 5.0, "coordinates": [18.999999999999982, -18.000000000000007, 21.20000000000001, 40.00000000000003]}
+{"type": "object", "id": "ross_umbrella", "class": "object", "label": "Umbrella", "seconds": 5.5, "coordinates": [13.799999999999983, -26.10000000000001, 21.32000000000001, 40.70000000000003]}
+{"type": "object", "id": "ross_umbrella", "class": "object", "label": "Umbrella", "seconds": 6.0, "coordinates": [8.599999999999984, -34.20000000000001, 21.440000000000012, 41.400000000000034]}
+{"type": "object", "id": "ross_umbrella", "class": "object", "label": "Umbrella", "seconds": 6.5, "coordinates": [3.3999999999999835, -42.30000000000001, 21.560000000000013, 42.10000000000004]}
+{"type": "object", "id": "ross_umbrella", "class": "object", "label": "Umbrella", "seconds": 7.0, "coordinates": [-1.8000000000000167, -50.40000000000001, 21.680000000000014, 42.80000000000004]}
+{"type": "object", "id": "ross_umbrella", "class": "object", "label": "Umbrella", "seconds": 7.5, "coordinates": [-7.000000000000017, -58.500000000000014, 21.800000000000015, 43.50000000000004]}
+{"type": "object", "id": "ross_umbrella", "class": "object", "label": "Umbrella", "seconds": 8.0, "coordinates": [-12.200000000000017, -66.60000000000001, 21.920000000000016, 44.200000000000045]}
+{"type": "object", "id": "ross_umbrella", "class": "object", "label": "Umbrella", "seconds": 8.5, "coordinates": [-17.400000000000016, -74.7, 22.040000000000017, 44.90000000000005]}
+{"type": "object", "id": "ross_umbrella", "class": "object", "label": "Umbrella", "seconds": 9.0, "coordinates": [-22.600000000000016, -82.8, 22.160000000000018, 45.60000000000005]}
+{"type": "object", "id": "ross_umbrella", "class": "object", "label": "Umbrella", "seconds": 9.5, "coordinates": [-27.800000000000015, -90.89999999999999, 22.28000000000002, 46.300000000000054]}
+{"type": "object", "id": "ross_umbrella", "class": "object", "label": "Umbrella", "seconds": 10.0, "coordinates": [-33.000000000000014, -98.99999999999999, 22.40000000000002, 47.00000000000006]}
+{"type": "relation", "class": "behavior", "subclass": "grab", "seconds": 14.5, "source": {"id": "person_ross_geller"}, "target": {"id": "ross_umbrella"}}
+{"type": "relation", "class": "behavior", "subclass": "grab", "seconds": 15.0, "source": {"id": "person_ross_geller"}, "target": {"id": "ross_umbrella"}}
+{"type": "relation", "class": "behavior", "subclass": "grab", "seconds": 15.5, "source": {"id": "person_ross_geller"}, "target": {"id": "ross_umbrella"}}
+{"type": "relation", "class": "behavior", "subclass": "grab", "seconds": 16.0, "source": {"id": "person_ross_geller"}, "target": {"id": "ross_umbrella"}}
+{"type": "relation", "class": "behavior", "subclass": "grab", "seconds": 16.5, "source": {"id": "person_ross_geller"}, "target": {"id": "ross_umbrella"}}
+{"type": "relation", "class": "behavior", "subclass": "open", "seconds": 17.5, "source": {"id": "person_ross_geller"}, "target": {"id": "ross_umbrella"}}
+{"type": "emotion", "class": "surprise", "seconds": 17.5, "object": {"id": "person_rachel_green"}}
+{"type": "relation", "class": "behavior", "subclass": "open", "seconds": 18.0, "source": {"id": "person_ross_geller"}, "target": {"id": "ross_umbrella"}}
+{"type": "emotion", "class": "surprise", "seconds": 18.0, "object": {"id": "person_rachel_green"}}
+{"type": "relation", "class": "behavior", "subclass": "open", "seconds": 18.5, "source": {"id": "person_ross_geller"}, "target": {"id": "ross_umbrella"}}
+{"type": "emotion", "class": "surprise", "seconds": 18.5, "object": {"id": "person_rachel_green"}}
+{"type": "relation", "class": "behavior", "subclass": "open", "seconds": 19.0, "source": {"id": "person_ross_geller"}, "target": {"id": "ross_umbrella"}}
+{"type": "emotion", "class": "surprise", "seconds": 19.0, "object": {"id": "person_rachel_green"}}
+{"type": "relation", "class": "behavior", "subclass": "open", "seconds": 19.5, "source": {"id": "person_ross_geller"}, "target": {"id": "ross_umbrella"}}
+{"type": "emotion", "class": "surprise", "seconds": 19.5, "object": {"id": "person_rachel_green"}}
+{"type": "sound", "class": "scream", "seconds": 17.5}
+{"type": "sound", "class": "scream", "seconds": 18.0}
+{"type": "sound", "class": "scream", "seconds": 18.5}
