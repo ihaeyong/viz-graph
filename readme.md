@@ -1,4 +1,4 @@
-## Video Knowledge Builder
+## Video Knowledge Builder and Graph
 
 This is an application that takes *JSONLines* formatted video label dataset as input and
 builds context dependent knowledge base.
