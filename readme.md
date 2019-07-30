@@ -83,3 +83,8 @@ video-knowledge-builder $ python main.py < test_input.jsonlines > output.jsonlin
 
 The shell command above will provide the contents of `test_input.jsonlines` as
 input for the application and save the result in a file `output.jsonlines`.
+
+
+#### Acknowledgements
+
+This work was supported by Institute for Information & communications Technology Promotion(IITP) grant funded by the Korea government(MSIT) (2017-0-01780, The technology development for event recognition/relational reasoning and learning knowledge based system for video understanding)
