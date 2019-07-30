@@ -3,6 +3,8 @@ import collections
 import sys
 import logging
 import math
+import jsonlines
+import cv2
 
 MERGE_TIME_WINDOW = 1.0
 MERGE_OVERLAP_THRESHOLD = 0.5
@@ -96,8 +98,19 @@ class Labels:
 
     def get_object(self, seconds, obj):
         if 'id' in obj:
-            obj_id = self.ids[obj['id']]
+            #obj_id = self.ids[obj['id']]
+
+            # refine_obj = obj['id'].split('_')[1]
+            if obj['id'] in self.ids :
+                obj_id = self.ids[obj['id']]
+            else:
+                print('error: get_object.')
+                #for key, value in self.entities.items():
+                #    print(key, value)
+                #    obj_id = key
+                #    break
             return self.entities[obj_id]
+
         elif 'coordinates' in obj:
             return self.get_object_by_coord(seconds, obj['coordinates'])
         else:
@@ -138,6 +151,107 @@ class Labels:
             self.abstract_object_ids[object_class][label] = obj
             return obj
 
+    def get_label_property(self, seconds, object_class, source, target):
+        prop_entity = {
+            'entity_type': 'property',
+            'id': self.get_property_id(),
+            'class': object_class,
+            'source': source['id'],
+            'target': target['id'],
+            'value': {
+                'seconds': seconds,
+                'label': source['value']['label'] # added by haeyong.k
+            }
+        }
+        self.add_entity(prop_entity)
+        return prop_entity
+
+    def get_subtitle_property(self, seconds, object_class, source, target):
+        prop_entity = {
+            'entity_type': 'property',
+            'id': self.get_property_id(),
+            'class': object_class,
+            'source': source['id'],
+            'target': target['id'],
+            'value': {
+                'seconds': seconds,
+                'label': source['value']['label'],# added by haeyong.k
+                'id': source['value']['id']
+            }
+        }
+        self.add_entity(prop_entity)
+        return prop_entity
+
+    def get_behavior_property(self, seconds, object_class, source, target):
+        prop_entity = {
+            'entity_type': 'property',
+            'id': self.get_property_id(),
+            'class': object_class,
+            'source': source['id'],
+            'target': target['id'],
+            'value': {
+                'seconds': seconds,
+                'label': target['value']['label']  # added by haeyong.k
+            }
+        }
+        self.add_entity(prop_entity)
+        return prop_entity
+
+    def get_emotion_property(self, seconds, object_class, source, target):
+        prop_entity = {
+            'entity_type': 'property',
+            'id': self.get_property_id(),
+            'class': object_class,
+            'source': source['id'],
+            'target': target['id'],
+            'value': {
+                'seconds': seconds,
+                'label': target['value']['label'],  # added by haeyong.k
+                'person': source['input_ids'][0]
+            }
+        }
+        print(source['input_ids'][0])
+        self.add_entity(prop_entity)
+        return prop_entity
+
+
+    def get_relation_property(self, seconds, object_class, source, target):
+        prop_entity = {
+            'entity_type': 'property',
+            'id': self.get_property_id(),
+            'class': object_class,
+            'source': source['id'],
+            'target': target['id'],
+            'value': {
+                'seconds': seconds['seconds'],
+                'source': source['input_ids'], # added by haeyong.k
+                'target': target['input_ids'], # added by haeyong.k
+                'relation_kb': seconds['subclass']  # added by haeyong.k
+            }
+        }
+        self.add_entity(prop_entity)
+        return prop_entity
+
+    def get_relation_object_property(self, seconds, object_class, source, target):
+        prop_entity = {
+            'entity_type': 'property',
+            'id': self.get_property_id(),
+            'class': object_class,
+            'source': source['id'],
+            'target': target['id'],
+            'value': {
+                'seconds': seconds['seconds'],
+                'source': source['input_ids'], # added by haeyong.k
+                'source_coordinates' : source['value']['coordinates'], # added by haeyong.k
+                'target': target['input_ids'], # added by haeyong.k
+                'target_coordinates': target['value']['coordinates'], # added by haeyong.k
+                'relation_obj': seconds['subclass'] # added by haeyong.k
+            }
+        }
+        print(prop_entity)
+        self.add_entity(prop_entity)
+        return prop_entity
+
     def get_property(self, seconds, object_class, source, target):
         prop_entity = {
             'entity_type': 'property',
@@ -146,7 +260,7 @@ class Labels:
             'source': source['id'],
             'target': target['id'],
             'value': {
-                'seconds': seconds
+                'seconds': seconds,
             }
         }
         self.add_entity(prop_entity)
@@ -154,7 +268,7 @@ class Labels:
 
     def add_label(self, label):
         new_entities = []
-        if label['type'] == 'object':
+        if label['type'] == 'object' :
             # Overwrite the entity
             entity = self.get_object_by_coord(label['seconds'], label['coordinates'])
             entity['entity_type'] = 'object'
@@ -164,6 +278,8 @@ class Labels:
             if 'id' in label and label['id'] is not None:
                 if 'input_ids' not in entity:
                     entity['input_ids'] = []
+                #entity['input_ids'].append(label['id'].split(' ')[0])
+                #self.ids[label['id'].split(' ')[0]] = entity['id']
                 entity['input_ids'].append(label['id'])
                 self.ids[label['id']] = entity['id']
 
@@ -173,29 +289,109 @@ class Labels:
         elif label['type'] == 'behavior':
             entity = self.get_object(label['seconds'], label['object'])
             behavior_entity = self.get_abstract_object('behavior', label['class'])
-            prop_entity = self.get_property(label['seconds'], 'do', entity, behavior_entity)
+            prop_entity = self.get_behavior_property(label['seconds'], 'do', entity, behavior_entity)
 
         elif label['type'] == 'emotion':
+
+            # Overwrite the entity
+            entity = self.get_object_by_coord(label['seconds'], [0,0,0,0])
+            entity['entity_type'] = 'object'
+            entity['class'] = label['class']
+            entity['value'] = {'label': label['class']}
+
+            if 'id' in label['object'] and label['object']['id'] is not None:
+                if 'input_ids' not in entity:
+                    entity['input_ids'] = []
+                # entity['input_ids'].append(label['id'].split(' ')[0])
+                # self.ids[label['id'].split(' ')[0]] = entity['id']
+                entity['input_ids'].append(label['object']['id'])
+                self.ids[label['object']['id']] = entity['id']
+
             entity = self.get_object(label['seconds'], label['object'])
             emotion_entity = self.get_abstract_object('emotion', label['class'])
-            prop_entity = self.get_property(label['seconds'], 'feel', entity, emotion_entity)
+            prop_entity = self.get_emotion_property(label['seconds'], 'feel', entity, emotion_entity)
 
         elif label['type'] == 'relation':
             relation_type_entity = self.get_abstract_object(label['class'], label['subclass'])
+            # Overwrite the entity
+            entity = self.get_object_by_coord(label['seconds'], [0,0,0,0])
+            entity['entity_type'] = 'relation'
+            entity['class'] = label['class']
+            entity['value'] = {'label': label['class']}
+
+            if 'id' in label['source'] and label['source']['id'] is not None:
+                if 'input_ids' not in entity:
+                    entity['input_ids'] = []
+                entity['input_ids'].append(label['source']['id'])
+                self.ids[label['source']['id']] = entity['id']
+
+            # Overwrite the entity
+            entity = self.get_object_by_coord(label['seconds'], [0,0,0,0])
+            entity['entity_type'] = 'relation'
+            entity['class'] = label['class']
+            entity['value'] = {'label': label['class']}
+
+            if 'id' in label['target'] and label['target']['id'] is not None:
+                if 'input_ids' not in entity:
+                    entity['input_ids'] = []
+                entity['input_ids'].append(label['target']['id'])
+                self.ids[label['target']['id']] = entity['id']
+
             source_entity = self.get_object(label['seconds'], label['source'])
             target_entity = self.get_object(label['seconds'], label['target'])
-            prop_entity = self.get_property(label['seconds'], 'related_to', source_entity, target_entity)
-            prop_entity['value']['relation_type'] = relation_type_entity['id']
+            #prop_entity = self.get_relation_kbb_property(label['seconds'], 'related_to', source_entity, target_entity)
+            prop_entity = self.get_relation_property(label, 'related_to', source_entity, target_entity)
+            prop_entity['value']['relation'] = relation_type_entity['id']
+
+        elif label['type'] == 'relation_object':
+            relation_type_entity = self.get_abstract_object(label['class'], label['subclass'])
+            # Overwrite the entity
+            entity = self.get_object_by_coord(label['seconds'], [0,0,0,0])
+            entity['entity_type'] = 'relation_object'
+            entity['class'] = label['class']
+            entity['value'] = {'label': label['class']}
+
+            if 'id' in label['source'] and label['source']['id'] is not None:
+                if 'input_ids' not in entity:
+                    entity['input_ids'] = []
+                entity['input_ids'].append(label['source']['id'])
+                self.ids[label['source']['id']] = entity['id']
+
+            # Overwrite the entity
+            entity = self.get_object_by_coord(label['seconds'], [0,0,0,0])
+            entity['entity_type'] = 'relation_object'
+            entity['class'] = label['class']
+            entity['value'] = {'label': label['class']}
+
+            if 'id' in label['target'] and label['target']['id'] is not None:
+                if 'input_ids' not in entity:
+                    entity['input_ids'] = []
+                entity['input_ids'].append(label['target']['id'])
+                self.ids[label['target']['id']] = entity['id']
+
+            source_entity = self.get_object(label['seconds'], label['source'])
+            source_entity['value']['coordinates'] = label['source']['coordinates']
+            target_entity = self.get_object(label['seconds'], label['target'])
+            target_entity['value']['coordinates'] = label['target']['coordinates']
+            #prop_entity = self.get_relation_kbb_property(label['seconds'], 'related_to', source_entity, target_entity)
+            prop_entity = self.get_relation_object_property(label, 'related_to_object', source_entity, target_entity)
+            prop_entity['value']['relation'] = relation_type_entity['id']
 
         elif label['type'] == 'location':
             entity = self.get_abstract_object('location', label['class'])
             video_entity = self.get_video_object()
-            prop_entity = self.get_property(label['seconds'], 'location_of', entity, video_entity)
+            prop_entity = self.get_label_property(label['seconds'], 'location_of', entity, video_entity)
 
         elif label['type'] == 'sound':
             entity = self.get_abstract_object('sound', label['class'])
             video_entity = self.get_video_object()
-            prop_entity = self.get_property(label['seconds'], 'sound_of', entity, video_entity)
+            prop_entity = self.get_label_property(label['seconds'], 'sound_of', entity, video_entity)
+
+        elif label['type'] == 'subtitle':
+            entity = self.get_abstract_object('subtitle', label['subtitle'])
+            video_entity = self.get_video_object()
+            entity['value']['id'] = label['id']
+            prop_entity = self.get_subtitle_property(label['start_time'], 'subtitle_of', entity, video_entity)
 
 def init_logger():
     global logger
@@ -216,6 +412,12 @@ def init_logger():
     logger.addHandler(console_handler)
 
 def get_labels_iter():
+    #with open('./test_input.jsonlines') as f:
+    #    df = json.load(f)
+    with jsonlines.open('./test_input.jsonlines') as reader:
+        for obj in reader:
+            print(obj)
+
     for line in sys.stdin:
         try:
             yield json.loads(line)
@@ -226,11 +428,111 @@ def main():
     init_logger()
     labels = Labels()
 
-    for label in get_labels_iter():
-        labels.add_label(label)
+    #line = 0
+    #for label in get_labels_iter():
+    #    labels.add_label(label)
+    #    print('line:', line)
+    #    line += 1
 
+    # tracking data
+    episode = '01'
+    file = 'friends_s01_e' + episode + '.jsonl'
+
+    tracking = './../VTT_TRACKING_DATA/data/friends/' + file
+    sound = './../vtt-sound-event-data/data/friends/' + file
+    place = './../2nd-year-data/data/friends/' + file
+    action = './../vtt-action-recognition-data/data/friends/' + file
+    emotion = './../VTT_vid_emotion_data/data/friends/' + file
+    relation_kbb = './../vtt-triple-data-jsonl/data/friends/' + file
+    relation_kbh = './../vtt-swrc-2018-data-result/data/friends/' + file
+    relation_object = './../VTT_object_data/data/friends/' + file
+
+    # subtitle
+    subtitle_file = 's01_e' + episode + '.jsonl'
+    subtitle = './../tracking/subtitle/' + subtitle_file
+
+    with jsonlines.open(place) as reader:
+        for obj in reader:
+            labels.add_label(obj)
+
+    with jsonlines.open(sound) as reader:
+        for obj in reader:
+            labels.add_label(obj)
+
+    with jsonlines.open(tracking) as reader:
+        for obj in reader:
+            labels.add_label(obj)
+
+    with jsonlines.open(action) as reader:
+        for obj in reader:
+            labels.add_label(obj)
+
+    with jsonlines.open(emotion) as reader:
+        for obj in reader:
+            labels.add_label(obj)
+
+    with jsonlines.open(relation_kbb) as reader:
+        for obj in reader:
+            labels.add_label(obj)
+
+    with jsonlines.open(relation_kbh) as reader:
+        for obj in reader:
+            labels.add_label(obj)
+
+    with jsonlines.open(relation_object) as reader:
+        for obj in reader:
+            obj['type'] = 'relation_object'
+            obj['source']['id'] = obj['caption'].split(' ')[0] + '_' + obj['caption'].split(' ')[1]
+            target = ''
+            for word in obj['caption'].split(' ')[3:]:
+                if '_' in target:
+                    target = target + '_' + word
+                else:
+                    target = word
+            obj['target']['id'] = target
+            obj['class'] = 'related_to_object'
+            if 'subclass' not in obj:
+                obj['subclass'] = obj['caption'].split(' ')[2]
+                #print(obj['subclass'])
+            labels.add_label(obj)
+
+    with jsonlines.open(subtitle) as reader:
+        for obj in reader:
+            if 'type' not in obj:
+                obj['type'] = 'subtitle'
+            labels.add_label(obj)
+
+    place = []
     for entity in labels.get_entities_iter():
-        print(json.dumps(entity))
+        if 'value' in entity:
+            if 'seconds' in entity['value']:
+                #print(json.dumps(entity['value']['seconds']))
+                place.append(entity)
+            else:
+                pass
+        else:
+            pass
+            #print(json.dumps(entity['value']['seconds']))
+
+    # find the dictionary by time
+    results = list(filter(lambda  x : x['value']['seconds'] > 1.0 and x['value']['seconds'] < 50.0 , place))
+
+    for d in results:
+        print(d)
+    print('done.')
+
+    season = 1
+    episode = 1
+    frame_number = 100
+    bbox_fpath = "./../tracking/person/S{:02d}_EP{:02d}/{:05d}.json".format(season, episode, frame_number)
+    with open(bbox_fpath, 'r') as fin:
+        bboxes = json.load(fin)
+    bboxes = [bbox for bbox in bboxes if bbox['confidence'] > 0.5 and bbox['label'] == 'person']
+    for bbox in bboxes:
+        x1, y1 = bbox['topleft']['x'], bbox['topleft']['y']
+        x2, y2 = bbox['bottomright']['x'], bbox['bottomright']['y']
+
+        print('x1:', str(x1), 'y1:', str(y1), 'x2:', str(x2), 'y2:', str(y2))
 
 if __name__ == '__main__':
     main()
