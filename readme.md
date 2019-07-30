@@ -25,6 +25,10 @@ Install the dependencies and kivy
 `python -m pip install docutils pygments pypiwin32 kivy.deps.sdl2 kivy.deps.glew`
 
 
+![visualization of video]
+(https://user-images.githubusercontent.com/14289457/62134415-674b7c80-b31b-11e9-8312-cdc7a6d7c507.PNG)
+
+
 ### Input format
 
 Input data must be JSONLines that contains multiple JSON objects in one of the
