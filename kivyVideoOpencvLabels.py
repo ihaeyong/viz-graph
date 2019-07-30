@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
-#import kivy
-#kivy.require('1.10.0') # replace with your current kivy version !
+# visualization of scene understandings for VTT project
+# authored by haeyong kang
+# 2019/07/30
+
 from kivy.app import App
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.gridlayout import GridLayout
@@ -433,7 +435,8 @@ class Friends(App, Labels):
         self.flag = False
         self.object_relation_flag = False
 
-        dir = "./../tracking/person/S{:02d}_EP{:02d}".format(self.season, self.episode)
+        #dir = "./../tracking/person/S{:02d}_EP{:02d}".format(self.season, self.episode)
+        dir = "./json/tracking/person/S{:02d}_EP{:02d}".format(self.season, self.episode)
         frame_list = os.listdir(dir)  # dir is your directory path
         self.num_frames = len(frame_list)
 
@@ -443,17 +446,17 @@ class Friends(App, Labels):
         file = 'friends_s{:02d}_e{:02d}.jsonl'.format(self.season,self.episode)
 
         #tracking = './../VTT_TRACKING_DATA/data/friends/' + file
-        sound = './../vtt-sound-event-data/data/friends/' + file
-        place = './../2nd-year-data/data/friends/' + file
-        behavior = './../vtt-action-recognition-data/data/friends/' + file
-        emotion = './../VTT_vid_emotion_data/data/friends/' + file
-        relation_kbb = './../vtt-triple-data-jsonl/data/friends/' + file
-        relation_kbh = './../vtt-swrc-2018-data-result/data/friends/' + file
-        relation_object = './../VTT_object_data/data/friends/' + file
+        sound = './json/sound_event/data/friends/' + file
+        place = './json/place/data/friends/' + file
+        behavior = './json/action/data/friends/' + file
+        emotion = './json/emotion/data/friends/' + file
+        relation_kbb = './json/triple/data/friends/' + file
+        relation_kbh = './json/swrc/data/friends/' + file
+        relation_object = './json/object/data/friends/' + file
 
         # subtitle
         subtitle_file = 's{:02d}_e{:02d}.jsonl'.format(self.season, self.episode)
-        subtitle = './../tracking/subtitle/' + subtitle_file
+        subtitle = './subtitle/' + subtitle_file
 
         # add places
         with jsonlines.open(place) as reader:
