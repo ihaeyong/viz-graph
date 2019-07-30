@@ -8,21 +8,21 @@ kivy for visualization of frames and recognition results
 
 Ensure you have the latest pip, wheel, and virtualenv:
 
-`python -m pip install --upgrade pip wheel setuptools virtualenv`
+`$python -m pip install --upgrade pip wheel setuptools virtualenv`
 
 Optionally create a new virtual environment for your Kivy project. Highly recommended:
 
-`First create the environment named kivy_venv in your current directory:`
+First create the environment named kivy_venv in your current directory:
 
-`python -m virtualenv kivy_venv`
+`$python -m virtualenv kivy_venv`
 
 Activate the virtual environment or on windows CMD do: 
 
-`kivy_venv\Scripts\activate`
+`$kivy_venv\Scripts\activate`
 
 Install the dependencies and kivy 
 
-`python -m pip install docutils pygments pypiwin32 kivy.deps.sdl2 kivy.deps.glew`
+`$python -m pip install docutils pygments pypiwin32 kivy.deps.sdl2 kivy.deps.glew`
 
 
 ![visualization of video](https://user-images.githubusercontent.com/14289457/62134415-674b7c80-b31b-11e9-8312-cdc7a6d7c507.PNG)
@@ -73,6 +73,9 @@ formats below.
 ### How to use
 `kivyVideoOpencvLabel.py` takes input data from several modules and visualize the results on video frames.
 
+```
+$ python kivyVideoOpencvLabel.py
+```
 
 `main.py` takes input data as standard input, and prints result knowledge base as
 standard output as a JSONLines formatted string. For example:
