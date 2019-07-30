@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+#import kivy
+#kivy.require('1.10.0') # replace with your current kivy version !
 from kivy.app import App
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.gridlayout import GridLayout

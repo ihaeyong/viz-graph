@@ -3,6 +3,27 @@
 This is an application that takes *JSONLines* formatted video label dataset as input and
 builds context dependent knowledge base.
 
+### requirements
+kivy for visualization of frames and recognition results
+
+Ensure you have the latest pip, wheel, and virtualenv:
+
+> python -m pip install --upgrade pip wheel setuptools virtualenv
+
+Optionally create a new virtual environment for your Kivy project. Highly recommended:
+
+>First create the environment named kivy_venv in your current directory:
+
+>python -m virtualenv kivy_venv
+
+Activate the virtual environment or on windows CMD do: 
+
+>kivy_venv\Scripts\activate
+
+Install the dependencies and kivy 
+> python -m pip install docutils pygments pypiwin32 kivy.deps.sdl2 kivy.deps.glew
+
+
 ### Input format
 
 Input data must be JSONLines that contains multiple JSON objects in one of the
@@ -46,6 +67,8 @@ formats below.
 * `"social"` for subclass `"son_of"`, `"father_of"`, `"lover_of"`, `"friend_of"`, …
 
 ### How to use
+'kivyVideoOpencvLabel.py' takes input data from several modules and visualize the results on video frames.
+
 
 `main.py` takes input data as standard input, and prints result knowledge base as
 standard output as a JSONLines formatted string. For example:
