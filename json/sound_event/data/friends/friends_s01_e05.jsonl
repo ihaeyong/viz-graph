@@ -1,0 +1,2399 @@
+{"seconds": 0, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 1.0, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 2, "type": "sound", "class": "background laughing"}
+{"seconds": 4, "type": "sound", "class": "background laughing"}
+{"seconds": 5.0, "type": "sound", "class": "background laughing"}
+{"seconds": 7, "type": "sound", "class": "laughing"}
+{"seconds": 8, "type": "sound", "class": "background laughing"}
+{"seconds": 9.0, "type": "sound", "class": "background laughing"}
+{"seconds": 10, "type": "sound", "class": "crashing"}
+{"seconds": 12, "type": "sound", "class": "background laughing"}
+{"seconds": 13.0, "type": "sound", "class": "background laughing"}
+{"seconds": 14.0, "type": "sound", "class": "background laughing"}
+{"seconds": 15.0, "type": "sound", "class": "background laughing"}
+{"seconds": 17, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 20, "type": "sound", "class": "background music"}
+{"seconds": 0, "type": "sound", "class": "speaking"}
+{"seconds": 1.0, "type": "sound", "class": "speaking"}
+{"seconds": 2.0, "type": "sound", "class": "speaking"}
+{"seconds": 3.0, "type": "sound", "class": "speaking"}
+{"seconds": 4.0, "type": "sound", "class": "speaking"}
+{"seconds": 5.0, "type": "sound", "class": "speaking"}
+{"seconds": 6.0, "type": "sound", "class": "speaking"}
+{"seconds": 7.0, "type": "sound", "class": "speaking"}
+{"seconds": 8.0, "type": "sound", "class": "speaking"}
+{"seconds": 9.0, "type": "sound", "class": "speaking"}
+{"seconds": 10.0, "type": "sound", "class": "speaking"}
+{"seconds": 11.0, "type": "sound", "class": "speaking"}
+{"seconds": 12.0, "type": "sound", "class": "speaking"}
+{"seconds": 13.0, "type": "sound", "class": "speaking"}
+{"seconds": 14.0, "type": "sound", "class": "speaking"}
+{"seconds": 15.0, "type": "sound", "class": "speaking"}
+{"seconds": 16.0, "type": "sound", "class": "speaking"}
+{"seconds": 17.0, "type": "sound", "class": "speaking"}
+{"seconds": 18.0, "type": "sound", "class": "speaking"}
+{"seconds": 19.0, "type": "sound", "class": "speaking"}
+{"seconds": 20.0, "type": "sound", "class": "speaking"}
+{"seconds": 21.0, "type": "sound", "class": "speaking"}
+{"seconds": 22.0, "type": "sound", "class": "speaking"}
+{"seconds": 18, "type": "sound", "class": "background laughing"}
+{"seconds": 19.0, "type": "sound", "class": "background laughing"}
+{"seconds": 20.0, "type": "sound", "class": "background laughing"}
+{"seconds": 21.0, "type": "sound", "class": "background laughing"}
+{"seconds": 22.0, "type": "sound", "class": "background laughing"}
+{"seconds": 23.0, "type": "sound", "class": "background laughing"}
+{"seconds": 24.0, "type": "sound", "class": "background laughing"}
+{"seconds": 25.0, "type": "sound", "class": "background laughing"}
+{"seconds": 26.0, "type": "sound", "class": "background laughing"}
+{"seconds": 25, "type": "sound", "class": "speaking"}
+{"seconds": 26.0, "type": "sound", "class": "speaking"}
+{"seconds": 27.0, "type": "sound", "class": "speaking"}
+{"seconds": 28.0, "type": "sound", "class": "speaking"}
+{"seconds": 29.0, "type": "sound", "class": "speaking"}
+{"seconds": 28, "type": "sound", "class": "background laughing"}
+{"seconds": 29.0, "type": "sound", "class": "background laughing"}
+{"seconds": 30.0, "type": "sound", "class": "background laughing"}
+{"seconds": 31.0, "type": "sound", "class": "background laughing"}
+{"seconds": 31, "type": "sound", "class": "laughing"}
+{"seconds": 32.0, "type": "sound", "class": "laughing"}
+{"seconds": 33, "type": "sound", "class": "background laughing"}
+{"seconds": 32, "type": "sound", "class": "speaking"}
+{"seconds": 33.0, "type": "sound", "class": "speaking"}
+{"seconds": 34.0, "type": "sound", "class": "speaking"}
+{"seconds": 35.0, "type": "sound", "class": "speaking"}
+{"seconds": 36.0, "type": "sound", "class": "speaking"}
+{"seconds": 37, "type": "sound", "class": "background music"}
+{"seconds": 39, "type": "sound", "class": "background music"}
+{"seconds": 37, "type": "sound", "class": "background laughing"}
+{"seconds": 38.0, "type": "sound", "class": "background laughing"}
+{"seconds": 39.0, "type": "sound", "class": "background laughing"}
+{"seconds": 41, "type": "sound", "class": "background laughing"}
+{"seconds": 42.0, "type": "sound", "class": "background laughing"}
+{"seconds": 38, "type": "sound", "class": "speaking"}
+{"seconds": 39.0, "type": "sound", "class": "speaking"}
+{"seconds": 40.0, "type": "sound", "class": "speaking"}
+{"seconds": 41.0, "type": "sound", "class": "speaking"}
+{"seconds": 42.0, "type": "sound", "class": "speaking"}
+{"seconds": 43.0, "type": "sound", "class": "speaking"}
+{"seconds": 44.0, "type": "sound", "class": "speaking"}
+{"seconds": 46, "type": "sound", "class": "speaking"}
+{"seconds": 47.0, "type": "sound", "class": "speaking"}
+{"seconds": 48, "type": "sound", "class": "background music"}
+{"seconds": 49, "type": "sound", "class": "speaking"}
+{"seconds": 44, "type": "sound", "class": "background laughing"}
+{"seconds": 45.0, "type": "sound", "class": "background laughing"}
+{"seconds": 46.0, "type": "sound", "class": "background laughing"}
+{"seconds": 47.0, "type": "sound", "class": "background laughing"}
+{"seconds": 48.0, "type": "sound", "class": "background laughing"}
+{"seconds": 49.0, "type": "sound", "class": "background laughing"}
+{"seconds": 51, "type": "sound", "class": "speaking"}
+{"seconds": 52.0, "type": "sound", "class": "speaking"}
+{"seconds": 53.0, "type": "sound", "class": "speaking"}
+{"seconds": 54.0, "type": "sound", "class": "speaking"}
+{"seconds": 55.0, "type": "sound", "class": "speaking"}
+{"seconds": 52, "type": "sound", "class": "background laughing"}
+{"seconds": 53.0, "type": "sound", "class": "background laughing"}
+{"seconds": 54.0, "type": "sound", "class": "background laughing"}
+{"seconds": 55.0, "type": "sound", "class": "background laughing"}
+{"seconds": 98, "type": "sound", "class": "background laughing"}
+{"seconds": 57, "type": "sound", "class": "background music"}
+{"seconds": 58.0, "type": "sound", "class": "background music"}
+{"seconds": 59.0, "type": "sound", "class": "background music"}
+{"seconds": 60.0, "type": "sound", "class": "background music"}
+{"seconds": 61.0, "type": "sound", "class": "background music"}
+{"seconds": 62.0, "type": "sound", "class": "background music"}
+{"seconds": 63.0, "type": "sound", "class": "background music"}
+{"seconds": 64.0, "type": "sound", "class": "background music"}
+{"seconds": 65.0, "type": "sound", "class": "background music"}
+{"seconds": 66.0, "type": "sound", "class": "background music"}
+{"seconds": 67.0, "type": "sound", "class": "background music"}
+{"seconds": 68.0, "type": "sound", "class": "background music"}
+{"seconds": 69.0, "type": "sound", "class": "background music"}
+{"seconds": 70.0, "type": "sound", "class": "background music"}
+{"seconds": 71.0, "type": "sound", "class": "background music"}
+{"seconds": 72.0, "type": "sound", "class": "background music"}
+{"seconds": 73.0, "type": "sound", "class": "background music"}
+{"seconds": 74.0, "type": "sound", "class": "background music"}
+{"seconds": 75.0, "type": "sound", "class": "background music"}
+{"seconds": 76.0, "type": "sound", "class": "background music"}
+{"seconds": 77.0, "type": "sound", "class": "background music"}
+{"seconds": 78.0, "type": "sound", "class": "background music"}
+{"seconds": 79.0, "type": "sound", "class": "background music"}
+{"seconds": 80.0, "type": "sound", "class": "background music"}
+{"seconds": 81.0, "type": "sound", "class": "background music"}
+{"seconds": 82.0, "type": "sound", "class": "background music"}
+{"seconds": 83.0, "type": "sound", "class": "background music"}
+{"seconds": 84.0, "type": "sound", "class": "background music"}
+{"seconds": 85.0, "type": "sound", "class": "background music"}
+{"seconds": 86.0, "type": "sound", "class": "background music"}
+{"seconds": 87.0, "type": "sound", "class": "background music"}
+{"seconds": 88.0, "type": "sound", "class": "background music"}
+{"seconds": 89.0, "type": "sound", "class": "background music"}
+{"seconds": 90.0, "type": "sound", "class": "background music"}
+{"seconds": 91.0, "type": "sound", "class": "background music"}
+{"seconds": 92.0, "type": "sound", "class": "background music"}
+{"seconds": 93.0, "type": "sound", "class": "background music"}
+{"seconds": 94.0, "type": "sound", "class": "background music"}
+{"seconds": 95.0, "type": "sound", "class": "background music"}
+{"seconds": 96.0, "type": "sound", "class": "background music"}
+{"seconds": 97.0, "type": "sound", "class": "background music"}
+{"seconds": 98.0, "type": "sound", "class": "background music"}
+{"seconds": 99.0, "type": "sound", "class": "background music"}
+{"seconds": 100.0, "type": "sound", "class": "background music"}
+{"seconds": 101.0, "type": "sound", "class": "background music"}
+{"seconds": 101, "type": "sound", "class": "speaking"}
+{"seconds": 104, "type": "sound", "class": "crashing"}
+{"seconds": 107, "type": "sound", "class": "crashing"}
+{"seconds": 103, "type": "sound", "class": "background music"}
+{"seconds": 104.0, "type": "sound", "class": "background music"}
+{"seconds": 105.0, "type": "sound", "class": "background music"}
+{"seconds": 106.0, "type": "sound", "class": "background music"}
+{"seconds": 107.0, "type": "sound", "class": "background music"}
+{"seconds": 108.0, "type": "sound", "class": "background music"}
+{"seconds": 108, "type": "sound", "class": "background laughing"}
+{"seconds": 109.0, "type": "sound", "class": "background laughing"}
+{"seconds": 111, "type": "sound", "class": "shouting"}
+{"seconds": 112.0, "type": "sound", "class": "shouting"}
+{"seconds": 108, "type": "sound", "class": "speaking"}
+{"seconds": 109.0, "type": "sound", "class": "speaking"}
+{"seconds": 110.0, "type": "sound", "class": "speaking"}
+{"seconds": 111.0, "type": "sound", "class": "speaking"}
+{"seconds": 112.0, "type": "sound", "class": "speaking"}
+{"seconds": 113.0, "type": "sound", "class": "speaking"}
+{"seconds": 113, "type": "sound", "class": "background laughing"}
+{"seconds": 114.0, "type": "sound", "class": "background laughing"}
+{"seconds": 115.0, "type": "sound", "class": "background laughing"}
+{"seconds": 115, "type": "sound", "class": "speaking"}
+{"seconds": 116.0, "type": "sound", "class": "speaking"}
+{"seconds": 117, "type": "sound", "class": "crashing"}
+{"seconds": 118, "type": "sound", "class": "background music"}
+{"seconds": 117, "type": "sound", "class": "background laughing"}
+{"seconds": 118.0, "type": "sound", "class": "background laughing"}
+{"seconds": 119.0, "type": "sound", "class": "background laughing"}
+{"seconds": 121, "type": "sound", "class": "background laughing"}
+{"seconds": 122.0, "type": "sound", "class": "background laughing"}
+{"seconds": 123.0, "type": "sound", "class": "background laughing"}
+{"seconds": 124.0, "type": "sound", "class": "background laughing"}
+{"seconds": 125.0, "type": "sound", "class": "background laughing"}
+{"seconds": 127, "type": "sound", "class": "background laughing"}
+{"seconds": 129, "type": "sound", "class": "background laughing"}
+{"seconds": 130.0, "type": "sound", "class": "background laughing"}
+{"seconds": 131.0, "type": "sound", "class": "background laughing"}
+{"seconds": 132.0, "type": "sound", "class": "background laughing"}
+{"seconds": 134, "type": "sound", "class": "laughing"}
+{"seconds": 135, "type": "sound", "class": "background music"}
+{"seconds": 135, "type": "sound", "class": "background laughing"}
+{"seconds": 136.0, "type": "sound", "class": "background laughing"}
+{"seconds": 137.0, "type": "sound", "class": "background laughing"}
+{"seconds": 138.0, "type": "sound", "class": "background laughing"}
+{"seconds": 139, "type": "sound", "class": "background music"}
+{"seconds": 141, "type": "sound", "class": "background laughing"}
+{"seconds": 142.0, "type": "sound", "class": "background laughing"}
+{"seconds": 143.0, "type": "sound", "class": "background laughing"}
+{"seconds": 144.0, "type": "sound", "class": "background laughing"}
+{"seconds": 145, "type": "sound", "class": "background music"}
+{"seconds": 146, "type": "sound", "class": "laughing"}
+{"seconds": 146, "type": "sound", "class": "background laughing"}
+{"seconds": 147.0, "type": "sound", "class": "background laughing"}
+{"seconds": 148.0, "type": "sound", "class": "background laughing"}
+{"seconds": 148, "type": "sound", "class": "shouting"}
+{"seconds": 151, "type": "sound", "class": "background laughing"}
+{"seconds": 152.0, "type": "sound", "class": "background laughing"}
+{"seconds": 156, "type": "sound", "class": "background laughing"}
+{"seconds": 157.0, "type": "sound", "class": "background laughing"}
+{"seconds": 158.0, "type": "sound", "class": "background laughing"}
+{"seconds": 163, "type": "sound", "class": "background laughing"}
+{"seconds": 164.0, "type": "sound", "class": "background laughing"}
+{"seconds": 165.0, "type": "sound", "class": "background laughing"}
+{"seconds": 167, "type": "sound", "class": "background laughing"}
+{"seconds": 119, "type": "sound", "class": "speaking"}
+{"seconds": 120.0, "type": "sound", "class": "speaking"}
+{"seconds": 121.0, "type": "sound", "class": "speaking"}
+{"seconds": 122.0, "type": "sound", "class": "speaking"}
+{"seconds": 123.0, "type": "sound", "class": "speaking"}
+{"seconds": 124.0, "type": "sound", "class": "speaking"}
+{"seconds": 125.0, "type": "sound", "class": "speaking"}
+{"seconds": 126.0, "type": "sound", "class": "speaking"}
+{"seconds": 127.0, "type": "sound", "class": "speaking"}
+{"seconds": 128.0, "type": "sound", "class": "speaking"}
+{"seconds": 129.0, "type": "sound", "class": "speaking"}
+{"seconds": 130.0, "type": "sound", "class": "speaking"}
+{"seconds": 131.0, "type": "sound", "class": "speaking"}
+{"seconds": 132.0, "type": "sound", "class": "speaking"}
+{"seconds": 133.0, "type": "sound", "class": "speaking"}
+{"seconds": 134.0, "type": "sound", "class": "speaking"}
+{"seconds": 135.0, "type": "sound", "class": "speaking"}
+{"seconds": 136.0, "type": "sound", "class": "speaking"}
+{"seconds": 137.0, "type": "sound", "class": "speaking"}
+{"seconds": 138.0, "type": "sound", "class": "speaking"}
+{"seconds": 139.0, "type": "sound", "class": "speaking"}
+{"seconds": 140.0, "type": "sound", "class": "speaking"}
+{"seconds": 141.0, "type": "sound", "class": "speaking"}
+{"seconds": 142.0, "type": "sound", "class": "speaking"}
+{"seconds": 143.0, "type": "sound", "class": "speaking"}
+{"seconds": 144.0, "type": "sound", "class": "speaking"}
+{"seconds": 145.0, "type": "sound", "class": "speaking"}
+{"seconds": 146.0, "type": "sound", "class": "speaking"}
+{"seconds": 147.0, "type": "sound", "class": "speaking"}
+{"seconds": 148.0, "type": "sound", "class": "speaking"}
+{"seconds": 149.0, "type": "sound", "class": "speaking"}
+{"seconds": 150.0, "type": "sound", "class": "speaking"}
+{"seconds": 151.0, "type": "sound", "class": "speaking"}
+{"seconds": 152.0, "type": "sound", "class": "speaking"}
+{"seconds": 153.0, "type": "sound", "class": "speaking"}
+{"seconds": 154.0, "type": "sound", "class": "speaking"}
+{"seconds": 155.0, "type": "sound", "class": "speaking"}
+{"seconds": 156.0, "type": "sound", "class": "speaking"}
+{"seconds": 157.0, "type": "sound", "class": "speaking"}
+{"seconds": 158.0, "type": "sound", "class": "speaking"}
+{"seconds": 159.0, "type": "sound", "class": "speaking"}
+{"seconds": 160.0, "type": "sound", "class": "speaking"}
+{"seconds": 161.0, "type": "sound", "class": "speaking"}
+{"seconds": 162.0, "type": "sound", "class": "speaking"}
+{"seconds": 163.0, "type": "sound", "class": "speaking"}
+{"seconds": 164.0, "type": "sound", "class": "speaking"}
+{"seconds": 165.0, "type": "sound", "class": "speaking"}
+{"seconds": 166.0, "type": "sound", "class": "speaking"}
+{"seconds": 167.0, "type": "sound", "class": "speaking"}
+{"seconds": 168.0, "type": "sound", "class": "speaking"}
+{"seconds": 168, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 171, "type": "sound", "class": "shouting"}
+{"seconds": 169, "type": "sound", "class": "background laughing"}
+{"seconds": 170.0, "type": "sound", "class": "background laughing"}
+{"seconds": 171.0, "type": "sound", "class": "background laughing"}
+{"seconds": 172.0, "type": "sound", "class": "background laughing"}
+{"seconds": 173.0, "type": "sound", "class": "background laughing"}
+{"seconds": 175, "type": "sound", "class": "background music"}
+{"seconds": 176, "type": "sound", "class": "laughing"}
+{"seconds": 177, "type": "sound", "class": "crashing"}
+{"seconds": 170, "type": "sound", "class": "speaking"}
+{"seconds": 171.0, "type": "sound", "class": "speaking"}
+{"seconds": 172.0, "type": "sound", "class": "speaking"}
+{"seconds": 173.0, "type": "sound", "class": "speaking"}
+{"seconds": 174.0, "type": "sound", "class": "speaking"}
+{"seconds": 175.0, "type": "sound", "class": "speaking"}
+{"seconds": 176.0, "type": "sound", "class": "speaking"}
+{"seconds": 177.0, "type": "sound", "class": "speaking"}
+{"seconds": 178.0, "type": "sound", "class": "speaking"}
+{"seconds": 178, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 179.0, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 180, "type": "sound", "class": "laughing"}
+{"seconds": 184, "type": "sound", "class": "laughing"}
+{"seconds": 181, "type": "sound", "class": "background laughing"}
+{"seconds": 182.0, "type": "sound", "class": "background laughing"}
+{"seconds": 183.0, "type": "sound", "class": "background laughing"}
+{"seconds": 184.0, "type": "sound", "class": "background laughing"}
+{"seconds": 185.0, "type": "sound", "class": "background laughing"}
+{"seconds": 186.0, "type": "sound", "class": "background laughing"}
+{"seconds": 186, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 189, "type": "sound", "class": "background music"}
+{"seconds": 180, "type": "sound", "class": "speaking"}
+{"seconds": 181.0, "type": "sound", "class": "speaking"}
+{"seconds": 182.0, "type": "sound", "class": "speaking"}
+{"seconds": 183.0, "type": "sound", "class": "speaking"}
+{"seconds": 184.0, "type": "sound", "class": "speaking"}
+{"seconds": 185.0, "type": "sound", "class": "speaking"}
+{"seconds": 186.0, "type": "sound", "class": "speaking"}
+{"seconds": 187.0, "type": "sound", "class": "speaking"}
+{"seconds": 188.0, "type": "sound", "class": "speaking"}
+{"seconds": 189.0, "type": "sound", "class": "speaking"}
+{"seconds": 188, "type": "sound", "class": "background laughing"}
+{"seconds": 189.0, "type": "sound", "class": "background laughing"}
+{"seconds": 190.0, "type": "sound", "class": "background laughing"}
+{"seconds": 191, "type": "sound", "class": "laughing"}
+{"seconds": 192, "type": "sound", "class": "background music"}
+{"seconds": 191, "type": "sound", "class": "speaking"}
+{"seconds": 192.0, "type": "sound", "class": "speaking"}
+{"seconds": 193, "type": "sound", "class": "background laughing"}
+{"seconds": 194.0, "type": "sound", "class": "background laughing"}
+{"seconds": 195.0, "type": "sound", "class": "background laughing"}
+{"seconds": 197, "type": "sound", "class": "laughing"}
+{"seconds": 197, "type": "sound", "class": "background laughing"}
+{"seconds": 198.0, "type": "sound", "class": "background laughing"}
+{"seconds": 200, "type": "sound", "class": "crashing"}
+{"seconds": 205, "type": "sound", "class": "shouting"}
+{"seconds": 206, "type": "sound", "class": "background music"}
+{"seconds": 201, "type": "sound", "class": "background laughing"}
+{"seconds": 202.0, "type": "sound", "class": "background laughing"}
+{"seconds": 203.0, "type": "sound", "class": "background laughing"}
+{"seconds": 204.0, "type": "sound", "class": "background laughing"}
+{"seconds": 205.0, "type": "sound", "class": "background laughing"}
+{"seconds": 206.0, "type": "sound", "class": "background laughing"}
+{"seconds": 207.0, "type": "sound", "class": "background laughing"}
+{"seconds": 208.0, "type": "sound", "class": "background laughing"}
+{"seconds": 209, "type": "sound", "class": "shouting"}
+{"seconds": 194, "type": "sound", "class": "speaking"}
+{"seconds": 195.0, "type": "sound", "class": "speaking"}
+{"seconds": 196.0, "type": "sound", "class": "speaking"}
+{"seconds": 197.0, "type": "sound", "class": "speaking"}
+{"seconds": 198.0, "type": "sound", "class": "speaking"}
+{"seconds": 199.0, "type": "sound", "class": "speaking"}
+{"seconds": 200.0, "type": "sound", "class": "speaking"}
+{"seconds": 201.0, "type": "sound", "class": "speaking"}
+{"seconds": 202.0, "type": "sound", "class": "speaking"}
+{"seconds": 203.0, "type": "sound", "class": "speaking"}
+{"seconds": 204.0, "type": "sound", "class": "speaking"}
+{"seconds": 205.0, "type": "sound", "class": "speaking"}
+{"seconds": 206.0, "type": "sound", "class": "speaking"}
+{"seconds": 207.0, "type": "sound", "class": "speaking"}
+{"seconds": 208.0, "type": "sound", "class": "speaking"}
+{"seconds": 209.0, "type": "sound", "class": "speaking"}
+{"seconds": 210.0, "type": "sound", "class": "speaking"}
+{"seconds": 211.0, "type": "sound", "class": "speaking"}
+{"seconds": 212.0, "type": "sound", "class": "speaking"}
+{"seconds": 213.0, "type": "sound", "class": "speaking"}
+{"seconds": 214, "type": "sound", "class": "laughing"}
+{"seconds": 215, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 216.0, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 217, "type": "sound", "class": "speaking"}
+{"seconds": 218.0, "type": "sound", "class": "speaking"}
+{"seconds": 215, "type": "sound", "class": "background laughing"}
+{"seconds": 216.0, "type": "sound", "class": "background laughing"}
+{"seconds": 217.0, "type": "sound", "class": "background laughing"}
+{"seconds": 218.0, "type": "sound", "class": "background laughing"}
+{"seconds": 219.0, "type": "sound", "class": "background laughing"}
+{"seconds": 220.0, "type": "sound", "class": "background laughing"}
+{"seconds": 218, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 219.0, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 220.0, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 222, "type": "sound", "class": "background laughing"}
+{"seconds": 222, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 224, "type": "sound", "class": "background laughing"}
+{"seconds": 221, "type": "sound", "class": "speaking"}
+{"seconds": 222.0, "type": "sound", "class": "speaking"}
+{"seconds": 223.0, "type": "sound", "class": "speaking"}
+{"seconds": 224.0, "type": "sound", "class": "speaking"}
+{"seconds": 225.0, "type": "sound", "class": "speaking"}
+{"seconds": 226.0, "type": "sound", "class": "speaking"}
+{"seconds": 228, "type": "sound", "class": "speaking"}
+{"seconds": 227, "type": "sound", "class": "background laughing"}
+{"seconds": 228.0, "type": "sound", "class": "background laughing"}
+{"seconds": 229.0, "type": "sound", "class": "background laughing"}
+{"seconds": 230.0, "type": "sound", "class": "background laughing"}
+{"seconds": 231, "type": "sound", "class": "background music"}
+{"seconds": 232.0, "type": "sound", "class": "background music"}
+{"seconds": 230, "type": "sound", "class": "speaking"}
+{"seconds": 231.0, "type": "sound", "class": "speaking"}
+{"seconds": 232.0, "type": "sound", "class": "speaking"}
+{"seconds": 232, "type": "sound", "class": "background laughing"}
+{"seconds": 233, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 234, "type": "sound", "class": "background laughing"}
+{"seconds": 235.0, "type": "sound", "class": "background laughing"}
+{"seconds": 235, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 237, "type": "sound", "class": "background laughing"}
+{"seconds": 238.0, "type": "sound", "class": "background laughing"}
+{"seconds": 239.0, "type": "sound", "class": "background laughing"}
+{"seconds": 240.0, "type": "sound", "class": "background laughing"}
+{"seconds": 236, "type": "sound", "class": "speaking"}
+{"seconds": 237.0, "type": "sound", "class": "speaking"}
+{"seconds": 238.0, "type": "sound", "class": "speaking"}
+{"seconds": 239.0, "type": "sound", "class": "speaking"}
+{"seconds": 240.0, "type": "sound", "class": "speaking"}
+{"seconds": 241.0, "type": "sound", "class": "speaking"}
+{"seconds": 242.0, "type": "sound", "class": "speaking"}
+{"seconds": 243.0, "type": "sound", "class": "speaking"}
+{"seconds": 244.0, "type": "sound", "class": "speaking"}
+{"seconds": 245, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 246, "type": "sound", "class": "speaking"}
+{"seconds": 242, "type": "sound", "class": "background laughing"}
+{"seconds": 243.0, "type": "sound", "class": "background laughing"}
+{"seconds": 244.0, "type": "sound", "class": "background laughing"}
+{"seconds": 245.0, "type": "sound", "class": "background laughing"}
+{"seconds": 246.0, "type": "sound", "class": "background laughing"}
+{"seconds": 247.0, "type": "sound", "class": "background laughing"}
+{"seconds": 248, "type": "sound", "class": "speaking"}
+{"seconds": 249.0, "type": "sound", "class": "speaking"}
+{"seconds": 250, "type": "sound", "class": "background laughing"}
+{"seconds": 250, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 251, "type": "sound", "class": "speaking"}
+{"seconds": 252.0, "type": "sound", "class": "speaking"}
+{"seconds": 253, "type": "sound", "class": "background laughing"}
+{"seconds": 254.0, "type": "sound", "class": "background laughing"}
+{"seconds": 255.0, "type": "sound", "class": "background laughing"}
+{"seconds": 256.0, "type": "sound", "class": "background laughing"}
+{"seconds": 257.0, "type": "sound", "class": "background laughing"}
+{"seconds": 258.0, "type": "sound", "class": "background laughing"}
+{"seconds": 259.0, "type": "sound", "class": "background laughing"}
+{"seconds": 260.0, "type": "sound", "class": "background laughing"}
+{"seconds": 261.0, "type": "sound", "class": "background laughing"}
+{"seconds": 262.0, "type": "sound", "class": "background laughing"}
+{"seconds": 263.0, "type": "sound", "class": "background laughing"}
+{"seconds": 264.0, "type": "sound", "class": "background laughing"}
+{"seconds": 266, "type": "sound", "class": "laughing"}
+{"seconds": 267, "type": "sound", "class": "background laughing"}
+{"seconds": 254, "type": "sound", "class": "speaking"}
+{"seconds": 255.0, "type": "sound", "class": "speaking"}
+{"seconds": 256.0, "type": "sound", "class": "speaking"}
+{"seconds": 257.0, "type": "sound", "class": "speaking"}
+{"seconds": 258.0, "type": "sound", "class": "speaking"}
+{"seconds": 259.0, "type": "sound", "class": "speaking"}
+{"seconds": 260.0, "type": "sound", "class": "speaking"}
+{"seconds": 261.0, "type": "sound", "class": "speaking"}
+{"seconds": 262.0, "type": "sound", "class": "speaking"}
+{"seconds": 263.0, "type": "sound", "class": "speaking"}
+{"seconds": 264.0, "type": "sound", "class": "speaking"}
+{"seconds": 265.0, "type": "sound", "class": "speaking"}
+{"seconds": 266.0, "type": "sound", "class": "speaking"}
+{"seconds": 267.0, "type": "sound", "class": "speaking"}
+{"seconds": 268.0, "type": "sound", "class": "speaking"}
+{"seconds": 269.0, "type": "sound", "class": "speaking"}
+{"seconds": 269, "type": "sound", "class": "laughing"}
+{"seconds": 269, "type": "sound", "class": "background laughing"}
+{"seconds": 270.0, "type": "sound", "class": "background laughing"}
+{"seconds": 271, "type": "sound", "class": "speaking"}
+{"seconds": 272.0, "type": "sound", "class": "speaking"}
+{"seconds": 272, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 273, "type": "sound", "class": "background laughing"}
+{"seconds": 275, "type": "sound", "class": "background laughing"}
+{"seconds": 277, "type": "sound", "class": "background laughing"}
+{"seconds": 279, "type": "sound", "class": "laughing"}
+{"seconds": 280, "type": "sound", "class": "background laughing"}
+{"seconds": 281, "type": "sound", "class": "laughing"}
+{"seconds": 274, "type": "sound", "class": "speaking"}
+{"seconds": 275.0, "type": "sound", "class": "speaking"}
+{"seconds": 276.0, "type": "sound", "class": "speaking"}
+{"seconds": 277.0, "type": "sound", "class": "speaking"}
+{"seconds": 278.0, "type": "sound", "class": "speaking"}
+{"seconds": 279.0, "type": "sound", "class": "speaking"}
+{"seconds": 280.0, "type": "sound", "class": "speaking"}
+{"seconds": 281.0, "type": "sound", "class": "speaking"}
+{"seconds": 282.0, "type": "sound", "class": "speaking"}
+{"seconds": 283.0, "type": "sound", "class": "speaking"}
+{"seconds": 283, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 284, "type": "sound", "class": "clapping"}
+{"seconds": 282, "type": "sound", "class": "background laughing"}
+{"seconds": 283.0, "type": "sound", "class": "background laughing"}
+{"seconds": 284.0, "type": "sound", "class": "background laughing"}
+{"seconds": 285.0, "type": "sound", "class": "background laughing"}
+{"seconds": 286.0, "type": "sound", "class": "background laughing"}
+{"seconds": 287, "type": "sound", "class": "laughing"}
+{"seconds": 289, "type": "sound", "class": "laughing"}
+{"seconds": 285, "type": "sound", "class": "speaking"}
+{"seconds": 286.0, "type": "sound", "class": "speaking"}
+{"seconds": 287.0, "type": "sound", "class": "speaking"}
+{"seconds": 288.0, "type": "sound", "class": "speaking"}
+{"seconds": 289.0, "type": "sound", "class": "speaking"}
+{"seconds": 290.0, "type": "sound", "class": "speaking"}
+{"seconds": 291.0, "type": "sound", "class": "speaking"}
+{"seconds": 293, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 294.0, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 290, "type": "sound", "class": "background laughing"}
+{"seconds": 291.0, "type": "sound", "class": "background laughing"}
+{"seconds": 292.0, "type": "sound", "class": "background laughing"}
+{"seconds": 293.0, "type": "sound", "class": "background laughing"}
+{"seconds": 294.0, "type": "sound", "class": "background laughing"}
+{"seconds": 295.0, "type": "sound", "class": "background laughing"}
+{"seconds": 296.0, "type": "sound", "class": "background laughing"}
+{"seconds": 296, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 295, "type": "sound", "class": "speaking"}
+{"seconds": 296.0, "type": "sound", "class": "speaking"}
+{"seconds": 297.0, "type": "sound", "class": "speaking"}
+{"seconds": 298.0, "type": "sound", "class": "speaking"}
+{"seconds": 299.0, "type": "sound", "class": "speaking"}
+{"seconds": 300.0, "type": "sound", "class": "speaking"}
+{"seconds": 302, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 298, "type": "sound", "class": "background laughing"}
+{"seconds": 299.0, "type": "sound", "class": "background laughing"}
+{"seconds": 300.0, "type": "sound", "class": "background laughing"}
+{"seconds": 301.0, "type": "sound", "class": "background laughing"}
+{"seconds": 302.0, "type": "sound", "class": "background laughing"}
+{"seconds": 303.0, "type": "sound", "class": "background laughing"}
+{"seconds": 304.0, "type": "sound", "class": "background laughing"}
+{"seconds": 305.0, "type": "sound", "class": "background laughing"}
+{"seconds": 306, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 308, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 302, "type": "sound", "class": "speaking"}
+{"seconds": 303.0, "type": "sound", "class": "speaking"}
+{"seconds": 304.0, "type": "sound", "class": "speaking"}
+{"seconds": 305.0, "type": "sound", "class": "speaking"}
+{"seconds": 306.0, "type": "sound", "class": "speaking"}
+{"seconds": 307.0, "type": "sound", "class": "speaking"}
+{"seconds": 308.0, "type": "sound", "class": "speaking"}
+{"seconds": 309.0, "type": "sound", "class": "speaking"}
+{"seconds": 310.0, "type": "sound", "class": "speaking"}
+{"seconds": 311, "type": "sound", "class": "background laughing"}
+{"seconds": 311, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 312, "type": "sound", "class": "speaking"}
+{"seconds": 313.0, "type": "sound", "class": "speaking"}
+{"seconds": 314.0, "type": "sound", "class": "speaking"}
+{"seconds": 315.0, "type": "sound", "class": "speaking"}
+{"seconds": 316.0, "type": "sound", "class": "speaking"}
+{"seconds": 319, "type": "sound", "class": "speaking"}
+{"seconds": 320.0, "type": "sound", "class": "speaking"}
+{"seconds": 321.0, "type": "sound", "class": "speaking"}
+{"seconds": 322.0, "type": "sound", "class": "speaking"}
+{"seconds": 323.0, "type": "sound", "class": "speaking"}
+{"seconds": 324.0, "type": "sound", "class": "speaking"}
+{"seconds": 325.0, "type": "sound", "class": "speaking"}
+{"seconds": 326.0, "type": "sound", "class": "speaking"}
+{"seconds": 327.0, "type": "sound", "class": "speaking"}
+{"seconds": 328.0, "type": "sound", "class": "speaking"}
+{"seconds": 335, "type": "sound", "class": "background music"}
+{"seconds": 336, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 338, "type": "sound", "class": "shouting"}
+{"seconds": 330, "type": "sound", "class": "speaking"}
+{"seconds": 331.0, "type": "sound", "class": "speaking"}
+{"seconds": 332.0, "type": "sound", "class": "speaking"}
+{"seconds": 333.0, "type": "sound", "class": "speaking"}
+{"seconds": 334.0, "type": "sound", "class": "speaking"}
+{"seconds": 335.0, "type": "sound", "class": "speaking"}
+{"seconds": 336.0, "type": "sound", "class": "speaking"}
+{"seconds": 337.0, "type": "sound", "class": "speaking"}
+{"seconds": 338.0, "type": "sound", "class": "speaking"}
+{"seconds": 339.0, "type": "sound", "class": "speaking"}
+{"seconds": 340.0, "type": "sound", "class": "speaking"}
+{"seconds": 341.0, "type": "sound", "class": "speaking"}
+{"seconds": 342.0, "type": "sound", "class": "speaking"}
+{"seconds": 343, "type": "sound", "class": "laughing"}
+{"seconds": 344, "type": "sound", "class": "background music"}
+{"seconds": 345, "type": "sound", "class": "laughing"}
+{"seconds": 313, "type": "sound", "class": "background laughing"}
+{"seconds": 314.0, "type": "sound", "class": "background laughing"}
+{"seconds": 315.0, "type": "sound", "class": "background laughing"}
+{"seconds": 316.0, "type": "sound", "class": "background laughing"}
+{"seconds": 317.0, "type": "sound", "class": "background laughing"}
+{"seconds": 318.0, "type": "sound", "class": "background laughing"}
+{"seconds": 319.0, "type": "sound", "class": "background laughing"}
+{"seconds": 320.0, "type": "sound", "class": "background laughing"}
+{"seconds": 321.0, "type": "sound", "class": "background laughing"}
+{"seconds": 322.0, "type": "sound", "class": "background laughing"}
+{"seconds": 323.0, "type": "sound", "class": "background laughing"}
+{"seconds": 324.0, "type": "sound", "class": "background laughing"}
+{"seconds": 325.0, "type": "sound", "class": "background laughing"}
+{"seconds": 326.0, "type": "sound", "class": "background laughing"}
+{"seconds": 327.0, "type": "sound", "class": "background laughing"}
+{"seconds": 328.0, "type": "sound", "class": "background laughing"}
+{"seconds": 329.0, "type": "sound", "class": "background laughing"}
+{"seconds": 330.0, "type": "sound", "class": "background laughing"}
+{"seconds": 331.0, "type": "sound", "class": "background laughing"}
+{"seconds": 332.0, "type": "sound", "class": "background laughing"}
+{"seconds": 333.0, "type": "sound", "class": "background laughing"}
+{"seconds": 334.0, "type": "sound", "class": "background laughing"}
+{"seconds": 335.0, "type": "sound", "class": "background laughing"}
+{"seconds": 336.0, "type": "sound", "class": "background laughing"}
+{"seconds": 337.0, "type": "sound", "class": "background laughing"}
+{"seconds": 338.0, "type": "sound", "class": "background laughing"}
+{"seconds": 339.0, "type": "sound", "class": "background laughing"}
+{"seconds": 340.0, "type": "sound", "class": "background laughing"}
+{"seconds": 341.0, "type": "sound", "class": "background laughing"}
+{"seconds": 342.0, "type": "sound", "class": "background laughing"}
+{"seconds": 343.0, "type": "sound", "class": "background laughing"}
+{"seconds": 344.0, "type": "sound", "class": "background laughing"}
+{"seconds": 345.0, "type": "sound", "class": "background laughing"}
+{"seconds": 346.0, "type": "sound", "class": "background laughing"}
+{"seconds": 347, "type": "sound", "class": "crashing"}
+{"seconds": 346, "type": "sound", "class": "speaking"}
+{"seconds": 347.0, "type": "sound", "class": "speaking"}
+{"seconds": 348.0, "type": "sound", "class": "speaking"}
+{"seconds": 349.0, "type": "sound", "class": "speaking"}
+{"seconds": 348, "type": "sound", "class": "background laughing"}
+{"seconds": 349.0, "type": "sound", "class": "background laughing"}
+{"seconds": 352, "type": "sound", "class": "background laughing"}
+{"seconds": 353.0, "type": "sound", "class": "background laughing"}
+{"seconds": 363, "type": "sound", "class": "background music"}
+{"seconds": 351, "type": "sound", "class": "speaking"}
+{"seconds": 352.0, "type": "sound", "class": "speaking"}
+{"seconds": 353.0, "type": "sound", "class": "speaking"}
+{"seconds": 354.0, "type": "sound", "class": "speaking"}
+{"seconds": 355.0, "type": "sound", "class": "speaking"}
+{"seconds": 356.0, "type": "sound", "class": "speaking"}
+{"seconds": 357.0, "type": "sound", "class": "speaking"}
+{"seconds": 358.0, "type": "sound", "class": "speaking"}
+{"seconds": 359.0, "type": "sound", "class": "speaking"}
+{"seconds": 360.0, "type": "sound", "class": "speaking"}
+{"seconds": 361.0, "type": "sound", "class": "speaking"}
+{"seconds": 362.0, "type": "sound", "class": "speaking"}
+{"seconds": 363.0, "type": "sound", "class": "speaking"}
+{"seconds": 364.0, "type": "sound", "class": "speaking"}
+{"seconds": 365.0, "type": "sound", "class": "speaking"}
+{"seconds": 366.0, "type": "sound", "class": "speaking"}
+{"seconds": 367, "type": "sound", "class": "background music"}
+{"seconds": 369, "type": "sound", "class": "background music"}
+{"seconds": 370.0, "type": "sound", "class": "background music"}
+{"seconds": 355, "type": "sound", "class": "background laughing"}
+{"seconds": 356.0, "type": "sound", "class": "background laughing"}
+{"seconds": 357.0, "type": "sound", "class": "background laughing"}
+{"seconds": 358.0, "type": "sound", "class": "background laughing"}
+{"seconds": 359.0, "type": "sound", "class": "background laughing"}
+{"seconds": 360.0, "type": "sound", "class": "background laughing"}
+{"seconds": 361.0, "type": "sound", "class": "background laughing"}
+{"seconds": 362.0, "type": "sound", "class": "background laughing"}
+{"seconds": 363.0, "type": "sound", "class": "background laughing"}
+{"seconds": 364.0, "type": "sound", "class": "background laughing"}
+{"seconds": 365.0, "type": "sound", "class": "background laughing"}
+{"seconds": 366.0, "type": "sound", "class": "background laughing"}
+{"seconds": 367.0, "type": "sound", "class": "background laughing"}
+{"seconds": 368.0, "type": "sound", "class": "background laughing"}
+{"seconds": 369.0, "type": "sound", "class": "background laughing"}
+{"seconds": 370.0, "type": "sound", "class": "background laughing"}
+{"seconds": 371.0, "type": "sound", "class": "background laughing"}
+{"seconds": 368, "type": "sound", "class": "speaking"}
+{"seconds": 369.0, "type": "sound", "class": "speaking"}
+{"seconds": 370.0, "type": "sound", "class": "speaking"}
+{"seconds": 371.0, "type": "sound", "class": "speaking"}
+{"seconds": 372.0, "type": "sound", "class": "speaking"}
+{"seconds": 373.0, "type": "sound", "class": "speaking"}
+{"seconds": 374, "type": "sound", "class": "background laughing"}
+{"seconds": 375.0, "type": "sound", "class": "background laughing"}
+{"seconds": 376.0, "type": "sound", "class": "background laughing"}
+{"seconds": 375, "type": "sound", "class": "speaking"}
+{"seconds": 376.0, "type": "sound", "class": "speaking"}
+{"seconds": 377.0, "type": "sound", "class": "speaking"}
+{"seconds": 378.0, "type": "sound", "class": "speaking"}
+{"seconds": 378, "type": "sound", "class": "laughing"}
+{"seconds": 379, "type": "sound", "class": "background laughing"}
+{"seconds": 379, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 380, "type": "sound", "class": "speaking"}
+{"seconds": 381, "type": "sound", "class": "shouting"}
+{"seconds": 382, "type": "sound", "class": "background laughing"}
+{"seconds": 383.0, "type": "sound", "class": "background laughing"}
+{"seconds": 387, "type": "sound", "class": "background laughing"}
+{"seconds": 388.0, "type": "sound", "class": "background laughing"}
+{"seconds": 389.0, "type": "sound", "class": "background laughing"}
+{"seconds": 390.0, "type": "sound", "class": "background laughing"}
+{"seconds": 392, "type": "sound", "class": "shouting"}
+{"seconds": 393, "type": "sound", "class": "background laughing"}
+{"seconds": 394.0, "type": "sound", "class": "background laughing"}
+{"seconds": 395.0, "type": "sound", "class": "background laughing"}
+{"seconds": 396.0, "type": "sound", "class": "background laughing"}
+{"seconds": 397.0, "type": "sound", "class": "background laughing"}
+{"seconds": 398.0, "type": "sound", "class": "background laughing"}
+{"seconds": 399, "type": "sound", "class": "background music"}
+{"seconds": 399, "type": "sound", "class": "laughing"}
+{"seconds": 382, "type": "sound", "class": "speaking"}
+{"seconds": 383.0, "type": "sound", "class": "speaking"}
+{"seconds": 384.0, "type": "sound", "class": "speaking"}
+{"seconds": 385.0, "type": "sound", "class": "speaking"}
+{"seconds": 386.0, "type": "sound", "class": "speaking"}
+{"seconds": 387.0, "type": "sound", "class": "speaking"}
+{"seconds": 388.0, "type": "sound", "class": "speaking"}
+{"seconds": 389.0, "type": "sound", "class": "speaking"}
+{"seconds": 390.0, "type": "sound", "class": "speaking"}
+{"seconds": 391.0, "type": "sound", "class": "speaking"}
+{"seconds": 392.0, "type": "sound", "class": "speaking"}
+{"seconds": 393.0, "type": "sound", "class": "speaking"}
+{"seconds": 394.0, "type": "sound", "class": "speaking"}
+{"seconds": 395.0, "type": "sound", "class": "speaking"}
+{"seconds": 396.0, "type": "sound", "class": "speaking"}
+{"seconds": 397.0, "type": "sound", "class": "speaking"}
+{"seconds": 398.0, "type": "sound", "class": "speaking"}
+{"seconds": 399.0, "type": "sound", "class": "speaking"}
+{"seconds": 400.0, "type": "sound", "class": "speaking"}
+{"seconds": 401.0, "type": "sound", "class": "speaking"}
+{"seconds": 401, "type": "sound", "class": "background laughing"}
+{"seconds": 403, "type": "sound", "class": "background laughing"}
+{"seconds": 405, "type": "sound", "class": "shouting"}
+{"seconds": 403, "type": "sound", "class": "speaking"}
+{"seconds": 404.0, "type": "sound", "class": "speaking"}
+{"seconds": 405.0, "type": "sound", "class": "speaking"}
+{"seconds": 406.0, "type": "sound", "class": "speaking"}
+{"seconds": 408, "type": "sound", "class": "speaking"}
+{"seconds": 409, "type": "sound", "class": "background laughing"}
+{"seconds": 410.0, "type": "sound", "class": "background laughing"}
+{"seconds": 411.0, "type": "sound", "class": "background laughing"}
+{"seconds": 412.0, "type": "sound", "class": "background laughing"}
+{"seconds": 415, "type": "sound", "class": "background music"}
+{"seconds": 416, "type": "sound", "class": "shouting"}
+{"seconds": 411, "type": "sound", "class": "speaking"}
+{"seconds": 412.0, "type": "sound", "class": "speaking"}
+{"seconds": 413.0, "type": "sound", "class": "speaking"}
+{"seconds": 414.0, "type": "sound", "class": "speaking"}
+{"seconds": 415.0, "type": "sound", "class": "speaking"}
+{"seconds": 416.0, "type": "sound", "class": "speaking"}
+{"seconds": 417.0, "type": "sound", "class": "speaking"}
+{"seconds": 418.0, "type": "sound", "class": "speaking"}
+{"seconds": 418, "type": "sound", "class": "background laughing"}
+{"seconds": 419, "type": "sound", "class": "shouting"}
+{"seconds": 421, "type": "sound", "class": "background music"}
+{"seconds": 422.0, "type": "sound", "class": "background music"}
+{"seconds": 423.0, "type": "sound", "class": "background music"}
+{"seconds": 424.0, "type": "sound", "class": "background music"}
+{"seconds": 425.0, "type": "sound", "class": "background music"}
+{"seconds": 426.0, "type": "sound", "class": "background music"}
+{"seconds": 426, "type": "sound", "class": "speaking"}
+{"seconds": 427, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 427, "type": "sound", "class": "crashing"}
+{"seconds": 428.0, "type": "sound", "class": "crashing"}
+{"seconds": 428, "type": "sound", "class": "speaking"}
+{"seconds": 429.0, "type": "sound", "class": "speaking"}
+{"seconds": 430.0, "type": "sound", "class": "speaking"}
+{"seconds": 431, "type": "sound", "class": "crashing"}
+{"seconds": 432, "type": "sound", "class": "laughing"}
+{"seconds": 432, "type": "sound", "class": "speaking"}
+{"seconds": 433.0, "type": "sound", "class": "speaking"}
+{"seconds": 434.0, "type": "sound", "class": "speaking"}
+{"seconds": 435, "type": "sound", "class": "background laughing"}
+{"seconds": 439, "type": "sound", "class": "background laughing"}
+{"seconds": 440.0, "type": "sound", "class": "background laughing"}
+{"seconds": 441.0, "type": "sound", "class": "background laughing"}
+{"seconds": 437, "type": "sound", "class": "speaking"}
+{"seconds": 438.0, "type": "sound", "class": "speaking"}
+{"seconds": 439.0, "type": "sound", "class": "speaking"}
+{"seconds": 440.0, "type": "sound", "class": "speaking"}
+{"seconds": 441.0, "type": "sound", "class": "speaking"}
+{"seconds": 442.0, "type": "sound", "class": "speaking"}
+{"seconds": 443.0, "type": "sound", "class": "speaking"}
+{"seconds": 444, "type": "sound", "class": "background laughing"}
+{"seconds": 445.0, "type": "sound", "class": "background laughing"}
+{"seconds": 446, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 448, "type": "sound", "class": "background laughing"}
+{"seconds": 449.0, "type": "sound", "class": "background laughing"}
+{"seconds": 450.0, "type": "sound", "class": "background laughing"}
+{"seconds": 451.0, "type": "sound", "class": "background laughing"}
+{"seconds": 452.0, "type": "sound", "class": "background laughing"}
+{"seconds": 453.0, "type": "sound", "class": "background laughing"}
+{"seconds": 454.0, "type": "sound", "class": "background laughing"}
+{"seconds": 456, "type": "sound", "class": "background laughing"}
+{"seconds": 459, "type": "sound", "class": "background laughing"}
+{"seconds": 460.0, "type": "sound", "class": "background laughing"}
+{"seconds": 461.0, "type": "sound", "class": "background laughing"}
+{"seconds": 462.0, "type": "sound", "class": "background laughing"}
+{"seconds": 463.0, "type": "sound", "class": "background laughing"}
+{"seconds": 464.0, "type": "sound", "class": "background laughing"}
+{"seconds": 445, "type": "sound", "class": "speaking"}
+{"seconds": 446.0, "type": "sound", "class": "speaking"}
+{"seconds": 447.0, "type": "sound", "class": "speaking"}
+{"seconds": 448.0, "type": "sound", "class": "speaking"}
+{"seconds": 449.0, "type": "sound", "class": "speaking"}
+{"seconds": 450.0, "type": "sound", "class": "speaking"}
+{"seconds": 451.0, "type": "sound", "class": "speaking"}
+{"seconds": 452.0, "type": "sound", "class": "speaking"}
+{"seconds": 453.0, "type": "sound", "class": "speaking"}
+{"seconds": 454.0, "type": "sound", "class": "speaking"}
+{"seconds": 455.0, "type": "sound", "class": "speaking"}
+{"seconds": 456.0, "type": "sound", "class": "speaking"}
+{"seconds": 457.0, "type": "sound", "class": "speaking"}
+{"seconds": 458.0, "type": "sound", "class": "speaking"}
+{"seconds": 459.0, "type": "sound", "class": "speaking"}
+{"seconds": 460.0, "type": "sound", "class": "speaking"}
+{"seconds": 461.0, "type": "sound", "class": "speaking"}
+{"seconds": 462.0, "type": "sound", "class": "speaking"}
+{"seconds": 463.0, "type": "sound", "class": "speaking"}
+{"seconds": 464.0, "type": "sound", "class": "speaking"}
+{"seconds": 465.0, "type": "sound", "class": "speaking"}
+{"seconds": 467, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 466, "type": "sound", "class": "background laughing"}
+{"seconds": 467.0, "type": "sound", "class": "background laughing"}
+{"seconds": 468.0, "type": "sound", "class": "background laughing"}
+{"seconds": 469.0, "type": "sound", "class": "background laughing"}
+{"seconds": 471, "type": "sound", "class": "background laughing"}
+{"seconds": 472.0, "type": "sound", "class": "background laughing"}
+{"seconds": 477, "type": "sound", "class": "background laughing"}
+{"seconds": 478, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 479, "type": "sound", "class": "background laughing"}
+{"seconds": 479, "type": "sound", "class": "knocking"}
+{"seconds": 480, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 481, "type": "sound", "class": "background laughing"}
+{"seconds": 484, "type": "sound", "class": "background laughing"}
+{"seconds": 467, "type": "sound", "class": "speaking"}
+{"seconds": 468.0, "type": "sound", "class": "speaking"}
+{"seconds": 469.0, "type": "sound", "class": "speaking"}
+{"seconds": 470.0, "type": "sound", "class": "speaking"}
+{"seconds": 471.0, "type": "sound", "class": "speaking"}
+{"seconds": 472.0, "type": "sound", "class": "speaking"}
+{"seconds": 473.0, "type": "sound", "class": "speaking"}
+{"seconds": 474.0, "type": "sound", "class": "speaking"}
+{"seconds": 475.0, "type": "sound", "class": "speaking"}
+{"seconds": 476.0, "type": "sound", "class": "speaking"}
+{"seconds": 477.0, "type": "sound", "class": "speaking"}
+{"seconds": 478.0, "type": "sound", "class": "speaking"}
+{"seconds": 479.0, "type": "sound", "class": "speaking"}
+{"seconds": 480.0, "type": "sound", "class": "speaking"}
+{"seconds": 481.0, "type": "sound", "class": "speaking"}
+{"seconds": 482.0, "type": "sound", "class": "speaking"}
+{"seconds": 483.0, "type": "sound", "class": "speaking"}
+{"seconds": 484.0, "type": "sound", "class": "speaking"}
+{"seconds": 485.0, "type": "sound", "class": "speaking"}
+{"seconds": 486.0, "type": "sound", "class": "speaking"}
+{"seconds": 484, "type": "sound", "class": "laughing"}
+{"seconds": 485.0, "type": "sound", "class": "laughing"}
+{"seconds": 486.0, "type": "sound", "class": "laughing"}
+{"seconds": 487, "type": "sound", "class": "background music"}
+{"seconds": 486, "type": "sound", "class": "background laughing"}
+{"seconds": 487.0, "type": "sound", "class": "background laughing"}
+{"seconds": 488, "type": "sound", "class": "speaking"}
+{"seconds": 489.0, "type": "sound", "class": "speaking"}
+{"seconds": 490.0, "type": "sound", "class": "speaking"}
+{"seconds": 491, "type": "sound", "class": "background music"}
+{"seconds": 492.0, "type": "sound", "class": "background music"}
+{"seconds": 493.0, "type": "sound", "class": "background music"}
+{"seconds": 489, "type": "sound", "class": "background laughing"}
+{"seconds": 490.0, "type": "sound", "class": "background laughing"}
+{"seconds": 491.0, "type": "sound", "class": "background laughing"}
+{"seconds": 492.0, "type": "sound", "class": "background laughing"}
+{"seconds": 493.0, "type": "sound", "class": "background laughing"}
+{"seconds": 494, "type": "sound", "class": "crashing"}
+{"seconds": 497, "type": "sound", "class": "background laughing"}
+{"seconds": 495, "type": "sound", "class": "background music"}
+{"seconds": 496.0, "type": "sound", "class": "background music"}
+{"seconds": 497.0, "type": "sound", "class": "background music"}
+{"seconds": 498.0, "type": "sound", "class": "background music"}
+{"seconds": 499.0, "type": "sound", "class": "background music"}
+{"seconds": 500.0, "type": "sound", "class": "background music"}
+{"seconds": 501.0, "type": "sound", "class": "background music"}
+{"seconds": 502.0, "type": "sound", "class": "background music"}
+{"seconds": 503.0, "type": "sound", "class": "background music"}
+{"seconds": 502, "type": "sound", "class": "background laughing"}
+{"seconds": 503.0, "type": "sound", "class": "background laughing"}
+{"seconds": 505, "type": "sound", "class": "background music"}
+{"seconds": 506.0, "type": "sound", "class": "background music"}
+{"seconds": 508, "type": "sound", "class": "background music"}
+{"seconds": 496, "type": "sound", "class": "speaking"}
+{"seconds": 497.0, "type": "sound", "class": "speaking"}
+{"seconds": 498.0, "type": "sound", "class": "speaking"}
+{"seconds": 499.0, "type": "sound", "class": "speaking"}
+{"seconds": 500.0, "type": "sound", "class": "speaking"}
+{"seconds": 501.0, "type": "sound", "class": "speaking"}
+{"seconds": 502.0, "type": "sound", "class": "speaking"}
+{"seconds": 503.0, "type": "sound", "class": "speaking"}
+{"seconds": 504.0, "type": "sound", "class": "speaking"}
+{"seconds": 505.0, "type": "sound", "class": "speaking"}
+{"seconds": 506.0, "type": "sound", "class": "speaking"}
+{"seconds": 507.0, "type": "sound", "class": "speaking"}
+{"seconds": 508.0, "type": "sound", "class": "speaking"}
+{"seconds": 505, "type": "sound", "class": "background laughing"}
+{"seconds": 506.0, "type": "sound", "class": "background laughing"}
+{"seconds": 507.0, "type": "sound", "class": "background laughing"}
+{"seconds": 508.0, "type": "sound", "class": "background laughing"}
+{"seconds": 510, "type": "sound", "class": "shouting"}
+{"seconds": 512, "type": "sound", "class": "background music"}
+{"seconds": 512, "type": "sound", "class": "background laughing"}
+{"seconds": 510, "type": "sound", "class": "speaking"}
+{"seconds": 511.0, "type": "sound", "class": "speaking"}
+{"seconds": 512.0, "type": "sound", "class": "speaking"}
+{"seconds": 513.0, "type": "sound", "class": "speaking"}
+{"seconds": 514, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 515, "type": "sound", "class": "background music"}
+{"seconds": 515, "type": "sound", "class": "speaking"}
+{"seconds": 517, "type": "sound", "class": "speaking"}
+{"seconds": 522, "type": "sound", "class": "background music"}
+{"seconds": 517, "type": "sound", "class": "background laughing"}
+{"seconds": 518.0, "type": "sound", "class": "background laughing"}
+{"seconds": 519.0, "type": "sound", "class": "background laughing"}
+{"seconds": 520.0, "type": "sound", "class": "background laughing"}
+{"seconds": 521.0, "type": "sound", "class": "background laughing"}
+{"seconds": 522.0, "type": "sound", "class": "background laughing"}
+{"seconds": 523.0, "type": "sound", "class": "background laughing"}
+{"seconds": 524, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 525, "type": "sound", "class": "background music"}
+{"seconds": 526, "type": "sound", "class": "shouting"}
+{"seconds": 525, "type": "sound", "class": "background laughing"}
+{"seconds": 526.0, "type": "sound", "class": "background laughing"}
+{"seconds": 527.0, "type": "sound", "class": "background laughing"}
+{"seconds": 528.0, "type": "sound", "class": "background laughing"}
+{"seconds": 529.0, "type": "sound", "class": "background laughing"}
+{"seconds": 530.0, "type": "sound", "class": "background laughing"}
+{"seconds": 531, "type": "sound", "class": "background music"}
+{"seconds": 532, "type": "sound", "class": "background laughing"}
+{"seconds": 533.0, "type": "sound", "class": "background laughing"}
+{"seconds": 534.0, "type": "sound", "class": "background laughing"}
+{"seconds": 535.0, "type": "sound", "class": "background laughing"}
+{"seconds": 536.0, "type": "sound", "class": "background laughing"}
+{"seconds": 537.0, "type": "sound", "class": "background laughing"}
+{"seconds": 538.0, "type": "sound", "class": "background laughing"}
+{"seconds": 538, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 541, "type": "sound", "class": "background music"}
+{"seconds": 540, "type": "sound", "class": "background laughing"}
+{"seconds": 541.0, "type": "sound", "class": "background laughing"}
+{"seconds": 542.0, "type": "sound", "class": "background laughing"}
+{"seconds": 543.0, "type": "sound", "class": "background laughing"}
+{"seconds": 544.0, "type": "sound", "class": "background laughing"}
+{"seconds": 545, "type": "sound", "class": "shouting"}
+{"seconds": 547, "type": "sound", "class": "background laughing"}
+{"seconds": 548, "type": "sound", "class": "background music"}
+{"seconds": 522, "type": "sound", "class": "speaking"}
+{"seconds": 523.0, "type": "sound", "class": "speaking"}
+{"seconds": 524.0, "type": "sound", "class": "speaking"}
+{"seconds": 525.0, "type": "sound", "class": "speaking"}
+{"seconds": 526.0, "type": "sound", "class": "speaking"}
+{"seconds": 527.0, "type": "sound", "class": "speaking"}
+{"seconds": 528.0, "type": "sound", "class": "speaking"}
+{"seconds": 529.0, "type": "sound", "class": "speaking"}
+{"seconds": 530.0, "type": "sound", "class": "speaking"}
+{"seconds": 531.0, "type": "sound", "class": "speaking"}
+{"seconds": 532.0, "type": "sound", "class": "speaking"}
+{"seconds": 533.0, "type": "sound", "class": "speaking"}
+{"seconds": 534.0, "type": "sound", "class": "speaking"}
+{"seconds": 535.0, "type": "sound", "class": "speaking"}
+{"seconds": 536.0, "type": "sound", "class": "speaking"}
+{"seconds": 537.0, "type": "sound", "class": "speaking"}
+{"seconds": 538.0, "type": "sound", "class": "speaking"}
+{"seconds": 539.0, "type": "sound", "class": "speaking"}
+{"seconds": 540.0, "type": "sound", "class": "speaking"}
+{"seconds": 541.0, "type": "sound", "class": "speaking"}
+{"seconds": 542.0, "type": "sound", "class": "speaking"}
+{"seconds": 543.0, "type": "sound", "class": "speaking"}
+{"seconds": 544.0, "type": "sound", "class": "speaking"}
+{"seconds": 545.0, "type": "sound", "class": "speaking"}
+{"seconds": 546.0, "type": "sound", "class": "speaking"}
+{"seconds": 547.0, "type": "sound", "class": "speaking"}
+{"seconds": 548.0, "type": "sound", "class": "speaking"}
+{"seconds": 552, "type": "sound", "class": "background music"}
+{"seconds": 550, "type": "sound", "class": "background laughing"}
+{"seconds": 551.0, "type": "sound", "class": "background laughing"}
+{"seconds": 552.0, "type": "sound", "class": "background laughing"}
+{"seconds": 553.0, "type": "sound", "class": "background laughing"}
+{"seconds": 554.0, "type": "sound", "class": "background laughing"}
+{"seconds": 556, "type": "sound", "class": "background laughing"}
+{"seconds": 557, "type": "sound", "class": "laughing"}
+{"seconds": 560, "type": "sound", "class": "laughing"}
+{"seconds": 561, "type": "sound", "class": "shouting"}
+{"seconds": 563, "type": "sound", "class": "background laughing"}
+{"seconds": 565, "type": "sound", "class": "background laughing"}
+{"seconds": 566.0, "type": "sound", "class": "background laughing"}
+{"seconds": 550, "type": "sound", "class": "speaking"}
+{"seconds": 551.0, "type": "sound", "class": "speaking"}
+{"seconds": 552.0, "type": "sound", "class": "speaking"}
+{"seconds": 553.0, "type": "sound", "class": "speaking"}
+{"seconds": 554.0, "type": "sound", "class": "speaking"}
+{"seconds": 555.0, "type": "sound", "class": "speaking"}
+{"seconds": 556.0, "type": "sound", "class": "speaking"}
+{"seconds": 557.0, "type": "sound", "class": "speaking"}
+{"seconds": 558.0, "type": "sound", "class": "speaking"}
+{"seconds": 559.0, "type": "sound", "class": "speaking"}
+{"seconds": 560.0, "type": "sound", "class": "speaking"}
+{"seconds": 561.0, "type": "sound", "class": "speaking"}
+{"seconds": 562.0, "type": "sound", "class": "speaking"}
+{"seconds": 563.0, "type": "sound", "class": "speaking"}
+{"seconds": 564.0, "type": "sound", "class": "speaking"}
+{"seconds": 565.0, "type": "sound", "class": "speaking"}
+{"seconds": 566.0, "type": "sound", "class": "speaking"}
+{"seconds": 567.0, "type": "sound", "class": "speaking"}
+{"seconds": 568, "type": "sound", "class": "shouting"}
+{"seconds": 570, "type": "sound", "class": "background music"}
+{"seconds": 568, "type": "sound", "class": "background laughing"}
+{"seconds": 569.0, "type": "sound", "class": "background laughing"}
+{"seconds": 570.0, "type": "sound", "class": "background laughing"}
+{"seconds": 571.0, "type": "sound", "class": "background laughing"}
+{"seconds": 572.0, "type": "sound", "class": "background laughing"}
+{"seconds": 573.0, "type": "sound", "class": "background laughing"}
+{"seconds": 574.0, "type": "sound", "class": "background laughing"}
+{"seconds": 575, "type": "sound", "class": "shouting"}
+{"seconds": 576, "type": "sound", "class": "background laughing"}
+{"seconds": 578, "type": "sound", "class": "background laughing"}
+{"seconds": 579.0, "type": "sound", "class": "background laughing"}
+{"seconds": 580.0, "type": "sound", "class": "background laughing"}
+{"seconds": 581.0, "type": "sound", "class": "background laughing"}
+{"seconds": 582.0, "type": "sound", "class": "background laughing"}
+{"seconds": 569, "type": "sound", "class": "speaking"}
+{"seconds": 570.0, "type": "sound", "class": "speaking"}
+{"seconds": 571.0, "type": "sound", "class": "speaking"}
+{"seconds": 572.0, "type": "sound", "class": "speaking"}
+{"seconds": 573.0, "type": "sound", "class": "speaking"}
+{"seconds": 574.0, "type": "sound", "class": "speaking"}
+{"seconds": 575.0, "type": "sound", "class": "speaking"}
+{"seconds": 576.0, "type": "sound", "class": "speaking"}
+{"seconds": 577.0, "type": "sound", "class": "speaking"}
+{"seconds": 578.0, "type": "sound", "class": "speaking"}
+{"seconds": 579.0, "type": "sound", "class": "speaking"}
+{"seconds": 580.0, "type": "sound", "class": "speaking"}
+{"seconds": 581.0, "type": "sound", "class": "speaking"}
+{"seconds": 582.0, "type": "sound", "class": "speaking"}
+{"seconds": 583.0, "type": "sound", "class": "speaking"}
+{"seconds": 584.0, "type": "sound", "class": "speaking"}
+{"seconds": 584, "type": "sound", "class": "background laughing"}
+{"seconds": 587, "type": "sound", "class": "background music"}
+{"seconds": 586, "type": "sound", "class": "background laughing"}
+{"seconds": 587.0, "type": "sound", "class": "background laughing"}
+{"seconds": 591, "type": "sound", "class": "background laughing"}
+{"seconds": 593, "type": "sound", "class": "background music"}
+{"seconds": 594, "type": "sound", "class": "background laughing"}
+{"seconds": 595.0, "type": "sound", "class": "background laughing"}
+{"seconds": 586, "type": "sound", "class": "speaking"}
+{"seconds": 587.0, "type": "sound", "class": "speaking"}
+{"seconds": 588.0, "type": "sound", "class": "speaking"}
+{"seconds": 589.0, "type": "sound", "class": "speaking"}
+{"seconds": 590.0, "type": "sound", "class": "speaking"}
+{"seconds": 591.0, "type": "sound", "class": "speaking"}
+{"seconds": 592.0, "type": "sound", "class": "speaking"}
+{"seconds": 593.0, "type": "sound", "class": "speaking"}
+{"seconds": 594.0, "type": "sound", "class": "speaking"}
+{"seconds": 595.0, "type": "sound", "class": "speaking"}
+{"seconds": 596.0, "type": "sound", "class": "speaking"}
+{"seconds": 597.0, "type": "sound", "class": "speaking"}
+{"seconds": 599, "type": "sound", "class": "speaking"}
+{"seconds": 600.0, "type": "sound", "class": "speaking"}
+{"seconds": 601, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 602, "type": "sound", "class": "crashing"}
+{"seconds": 604, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 597, "type": "sound", "class": "background laughing"}
+{"seconds": 598.0, "type": "sound", "class": "background laughing"}
+{"seconds": 599.0, "type": "sound", "class": "background laughing"}
+{"seconds": 600.0, "type": "sound", "class": "background laughing"}
+{"seconds": 601.0, "type": "sound", "class": "background laughing"}
+{"seconds": 602.0, "type": "sound", "class": "background laughing"}
+{"seconds": 603.0, "type": "sound", "class": "background laughing"}
+{"seconds": 604.0, "type": "sound", "class": "background laughing"}
+{"seconds": 605.0, "type": "sound", "class": "background laughing"}
+{"seconds": 606.0, "type": "sound", "class": "background laughing"}
+{"seconds": 607.0, "type": "sound", "class": "background laughing"}
+{"seconds": 608.0, "type": "sound", "class": "background laughing"}
+{"seconds": 611, "type": "sound", "class": "background music"}
+{"seconds": 612, "type": "sound", "class": "laughing"}
+{"seconds": 613.0, "type": "sound", "class": "laughing"}
+{"seconds": 614.0, "type": "sound", "class": "laughing"}
+{"seconds": 603, "type": "sound", "class": "speaking"}
+{"seconds": 604.0, "type": "sound", "class": "speaking"}
+{"seconds": 605.0, "type": "sound", "class": "speaking"}
+{"seconds": 606.0, "type": "sound", "class": "speaking"}
+{"seconds": 607.0, "type": "sound", "class": "speaking"}
+{"seconds": 608.0, "type": "sound", "class": "speaking"}
+{"seconds": 609.0, "type": "sound", "class": "speaking"}
+{"seconds": 610.0, "type": "sound", "class": "speaking"}
+{"seconds": 611.0, "type": "sound", "class": "speaking"}
+{"seconds": 612.0, "type": "sound", "class": "speaking"}
+{"seconds": 613.0, "type": "sound", "class": "speaking"}
+{"seconds": 614.0, "type": "sound", "class": "speaking"}
+{"seconds": 615.0, "type": "sound", "class": "speaking"}
+{"seconds": 616, "type": "sound", "class": "laughing"}
+{"seconds": 611, "type": "sound", "class": "background laughing"}
+{"seconds": 612.0, "type": "sound", "class": "background laughing"}
+{"seconds": 613.0, "type": "sound", "class": "background laughing"}
+{"seconds": 614.0, "type": "sound", "class": "background laughing"}
+{"seconds": 615.0, "type": "sound", "class": "background laughing"}
+{"seconds": 616.0, "type": "sound", "class": "background laughing"}
+{"seconds": 617.0, "type": "sound", "class": "background laughing"}
+{"seconds": 618, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 620, "type": "sound", "class": "background laughing"}
+{"seconds": 617, "type": "sound", "class": "speaking"}
+{"seconds": 618.0, "type": "sound", "class": "speaking"}
+{"seconds": 619.0, "type": "sound", "class": "speaking"}
+{"seconds": 620.0, "type": "sound", "class": "speaking"}
+{"seconds": 621.0, "type": "sound", "class": "speaking"}
+{"seconds": 622, "type": "sound", "class": "background laughing"}
+{"seconds": 623, "type": "sound", "class": "speaking"}
+{"seconds": 624.0, "type": "sound", "class": "speaking"}
+{"seconds": 625.0, "type": "sound", "class": "speaking"}
+{"seconds": 624, "type": "sound", "class": "laughing"}
+{"seconds": 625.0, "type": "sound", "class": "laughing"}
+{"seconds": 624, "type": "sound", "class": "background laughing"}
+{"seconds": 625.0, "type": "sound", "class": "background laughing"}
+{"seconds": 626.0, "type": "sound", "class": "background laughing"}
+{"seconds": 628, "type": "sound", "class": "crashing"}
+{"seconds": 629.0, "type": "sound", "class": "crashing"}
+{"seconds": 630.0, "type": "sound", "class": "crashing"}
+{"seconds": 631.0, "type": "sound", "class": "crashing"}
+{"seconds": 632.0, "type": "sound", "class": "crashing"}
+{"seconds": 633.0, "type": "sound", "class": "crashing"}
+{"seconds": 626, "type": "sound", "class": "background music"}
+{"seconds": 627.0, "type": "sound", "class": "background music"}
+{"seconds": 628.0, "type": "sound", "class": "background music"}
+{"seconds": 629.0, "type": "sound", "class": "background music"}
+{"seconds": 630.0, "type": "sound", "class": "background music"}
+{"seconds": 631.0, "type": "sound", "class": "background music"}
+{"seconds": 632.0, "type": "sound", "class": "background music"}
+{"seconds": 633.0, "type": "sound", "class": "background music"}
+{"seconds": 634.0, "type": "sound", "class": "background music"}
+{"seconds": 635.0, "type": "sound", "class": "background music"}
+{"seconds": 635, "type": "sound", "class": "speaking"}
+{"seconds": 636.0, "type": "sound", "class": "speaking"}
+{"seconds": 638, "type": "sound", "class": "speaking"}
+{"seconds": 639.0, "type": "sound", "class": "speaking"}
+{"seconds": 640.0, "type": "sound", "class": "speaking"}
+{"seconds": 638, "type": "sound", "class": "background laughing"}
+{"seconds": 639.0, "type": "sound", "class": "background laughing"}
+{"seconds": 640.0, "type": "sound", "class": "background laughing"}
+{"seconds": 641.0, "type": "sound", "class": "background laughing"}
+{"seconds": 641, "type": "sound", "class": "crashing"}
+{"seconds": 642.0, "type": "sound", "class": "crashing"}
+{"seconds": 643, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 644, "type": "sound", "class": "background music"}
+{"seconds": 645.0, "type": "sound", "class": "background music"}
+{"seconds": 645, "type": "sound", "class": "background laughing"}
+{"seconds": 647, "type": "sound", "class": "background music"}
+{"seconds": 649, "type": "sound", "class": "crashing"}
+{"seconds": 648, "type": "sound", "class": "background laughing"}
+{"seconds": 649.0, "type": "sound", "class": "background laughing"}
+{"seconds": 650.0, "type": "sound", "class": "background laughing"}
+{"seconds": 651.0, "type": "sound", "class": "background laughing"}
+{"seconds": 652.0, "type": "sound", "class": "background laughing"}
+{"seconds": 654, "type": "sound", "class": "background laughing"}
+{"seconds": 655, "type": "sound", "class": "background music"}
+{"seconds": 656.0, "type": "sound", "class": "background music"}
+{"seconds": 657.0, "type": "sound", "class": "background music"}
+{"seconds": 658.0, "type": "sound", "class": "background music"}
+{"seconds": 660, "type": "sound", "class": "background music"}
+{"seconds": 661, "type": "sound", "class": "background laughing"}
+{"seconds": 662.0, "type": "sound", "class": "background laughing"}
+{"seconds": 663.0, "type": "sound", "class": "background laughing"}
+{"seconds": 664.0, "type": "sound", "class": "background laughing"}
+{"seconds": 665.0, "type": "sound", "class": "background laughing"}
+{"seconds": 666.0, "type": "sound", "class": "background laughing"}
+{"seconds": 664, "type": "sound", "class": "background music"}
+{"seconds": 665.0, "type": "sound", "class": "background music"}
+{"seconds": 666.0, "type": "sound", "class": "background music"}
+{"seconds": 667.0, "type": "sound", "class": "background music"}
+{"seconds": 644, "type": "sound", "class": "speaking"}
+{"seconds": 645.0, "type": "sound", "class": "speaking"}
+{"seconds": 646.0, "type": "sound", "class": "speaking"}
+{"seconds": 647.0, "type": "sound", "class": "speaking"}
+{"seconds": 648.0, "type": "sound", "class": "speaking"}
+{"seconds": 649.0, "type": "sound", "class": "speaking"}
+{"seconds": 650.0, "type": "sound", "class": "speaking"}
+{"seconds": 651.0, "type": "sound", "class": "speaking"}
+{"seconds": 652.0, "type": "sound", "class": "speaking"}
+{"seconds": 653.0, "type": "sound", "class": "speaking"}
+{"seconds": 654.0, "type": "sound", "class": "speaking"}
+{"seconds": 655.0, "type": "sound", "class": "speaking"}
+{"seconds": 656.0, "type": "sound", "class": "speaking"}
+{"seconds": 657.0, "type": "sound", "class": "speaking"}
+{"seconds": 658.0, "type": "sound", "class": "speaking"}
+{"seconds": 659.0, "type": "sound", "class": "speaking"}
+{"seconds": 660.0, "type": "sound", "class": "speaking"}
+{"seconds": 661.0, "type": "sound", "class": "speaking"}
+{"seconds": 662.0, "type": "sound", "class": "speaking"}
+{"seconds": 663.0, "type": "sound", "class": "speaking"}
+{"seconds": 664.0, "type": "sound", "class": "speaking"}
+{"seconds": 665.0, "type": "sound", "class": "speaking"}
+{"seconds": 666.0, "type": "sound", "class": "speaking"}
+{"seconds": 667.0, "type": "sound", "class": "speaking"}
+{"seconds": 668.0, "type": "sound", "class": "speaking"}
+{"seconds": 669.0, "type": "sound", "class": "speaking"}
+{"seconds": 670.0, "type": "sound", "class": "speaking"}
+{"seconds": 669, "type": "sound", "class": "background laughing"}
+{"seconds": 670.0, "type": "sound", "class": "background laughing"}
+{"seconds": 671.0, "type": "sound", "class": "background laughing"}
+{"seconds": 673, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 672, "type": "sound", "class": "speaking"}
+{"seconds": 673.0, "type": "sound", "class": "speaking"}
+{"seconds": 674.0, "type": "sound", "class": "speaking"}
+{"seconds": 675.0, "type": "sound", "class": "speaking"}
+{"seconds": 675, "type": "sound", "class": "background laughing"}
+{"seconds": 676.0, "type": "sound", "class": "background laughing"}
+{"seconds": 676, "type": "sound", "class": "background music"}
+{"seconds": 677.0, "type": "sound", "class": "background music"}
+{"seconds": 678.0, "type": "sound", "class": "background music"}
+{"seconds": 678, "type": "sound", "class": "background laughing"}
+{"seconds": 679.0, "type": "sound", "class": "background laughing"}
+{"seconds": 680.0, "type": "sound", "class": "background laughing"}
+{"seconds": 680, "type": "sound", "class": "shouting"}
+{"seconds": 682, "type": "sound", "class": "background laughing"}
+{"seconds": 683.0, "type": "sound", "class": "background laughing"}
+{"seconds": 684.0, "type": "sound", "class": "background laughing"}
+{"seconds": 685, "type": "sound", "class": "background music"}
+{"seconds": 686.0, "type": "sound", "class": "background music"}
+{"seconds": 686, "type": "sound", "class": "background laughing"}
+{"seconds": 687, "type": "sound", "class": "shouting"}
+{"seconds": 688, "type": "sound", "class": "background music"}
+{"seconds": 689, "type": "sound", "class": "shouting"}
+{"seconds": 690, "type": "sound", "class": "background laughing"}
+{"seconds": 692, "type": "sound", "class": "shouting"}
+{"seconds": 693, "type": "sound", "class": "background music"}
+{"seconds": 695, "type": "sound", "class": "background music"}
+{"seconds": 699, "type": "sound", "class": "background music"}
+{"seconds": 700.0, "type": "sound", "class": "background music"}
+{"seconds": 695, "type": "sound", "class": "background laughing"}
+{"seconds": 696.0, "type": "sound", "class": "background laughing"}
+{"seconds": 697.0, "type": "sound", "class": "background laughing"}
+{"seconds": 698.0, "type": "sound", "class": "background laughing"}
+{"seconds": 699.0, "type": "sound", "class": "background laughing"}
+{"seconds": 700.0, "type": "sound", "class": "background laughing"}
+{"seconds": 701.0, "type": "sound", "class": "background laughing"}
+{"seconds": 677, "type": "sound", "class": "speaking"}
+{"seconds": 678.0, "type": "sound", "class": "speaking"}
+{"seconds": 679.0, "type": "sound", "class": "speaking"}
+{"seconds": 680.0, "type": "sound", "class": "speaking"}
+{"seconds": 681.0, "type": "sound", "class": "speaking"}
+{"seconds": 682.0, "type": "sound", "class": "speaking"}
+{"seconds": 683.0, "type": "sound", "class": "speaking"}
+{"seconds": 684.0, "type": "sound", "class": "speaking"}
+{"seconds": 685.0, "type": "sound", "class": "speaking"}
+{"seconds": 686.0, "type": "sound", "class": "speaking"}
+{"seconds": 687.0, "type": "sound", "class": "speaking"}
+{"seconds": 688.0, "type": "sound", "class": "speaking"}
+{"seconds": 689.0, "type": "sound", "class": "speaking"}
+{"seconds": 690.0, "type": "sound", "class": "speaking"}
+{"seconds": 691.0, "type": "sound", "class": "speaking"}
+{"seconds": 692.0, "type": "sound", "class": "speaking"}
+{"seconds": 693.0, "type": "sound", "class": "speaking"}
+{"seconds": 694.0, "type": "sound", "class": "speaking"}
+{"seconds": 695.0, "type": "sound", "class": "speaking"}
+{"seconds": 696.0, "type": "sound", "class": "speaking"}
+{"seconds": 697.0, "type": "sound", "class": "speaking"}
+{"seconds": 698.0, "type": "sound", "class": "speaking"}
+{"seconds": 699.0, "type": "sound", "class": "speaking"}
+{"seconds": 700.0, "type": "sound", "class": "speaking"}
+{"seconds": 701.0, "type": "sound", "class": "speaking"}
+{"seconds": 702.0, "type": "sound", "class": "speaking"}
+{"seconds": 705, "type": "sound", "class": "background laughing"}
+{"seconds": 704, "type": "sound", "class": "speaking"}
+{"seconds": 705.0, "type": "sound", "class": "speaking"}
+{"seconds": 706.0, "type": "sound", "class": "speaking"}
+{"seconds": 707.0, "type": "sound", "class": "speaking"}
+{"seconds": 707, "type": "sound", "class": "shouting"}
+{"seconds": 709, "type": "sound", "class": "background music"}
+{"seconds": 708, "type": "sound", "class": "background laughing"}
+{"seconds": 709.0, "type": "sound", "class": "background laughing"}
+{"seconds": 710.0, "type": "sound", "class": "background laughing"}
+{"seconds": 711.0, "type": "sound", "class": "background laughing"}
+{"seconds": 713, "type": "sound", "class": "background laughing"}
+{"seconds": 714.0, "type": "sound", "class": "background laughing"}
+{"seconds": 715, "type": "sound", "class": "background music"}
+{"seconds": 716, "type": "sound", "class": "background laughing"}
+{"seconds": 720, "type": "sound", "class": "background music"}
+{"seconds": 719, "type": "sound", "class": "background laughing"}
+{"seconds": 720.0, "type": "sound", "class": "background laughing"}
+{"seconds": 721, "type": "sound", "class": "crashing"}
+{"seconds": 725, "type": "sound", "class": "background music"}
+{"seconds": 722, "type": "sound", "class": "background laughing"}
+{"seconds": 723.0, "type": "sound", "class": "background laughing"}
+{"seconds": 724.0, "type": "sound", "class": "background laughing"}
+{"seconds": 725.0, "type": "sound", "class": "background laughing"}
+{"seconds": 726.0, "type": "sound", "class": "background laughing"}
+{"seconds": 727, "type": "sound", "class": "crashing"}
+{"seconds": 728.0, "type": "sound", "class": "crashing"}
+{"seconds": 729.0, "type": "sound", "class": "crashing"}
+{"seconds": 731, "type": "sound", "class": "background music"}
+{"seconds": 709, "type": "sound", "class": "speaking"}
+{"seconds": 710.0, "type": "sound", "class": "speaking"}
+{"seconds": 711.0, "type": "sound", "class": "speaking"}
+{"seconds": 712.0, "type": "sound", "class": "speaking"}
+{"seconds": 713.0, "type": "sound", "class": "speaking"}
+{"seconds": 714.0, "type": "sound", "class": "speaking"}
+{"seconds": 715.0, "type": "sound", "class": "speaking"}
+{"seconds": 716.0, "type": "sound", "class": "speaking"}
+{"seconds": 717.0, "type": "sound", "class": "speaking"}
+{"seconds": 718.0, "type": "sound", "class": "speaking"}
+{"seconds": 719.0, "type": "sound", "class": "speaking"}
+{"seconds": 720.0, "type": "sound", "class": "speaking"}
+{"seconds": 721.0, "type": "sound", "class": "speaking"}
+{"seconds": 722.0, "type": "sound", "class": "speaking"}
+{"seconds": 723.0, "type": "sound", "class": "speaking"}
+{"seconds": 724.0, "type": "sound", "class": "speaking"}
+{"seconds": 725.0, "type": "sound", "class": "speaking"}
+{"seconds": 726.0, "type": "sound", "class": "speaking"}
+{"seconds": 727.0, "type": "sound", "class": "speaking"}
+{"seconds": 728.0, "type": "sound", "class": "speaking"}
+{"seconds": 729.0, "type": "sound", "class": "speaking"}
+{"seconds": 730.0, "type": "sound", "class": "speaking"}
+{"seconds": 731.0, "type": "sound", "class": "speaking"}
+{"seconds": 728, "type": "sound", "class": "background laughing"}
+{"seconds": 729.0, "type": "sound", "class": "background laughing"}
+{"seconds": 730.0, "type": "sound", "class": "background laughing"}
+{"seconds": 731.0, "type": "sound", "class": "background laughing"}
+{"seconds": 733, "type": "sound", "class": "speaking"}
+{"seconds": 734.0, "type": "sound", "class": "speaking"}
+{"seconds": 733, "type": "sound", "class": "background laughing"}
+{"seconds": 734.0, "type": "sound", "class": "background laughing"}
+{"seconds": 735.0, "type": "sound", "class": "background laughing"}
+{"seconds": 736.0, "type": "sound", "class": "background laughing"}
+{"seconds": 737.0, "type": "sound", "class": "background laughing"}
+{"seconds": 738.0, "type": "sound", "class": "background laughing"}
+{"seconds": 742, "type": "sound", "class": "background music"}
+{"seconds": 736, "type": "sound", "class": "speaking"}
+{"seconds": 737.0, "type": "sound", "class": "speaking"}
+{"seconds": 738.0, "type": "sound", "class": "speaking"}
+{"seconds": 739.0, "type": "sound", "class": "speaking"}
+{"seconds": 740.0, "type": "sound", "class": "speaking"}
+{"seconds": 741.0, "type": "sound", "class": "speaking"}
+{"seconds": 742.0, "type": "sound", "class": "speaking"}
+{"seconds": 743.0, "type": "sound", "class": "speaking"}
+{"seconds": 744, "type": "sound", "class": "background music"}
+{"seconds": 742, "type": "sound", "class": "background laughing"}
+{"seconds": 743.0, "type": "sound", "class": "background laughing"}
+{"seconds": 744.0, "type": "sound", "class": "background laughing"}
+{"seconds": 745.0, "type": "sound", "class": "background laughing"}
+{"seconds": 746.0, "type": "sound", "class": "background laughing"}
+{"seconds": 747.0, "type": "sound", "class": "background laughing"}
+{"seconds": 749, "type": "sound", "class": "background laughing"}
+{"seconds": 752, "type": "sound", "class": "background laughing"}
+{"seconds": 756, "type": "sound", "class": "background music"}
+{"seconds": 755, "type": "sound", "class": "background laughing"}
+{"seconds": 756.0, "type": "sound", "class": "background laughing"}
+{"seconds": 757.0, "type": "sound", "class": "background laughing"}
+{"seconds": 758.0, "type": "sound", "class": "background laughing"}
+{"seconds": 759.0, "type": "sound", "class": "background laughing"}
+{"seconds": 760.0, "type": "sound", "class": "background laughing"}
+{"seconds": 761, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 762, "type": "sound", "class": "background laughing"}
+{"seconds": 763.0, "type": "sound", "class": "background laughing"}
+{"seconds": 766, "type": "sound", "class": "background laughing"}
+{"seconds": 767.0, "type": "sound", "class": "background laughing"}
+{"seconds": 768.0, "type": "sound", "class": "background laughing"}
+{"seconds": 772, "type": "sound", "class": "background laughing"}
+{"seconds": 773.0, "type": "sound", "class": "background laughing"}
+{"seconds": 774.0, "type": "sound", "class": "background laughing"}
+{"seconds": 775.0, "type": "sound", "class": "background laughing"}
+{"seconds": 777, "type": "sound", "class": "laughing"}
+{"seconds": 778.0, "type": "sound", "class": "laughing"}
+{"seconds": 780, "type": "sound", "class": "background laughing"}
+{"seconds": 781.0, "type": "sound", "class": "background laughing"}
+{"seconds": 782.0, "type": "sound", "class": "background laughing"}
+{"seconds": 783.0, "type": "sound", "class": "background laughing"}
+{"seconds": 784.0, "type": "sound", "class": "background laughing"}
+{"seconds": 785.0, "type": "sound", "class": "background laughing"}
+{"seconds": 786, "type": "sound", "class": "shouting"}
+{"seconds": 789, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 792, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 793, "type": "sound", "class": "background laughing"}
+{"seconds": 797, "type": "sound", "class": "background music"}
+{"seconds": 795, "type": "sound", "class": "background laughing"}
+{"seconds": 796.0, "type": "sound", "class": "background laughing"}
+{"seconds": 797.0, "type": "sound", "class": "background laughing"}
+{"seconds": 800, "type": "sound", "class": "background laughing"}
+{"seconds": 801.0, "type": "sound", "class": "background laughing"}
+{"seconds": 802.0, "type": "sound", "class": "background laughing"}
+{"seconds": 803.0, "type": "sound", "class": "background laughing"}
+{"seconds": 807, "type": "sound", "class": "background laughing"}
+{"seconds": 745, "type": "sound", "class": "speaking"}
+{"seconds": 746.0, "type": "sound", "class": "speaking"}
+{"seconds": 747.0, "type": "sound", "class": "speaking"}
+{"seconds": 748.0, "type": "sound", "class": "speaking"}
+{"seconds": 749.0, "type": "sound", "class": "speaking"}
+{"seconds": 750.0, "type": "sound", "class": "speaking"}
+{"seconds": 751.0, "type": "sound", "class": "speaking"}
+{"seconds": 752.0, "type": "sound", "class": "speaking"}
+{"seconds": 753.0, "type": "sound", "class": "speaking"}
+{"seconds": 754.0, "type": "sound", "class": "speaking"}
+{"seconds": 755.0, "type": "sound", "class": "speaking"}
+{"seconds": 756.0, "type": "sound", "class": "speaking"}
+{"seconds": 757.0, "type": "sound", "class": "speaking"}
+{"seconds": 758.0, "type": "sound", "class": "speaking"}
+{"seconds": 759.0, "type": "sound", "class": "speaking"}
+{"seconds": 760.0, "type": "sound", "class": "speaking"}
+{"seconds": 761.0, "type": "sound", "class": "speaking"}
+{"seconds": 762.0, "type": "sound", "class": "speaking"}
+{"seconds": 763.0, "type": "sound", "class": "speaking"}
+{"seconds": 764.0, "type": "sound", "class": "speaking"}
+{"seconds": 765.0, "type": "sound", "class": "speaking"}
+{"seconds": 766.0, "type": "sound", "class": "speaking"}
+{"seconds": 767.0, "type": "sound", "class": "speaking"}
+{"seconds": 768.0, "type": "sound", "class": "speaking"}
+{"seconds": 769.0, "type": "sound", "class": "speaking"}
+{"seconds": 770.0, "type": "sound", "class": "speaking"}
+{"seconds": 771.0, "type": "sound", "class": "speaking"}
+{"seconds": 772.0, "type": "sound", "class": "speaking"}
+{"seconds": 773.0, "type": "sound", "class": "speaking"}
+{"seconds": 774.0, "type": "sound", "class": "speaking"}
+{"seconds": 775.0, "type": "sound", "class": "speaking"}
+{"seconds": 776.0, "type": "sound", "class": "speaking"}
+{"seconds": 777.0, "type": "sound", "class": "speaking"}
+{"seconds": 778.0, "type": "sound", "class": "speaking"}
+{"seconds": 779.0, "type": "sound", "class": "speaking"}
+{"seconds": 780.0, "type": "sound", "class": "speaking"}
+{"seconds": 781.0, "type": "sound", "class": "speaking"}
+{"seconds": 782.0, "type": "sound", "class": "speaking"}
+{"seconds": 783.0, "type": "sound", "class": "speaking"}
+{"seconds": 784.0, "type": "sound", "class": "speaking"}
+{"seconds": 785.0, "type": "sound", "class": "speaking"}
+{"seconds": 786.0, "type": "sound", "class": "speaking"}
+{"seconds": 787.0, "type": "sound", "class": "speaking"}
+{"seconds": 788.0, "type": "sound", "class": "speaking"}
+{"seconds": 789.0, "type": "sound", "class": "speaking"}
+{"seconds": 790.0, "type": "sound", "class": "speaking"}
+{"seconds": 791.0, "type": "sound", "class": "speaking"}
+{"seconds": 792.0, "type": "sound", "class": "speaking"}
+{"seconds": 793.0, "type": "sound", "class": "speaking"}
+{"seconds": 794.0, "type": "sound", "class": "speaking"}
+{"seconds": 795.0, "type": "sound", "class": "speaking"}
+{"seconds": 796.0, "type": "sound", "class": "speaking"}
+{"seconds": 797.0, "type": "sound", "class": "speaking"}
+{"seconds": 798.0, "type": "sound", "class": "speaking"}
+{"seconds": 799.0, "type": "sound", "class": "speaking"}
+{"seconds": 800.0, "type": "sound", "class": "speaking"}
+{"seconds": 801.0, "type": "sound", "class": "speaking"}
+{"seconds": 802.0, "type": "sound", "class": "speaking"}
+{"seconds": 803.0, "type": "sound", "class": "speaking"}
+{"seconds": 804.0, "type": "sound", "class": "speaking"}
+{"seconds": 805.0, "type": "sound", "class": "speaking"}
+{"seconds": 806.0, "type": "sound", "class": "speaking"}
+{"seconds": 807.0, "type": "sound", "class": "speaking"}
+{"seconds": 808.0, "type": "sound", "class": "speaking"}
+{"seconds": 809.0, "type": "sound", "class": "speaking"}
+{"seconds": 810.0, "type": "sound", "class": "speaking"}
+{"seconds": 811.0, "type": "sound", "class": "speaking"}
+{"seconds": 810, "type": "sound", "class": "background laughing"}
+{"seconds": 811.0, "type": "sound", "class": "background laughing"}
+{"seconds": 816, "type": "sound", "class": "background music"}
+{"seconds": 817.0, "type": "sound", "class": "background music"}
+{"seconds": 816, "type": "sound", "class": "speaking"}
+{"seconds": 817.0, "type": "sound", "class": "speaking"}
+{"seconds": 813, "type": "sound", "class": "laughing"}
+{"seconds": 814.0, "type": "sound", "class": "laughing"}
+{"seconds": 815.0, "type": "sound", "class": "laughing"}
+{"seconds": 816.0, "type": "sound", "class": "laughing"}
+{"seconds": 817.0, "type": "sound", "class": "laughing"}
+{"seconds": 817, "type": "sound", "class": "background laughing"}
+{"seconds": 818.0, "type": "sound", "class": "background laughing"}
+{"seconds": 819.0, "type": "sound", "class": "background laughing"}
+{"seconds": 821, "type": "sound", "class": "background laughing"}
+{"seconds": 823, "type": "sound", "class": "background laughing"}
+{"seconds": 824, "type": "sound", "class": "background music"}
+{"seconds": 825.0, "type": "sound", "class": "background music"}
+{"seconds": 824, "type": "sound", "class": "laughing"}
+{"seconds": 825.0, "type": "sound", "class": "laughing"}
+{"seconds": 826, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 828, "type": "sound", "class": "laughing"}
+{"seconds": 829, "type": "sound", "class": "background laughing"}
+{"seconds": 820, "type": "sound", "class": "speaking"}
+{"seconds": 821.0, "type": "sound", "class": "speaking"}
+{"seconds": 822.0, "type": "sound", "class": "speaking"}
+{"seconds": 823.0, "type": "sound", "class": "speaking"}
+{"seconds": 824.0, "type": "sound", "class": "speaking"}
+{"seconds": 825.0, "type": "sound", "class": "speaking"}
+{"seconds": 826.0, "type": "sound", "class": "speaking"}
+{"seconds": 827.0, "type": "sound", "class": "speaking"}
+{"seconds": 828.0, "type": "sound", "class": "speaking"}
+{"seconds": 829.0, "type": "sound", "class": "speaking"}
+{"seconds": 830.0, "type": "sound", "class": "speaking"}
+{"seconds": 831, "type": "sound", "class": "background laughing"}
+{"seconds": 831, "type": "sound", "class": "shouting"}
+{"seconds": 833, "type": "sound", "class": "background laughing"}
+{"seconds": 834.0, "type": "sound", "class": "background laughing"}
+{"seconds": 832, "type": "sound", "class": "speaking"}
+{"seconds": 833.0, "type": "sound", "class": "speaking"}
+{"seconds": 834.0, "type": "sound", "class": "speaking"}
+{"seconds": 835.0, "type": "sound", "class": "speaking"}
+{"seconds": 835, "type": "sound", "class": "laughing"}
+{"seconds": 833, "type": "sound", "class": "background music"}
+{"seconds": 834.0, "type": "sound", "class": "background music"}
+{"seconds": 835.0, "type": "sound", "class": "background music"}
+{"seconds": 836.0, "type": "sound", "class": "background music"}
+{"seconds": 837.0, "type": "sound", "class": "background music"}
+{"seconds": 836, "type": "sound", "class": "background laughing"}
+{"seconds": 837.0, "type": "sound", "class": "background laughing"}
+{"seconds": 838.0, "type": "sound", "class": "background laughing"}
+{"seconds": 839.0, "type": "sound", "class": "background laughing"}
+{"seconds": 840.0, "type": "sound", "class": "background laughing"}
+{"seconds": 838, "type": "sound", "class": "speaking"}
+{"seconds": 839.0, "type": "sound", "class": "speaking"}
+{"seconds": 840.0, "type": "sound", "class": "speaking"}
+{"seconds": 841.0, "type": "sound", "class": "speaking"}
+{"seconds": 841, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 842, "type": "sound", "class": "background music"}
+{"seconds": 843.0, "type": "sound", "class": "background music"}
+{"seconds": 844.0, "type": "sound", "class": "background music"}
+{"seconds": 845.0, "type": "sound", "class": "background music"}
+{"seconds": 846.0, "type": "sound", "class": "background music"}
+{"seconds": 847.0, "type": "sound", "class": "background music"}
+{"seconds": 848.0, "type": "sound", "class": "background music"}
+{"seconds": 849.0, "type": "sound", "class": "background music"}
+{"seconds": 850, "type": "sound", "class": "background laughing"}
+{"seconds": 851, "type": "sound", "class": "background music"}
+{"seconds": 851, "type": "sound", "class": "laughing"}
+{"seconds": 852, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 852, "type": "sound", "class": "background laughing"}
+{"seconds": 853.0, "type": "sound", "class": "background laughing"}
+{"seconds": 854.0, "type": "sound", "class": "background laughing"}
+{"seconds": 856, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 857, "type": "sound", "class": "background music"}
+{"seconds": 859, "type": "sound", "class": "background music"}
+{"seconds": 859, "type": "sound", "class": "background laughing"}
+{"seconds": 860.0, "type": "sound", "class": "background laughing"}
+{"seconds": 862, "type": "sound", "class": "background laughing"}
+{"seconds": 863.0, "type": "sound", "class": "background laughing"}
+{"seconds": 864.0, "type": "sound", "class": "background laughing"}
+{"seconds": 865.0, "type": "sound", "class": "background laughing"}
+{"seconds": 866.0, "type": "sound", "class": "background laughing"}
+{"seconds": 867.0, "type": "sound", "class": "background laughing"}
+{"seconds": 863, "type": "sound", "class": "background music"}
+{"seconds": 864.0, "type": "sound", "class": "background music"}
+{"seconds": 865.0, "type": "sound", "class": "background music"}
+{"seconds": 866.0, "type": "sound", "class": "background music"}
+{"seconds": 867.0, "type": "sound", "class": "background music"}
+{"seconds": 868.0, "type": "sound", "class": "background music"}
+{"seconds": 868, "type": "sound", "class": "laughing"}
+{"seconds": 871, "type": "sound", "class": "background music"}
+{"seconds": 847, "type": "sound", "class": "speaking"}
+{"seconds": 848.0, "type": "sound", "class": "speaking"}
+{"seconds": 849.0, "type": "sound", "class": "speaking"}
+{"seconds": 850.0, "type": "sound", "class": "speaking"}
+{"seconds": 851.0, "type": "sound", "class": "speaking"}
+{"seconds": 852.0, "type": "sound", "class": "speaking"}
+{"seconds": 853.0, "type": "sound", "class": "speaking"}
+{"seconds": 854.0, "type": "sound", "class": "speaking"}
+{"seconds": 855.0, "type": "sound", "class": "speaking"}
+{"seconds": 856.0, "type": "sound", "class": "speaking"}
+{"seconds": 857.0, "type": "sound", "class": "speaking"}
+{"seconds": 858.0, "type": "sound", "class": "speaking"}
+{"seconds": 859.0, "type": "sound", "class": "speaking"}
+{"seconds": 860.0, "type": "sound", "class": "speaking"}
+{"seconds": 861.0, "type": "sound", "class": "speaking"}
+{"seconds": 862.0, "type": "sound", "class": "speaking"}
+{"seconds": 863.0, "type": "sound", "class": "speaking"}
+{"seconds": 864.0, "type": "sound", "class": "speaking"}
+{"seconds": 865.0, "type": "sound", "class": "speaking"}
+{"seconds": 866.0, "type": "sound", "class": "speaking"}
+{"seconds": 867.0, "type": "sound", "class": "speaking"}
+{"seconds": 868.0, "type": "sound", "class": "speaking"}
+{"seconds": 869.0, "type": "sound", "class": "speaking"}
+{"seconds": 870.0, "type": "sound", "class": "speaking"}
+{"seconds": 871.0, "type": "sound", "class": "speaking"}
+{"seconds": 872.0, "type": "sound", "class": "speaking"}
+{"seconds": 873.0, "type": "sound", "class": "speaking"}
+{"seconds": 874.0, "type": "sound", "class": "speaking"}
+{"seconds": 869, "type": "sound", "class": "background laughing"}
+{"seconds": 870.0, "type": "sound", "class": "background laughing"}
+{"seconds": 871.0, "type": "sound", "class": "background laughing"}
+{"seconds": 872.0, "type": "sound", "class": "background laughing"}
+{"seconds": 873.0, "type": "sound", "class": "background laughing"}
+{"seconds": 874.0, "type": "sound", "class": "background laughing"}
+{"seconds": 875.0, "type": "sound", "class": "background laughing"}
+{"seconds": 877, "type": "sound", "class": "speaking"}
+{"seconds": 878, "type": "sound", "class": "background laughing"}
+{"seconds": 879.0, "type": "sound", "class": "background laughing"}
+{"seconds": 880, "type": "sound", "class": "background music"}
+{"seconds": 881, "type": "sound", "class": "background laughing"}
+{"seconds": 882, "type": "sound", "class": "background music"}
+{"seconds": 882, "type": "sound", "class": "laughing"}
+{"seconds": 880, "type": "sound", "class": "speaking"}
+{"seconds": 881.0, "type": "sound", "class": "speaking"}
+{"seconds": 882.0, "type": "sound", "class": "speaking"}
+{"seconds": 883.0, "type": "sound", "class": "speaking"}
+{"seconds": 884.0, "type": "sound", "class": "speaking"}
+{"seconds": 885.0, "type": "sound", "class": "speaking"}
+{"seconds": 887, "type": "sound", "class": "background music"}
+{"seconds": 884, "type": "sound", "class": "background laughing"}
+{"seconds": 885.0, "type": "sound", "class": "background laughing"}
+{"seconds": 886.0, "type": "sound", "class": "background laughing"}
+{"seconds": 887.0, "type": "sound", "class": "background laughing"}
+{"seconds": 888.0, "type": "sound", "class": "background laughing"}
+{"seconds": 888, "type": "sound", "class": "shouting"}
+{"seconds": 889.0, "type": "sound", "class": "shouting"}
+{"seconds": 891, "type": "sound", "class": "background laughing"}
+{"seconds": 895, "type": "sound", "class": "background laughing"}
+{"seconds": 897, "type": "sound", "class": "background laughing"}
+{"seconds": 888, "type": "sound", "class": "speaking"}
+{"seconds": 889.0, "type": "sound", "class": "speaking"}
+{"seconds": 890.0, "type": "sound", "class": "speaking"}
+{"seconds": 891.0, "type": "sound", "class": "speaking"}
+{"seconds": 892.0, "type": "sound", "class": "speaking"}
+{"seconds": 893.0, "type": "sound", "class": "speaking"}
+{"seconds": 894.0, "type": "sound", "class": "speaking"}
+{"seconds": 895.0, "type": "sound", "class": "speaking"}
+{"seconds": 896.0, "type": "sound", "class": "speaking"}
+{"seconds": 897.0, "type": "sound", "class": "speaking"}
+{"seconds": 898.0, "type": "sound", "class": "speaking"}
+{"seconds": 900, "type": "sound", "class": "background laughing"}
+{"seconds": 901.0, "type": "sound", "class": "background laughing"}
+{"seconds": 902, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 903, "type": "sound", "class": "background laughing"}
+{"seconds": 904.0, "type": "sound", "class": "background laughing"}
+{"seconds": 905.0, "type": "sound", "class": "background laughing"}
+{"seconds": 907, "type": "sound", "class": "background laughing"}
+{"seconds": 901, "type": "sound", "class": "speaking"}
+{"seconds": 902.0, "type": "sound", "class": "speaking"}
+{"seconds": 903.0, "type": "sound", "class": "speaking"}
+{"seconds": 904.0, "type": "sound", "class": "speaking"}
+{"seconds": 905.0, "type": "sound", "class": "speaking"}
+{"seconds": 906.0, "type": "sound", "class": "speaking"}
+{"seconds": 907.0, "type": "sound", "class": "speaking"}
+{"seconds": 908.0, "type": "sound", "class": "speaking"}
+{"seconds": 910, "type": "sound", "class": "background music"}
+{"seconds": 909, "type": "sound", "class": "background laughing"}
+{"seconds": 910.0, "type": "sound", "class": "background laughing"}
+{"seconds": 910, "type": "sound", "class": "speaking"}
+{"seconds": 911.0, "type": "sound", "class": "speaking"}
+{"seconds": 911, "type": "sound", "class": "shouting"}
+{"seconds": 913, "type": "sound", "class": "speaking"}
+{"seconds": 912, "type": "sound", "class": "background laughing"}
+{"seconds": 913.0, "type": "sound", "class": "background laughing"}
+{"seconds": 914.0, "type": "sound", "class": "background laughing"}
+{"seconds": 915.0, "type": "sound", "class": "background laughing"}
+{"seconds": 916.0, "type": "sound", "class": "background laughing"}
+{"seconds": 915, "type": "sound", "class": "background music"}
+{"seconds": 916.0, "type": "sound", "class": "background music"}
+{"seconds": 917.0, "type": "sound", "class": "background music"}
+{"seconds": 918.0, "type": "sound", "class": "background music"}
+{"seconds": 919.0, "type": "sound", "class": "background music"}
+{"seconds": 920.0, "type": "sound", "class": "background music"}
+{"seconds": 922, "type": "sound", "class": "background music"}
+{"seconds": 919, "type": "sound", "class": "speaking"}
+{"seconds": 920.0, "type": "sound", "class": "speaking"}
+{"seconds": 921.0, "type": "sound", "class": "speaking"}
+{"seconds": 922.0, "type": "sound", "class": "speaking"}
+{"seconds": 923.0, "type": "sound", "class": "speaking"}
+{"seconds": 924.0, "type": "sound", "class": "speaking"}
+{"seconds": 925.0, "type": "sound", "class": "speaking"}
+{"seconds": 926.0, "type": "sound", "class": "speaking"}
+{"seconds": 927.0, "type": "sound", "class": "speaking"}
+{"seconds": 929, "type": "sound", "class": "background music"}
+{"seconds": 932, "type": "sound", "class": "background music"}
+{"seconds": 929, "type": "sound", "class": "speaking"}
+{"seconds": 930.0, "type": "sound", "class": "speaking"}
+{"seconds": 931.0, "type": "sound", "class": "speaking"}
+{"seconds": 932.0, "type": "sound", "class": "speaking"}
+{"seconds": 933.0, "type": "sound", "class": "speaking"}
+{"seconds": 933, "type": "sound", "class": "crashing"}
+{"seconds": 934, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 935.0, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 922, "type": "sound", "class": "background laughing"}
+{"seconds": 923.0, "type": "sound", "class": "background laughing"}
+{"seconds": 924.0, "type": "sound", "class": "background laughing"}
+{"seconds": 925.0, "type": "sound", "class": "background laughing"}
+{"seconds": 926.0, "type": "sound", "class": "background laughing"}
+{"seconds": 927.0, "type": "sound", "class": "background laughing"}
+{"seconds": 928.0, "type": "sound", "class": "background laughing"}
+{"seconds": 929.0, "type": "sound", "class": "background laughing"}
+{"seconds": 930.0, "type": "sound", "class": "background laughing"}
+{"seconds": 931.0, "type": "sound", "class": "background laughing"}
+{"seconds": 932.0, "type": "sound", "class": "background laughing"}
+{"seconds": 933.0, "type": "sound", "class": "background laughing"}
+{"seconds": 934.0, "type": "sound", "class": "background laughing"}
+{"seconds": 935.0, "type": "sound", "class": "background laughing"}
+{"seconds": 936.0, "type": "sound", "class": "background laughing"}
+{"seconds": 937, "type": "sound", "class": "speaking"}
+{"seconds": 937, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 939, "type": "sound", "class": "speaking"}
+{"seconds": 941, "type": "sound", "class": "speaking"}
+{"seconds": 942, "type": "sound", "class": "background music"}
+{"seconds": 938, "type": "sound", "class": "background laughing"}
+{"seconds": 939.0, "type": "sound", "class": "background laughing"}
+{"seconds": 940.0, "type": "sound", "class": "background laughing"}
+{"seconds": 941.0, "type": "sound", "class": "background laughing"}
+{"seconds": 942.0, "type": "sound", "class": "background laughing"}
+{"seconds": 944, "type": "sound", "class": "crashing"}
+{"seconds": 943, "type": "sound", "class": "speaking"}
+{"seconds": 944.0, "type": "sound", "class": "speaking"}
+{"seconds": 945.0, "type": "sound", "class": "speaking"}
+{"seconds": 945, "type": "sound", "class": "background laughing"}
+{"seconds": 946, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 952, "type": "sound", "class": "background music"}
+{"seconds": 947, "type": "sound", "class": "background laughing"}
+{"seconds": 948.0, "type": "sound", "class": "background laughing"}
+{"seconds": 949.0, "type": "sound", "class": "background laughing"}
+{"seconds": 950.0, "type": "sound", "class": "background laughing"}
+{"seconds": 951.0, "type": "sound", "class": "background laughing"}
+{"seconds": 952.0, "type": "sound", "class": "background laughing"}
+{"seconds": 953.0, "type": "sound", "class": "background laughing"}
+{"seconds": 948, "type": "sound", "class": "speaking"}
+{"seconds": 949.0, "type": "sound", "class": "speaking"}
+{"seconds": 950.0, "type": "sound", "class": "speaking"}
+{"seconds": 951.0, "type": "sound", "class": "speaking"}
+{"seconds": 952.0, "type": "sound", "class": "speaking"}
+{"seconds": 953.0, "type": "sound", "class": "speaking"}
+{"seconds": 954.0, "type": "sound", "class": "speaking"}
+{"seconds": 955.0, "type": "sound", "class": "speaking"}
+{"seconds": 956.0, "type": "sound", "class": "speaking"}
+{"seconds": 955, "type": "sound", "class": "background laughing"}
+{"seconds": 956.0, "type": "sound", "class": "background laughing"}
+{"seconds": 957.0, "type": "sound", "class": "background laughing"}
+{"seconds": 958, "type": "sound", "class": "speaking"}
+{"seconds": 959, "type": "sound", "class": "background laughing"}
+{"seconds": 960.0, "type": "sound", "class": "background laughing"}
+{"seconds": 961.0, "type": "sound", "class": "background laughing"}
+{"seconds": 966, "type": "sound", "class": "background music"}
+{"seconds": 963, "type": "sound", "class": "background laughing"}
+{"seconds": 964.0, "type": "sound", "class": "background laughing"}
+{"seconds": 965.0, "type": "sound", "class": "background laughing"}
+{"seconds": 966.0, "type": "sound", "class": "background laughing"}
+{"seconds": 967.0, "type": "sound", "class": "background laughing"}
+{"seconds": 968.0, "type": "sound", "class": "background laughing"}
+{"seconds": 969.0, "type": "sound", "class": "background laughing"}
+{"seconds": 962, "type": "sound", "class": "speaking"}
+{"seconds": 963.0, "type": "sound", "class": "speaking"}
+{"seconds": 964.0, "type": "sound", "class": "speaking"}
+{"seconds": 965.0, "type": "sound", "class": "speaking"}
+{"seconds": 966.0, "type": "sound", "class": "speaking"}
+{"seconds": 967.0, "type": "sound", "class": "speaking"}
+{"seconds": 968.0, "type": "sound", "class": "speaking"}
+{"seconds": 969.0, "type": "sound", "class": "speaking"}
+{"seconds": 970.0, "type": "sound", "class": "speaking"}
+{"seconds": 971, "type": "sound", "class": "shouting"}
+{"seconds": 972, "type": "sound", "class": "speaking"}
+{"seconds": 973.0, "type": "sound", "class": "speaking"}
+{"seconds": 976, "type": "sound", "class": "background music"}
+{"seconds": 975, "type": "sound", "class": "speaking"}
+{"seconds": 976.0, "type": "sound", "class": "speaking"}
+{"seconds": 972, "type": "sound", "class": "background laughing"}
+{"seconds": 973.0, "type": "sound", "class": "background laughing"}
+{"seconds": 974.0, "type": "sound", "class": "background laughing"}
+{"seconds": 975.0, "type": "sound", "class": "background laughing"}
+{"seconds": 976.0, "type": "sound", "class": "background laughing"}
+{"seconds": 977.0, "type": "sound", "class": "background laughing"}
+{"seconds": 978.0, "type": "sound", "class": "background laughing"}
+{"seconds": 979.0, "type": "sound", "class": "background laughing"}
+{"seconds": 980.0, "type": "sound", "class": "background laughing"}
+{"seconds": 981, "type": "sound", "class": "laughing"}
+{"seconds": 983, "type": "sound", "class": "laughing"}
+{"seconds": 988, "type": "sound", "class": "background music"}
+{"seconds": 989, "type": "sound", "class": "background laughing"}
+{"seconds": 978, "type": "sound", "class": "speaking"}
+{"seconds": 979.0, "type": "sound", "class": "speaking"}
+{"seconds": 980.0, "type": "sound", "class": "speaking"}
+{"seconds": 981.0, "type": "sound", "class": "speaking"}
+{"seconds": 982.0, "type": "sound", "class": "speaking"}
+{"seconds": 983.0, "type": "sound", "class": "speaking"}
+{"seconds": 984.0, "type": "sound", "class": "speaking"}
+{"seconds": 985.0, "type": "sound", "class": "speaking"}
+{"seconds": 986.0, "type": "sound", "class": "speaking"}
+{"seconds": 987.0, "type": "sound", "class": "speaking"}
+{"seconds": 988.0, "type": "sound", "class": "speaking"}
+{"seconds": 989.0, "type": "sound", "class": "speaking"}
+{"seconds": 990.0, "type": "sound", "class": "speaking"}
+{"seconds": 991.0, "type": "sound", "class": "speaking"}
+{"seconds": 992.0, "type": "sound", "class": "speaking"}
+{"seconds": 993.0, "type": "sound", "class": "speaking"}
+{"seconds": 991, "type": "sound", "class": "laughing"}
+{"seconds": 992.0, "type": "sound", "class": "laughing"}
+{"seconds": 993.0, "type": "sound", "class": "laughing"}
+{"seconds": 991, "type": "sound", "class": "background laughing"}
+{"seconds": 992.0, "type": "sound", "class": "background laughing"}
+{"seconds": 993.0, "type": "sound", "class": "background laughing"}
+{"seconds": 994.0, "type": "sound", "class": "background laughing"}
+{"seconds": 994, "type": "sound", "class": "shouting"}
+{"seconds": 996, "type": "sound", "class": "background laughing"}
+{"seconds": 998, "type": "sound", "class": "background laughing"}
+{"seconds": 999.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1000.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1000, "type": "sound", "class": "laughing"}
+{"seconds": 1002, "type": "sound", "class": "background laughing"}
+{"seconds": 1003.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1004, "type": "sound", "class": "crashing"}
+{"seconds": 1005, "type": "sound", "class": "background laughing"}
+{"seconds": 1006.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1009, "type": "sound", "class": "background laughing"}
+{"seconds": 1010.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1011.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1012.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1013.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1015, "type": "sound", "class": "background laughing"}
+{"seconds": 1016.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1018, "type": "sound", "class": "shouting"}
+{"seconds": 1019, "type": "sound", "class": "background music"}
+{"seconds": 1021, "type": "sound", "class": "background laughing"}
+{"seconds": 1023, "type": "sound", "class": "background laughing"}
+{"seconds": 1025, "type": "sound", "class": "shouting"}
+{"seconds": 1026, "type": "sound", "class": "background laughing"}
+{"seconds": 1027, "type": "sound", "class": "shouting"}
+{"seconds": 1033, "type": "sound", "class": "laughing"}
+{"seconds": 1034, "type": "sound", "class": "background music"}
+{"seconds": 1030, "type": "sound", "class": "background laughing"}
+{"seconds": 1031.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1032.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1033.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1034.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1037, "type": "sound", "class": "background music"}
+{"seconds": 1038, "type": "sound", "class": "shouting"}
+{"seconds": 1040, "type": "sound", "class": "crashing"}
+{"seconds": 1041.0, "type": "sound", "class": "crashing"}
+{"seconds": 1042.0, "type": "sound", "class": "crashing"}
+{"seconds": 1043.0, "type": "sound", "class": "crashing"}
+{"seconds": 1045, "type": "sound", "class": "crashing"}
+{"seconds": 1046, "type": "sound", "class": "shouting"}
+{"seconds": 1039, "type": "sound", "class": "background laughing"}
+{"seconds": 1040.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1041.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1042.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1043.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1044.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1045.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1046.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1047.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1048.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1049, "type": "sound", "class": "background music"}
+{"seconds": 995, "type": "sound", "class": "speaking"}
+{"seconds": 996.0, "type": "sound", "class": "speaking"}
+{"seconds": 997.0, "type": "sound", "class": "speaking"}
+{"seconds": 998.0, "type": "sound", "class": "speaking"}
+{"seconds": 999.0, "type": "sound", "class": "speaking"}
+{"seconds": 1000.0, "type": "sound", "class": "speaking"}
+{"seconds": 1001.0, "type": "sound", "class": "speaking"}
+{"seconds": 1002.0, "type": "sound", "class": "speaking"}
+{"seconds": 1003.0, "type": "sound", "class": "speaking"}
+{"seconds": 1004.0, "type": "sound", "class": "speaking"}
+{"seconds": 1005.0, "type": "sound", "class": "speaking"}
+{"seconds": 1006.0, "type": "sound", "class": "speaking"}
+{"seconds": 1007.0, "type": "sound", "class": "speaking"}
+{"seconds": 1008.0, "type": "sound", "class": "speaking"}
+{"seconds": 1009.0, "type": "sound", "class": "speaking"}
+{"seconds": 1010.0, "type": "sound", "class": "speaking"}
+{"seconds": 1011.0, "type": "sound", "class": "speaking"}
+{"seconds": 1012.0, "type": "sound", "class": "speaking"}
+{"seconds": 1013.0, "type": "sound", "class": "speaking"}
+{"seconds": 1014.0, "type": "sound", "class": "speaking"}
+{"seconds": 1015.0, "type": "sound", "class": "speaking"}
+{"seconds": 1016.0, "type": "sound", "class": "speaking"}
+{"seconds": 1017.0, "type": "sound", "class": "speaking"}
+{"seconds": 1018.0, "type": "sound", "class": "speaking"}
+{"seconds": 1019.0, "type": "sound", "class": "speaking"}
+{"seconds": 1020.0, "type": "sound", "class": "speaking"}
+{"seconds": 1021.0, "type": "sound", "class": "speaking"}
+{"seconds": 1022.0, "type": "sound", "class": "speaking"}
+{"seconds": 1023.0, "type": "sound", "class": "speaking"}
+{"seconds": 1024.0, "type": "sound", "class": "speaking"}
+{"seconds": 1025.0, "type": "sound", "class": "speaking"}
+{"seconds": 1026.0, "type": "sound", "class": "speaking"}
+{"seconds": 1027.0, "type": "sound", "class": "speaking"}
+{"seconds": 1028.0, "type": "sound", "class": "speaking"}
+{"seconds": 1029.0, "type": "sound", "class": "speaking"}
+{"seconds": 1030.0, "type": "sound", "class": "speaking"}
+{"seconds": 1031.0, "type": "sound", "class": "speaking"}
+{"seconds": 1032.0, "type": "sound", "class": "speaking"}
+{"seconds": 1033.0, "type": "sound", "class": "speaking"}
+{"seconds": 1034.0, "type": "sound", "class": "speaking"}
+{"seconds": 1035.0, "type": "sound", "class": "speaking"}
+{"seconds": 1036.0, "type": "sound", "class": "speaking"}
+{"seconds": 1037.0, "type": "sound", "class": "speaking"}
+{"seconds": 1038.0, "type": "sound", "class": "speaking"}
+{"seconds": 1039.0, "type": "sound", "class": "speaking"}
+{"seconds": 1040.0, "type": "sound", "class": "speaking"}
+{"seconds": 1041.0, "type": "sound", "class": "speaking"}
+{"seconds": 1042.0, "type": "sound", "class": "speaking"}
+{"seconds": 1043.0, "type": "sound", "class": "speaking"}
+{"seconds": 1044.0, "type": "sound", "class": "speaking"}
+{"seconds": 1045.0, "type": "sound", "class": "speaking"}
+{"seconds": 1046.0, "type": "sound", "class": "speaking"}
+{"seconds": 1047.0, "type": "sound", "class": "speaking"}
+{"seconds": 1048.0, "type": "sound", "class": "speaking"}
+{"seconds": 1049.0, "type": "sound", "class": "speaking"}
+{"seconds": 1050, "type": "sound", "class": "laughing"}
+{"seconds": 1051.0, "type": "sound", "class": "laughing"}
+{"seconds": 1052.0, "type": "sound", "class": "laughing"}
+{"seconds": 1053, "type": "sound", "class": "speaking"}
+{"seconds": 1054.0, "type": "sound", "class": "speaking"}
+{"seconds": 1051, "type": "sound", "class": "background laughing"}
+{"seconds": 1052.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1053.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1054.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1055, "type": "sound", "class": "background music"}
+{"seconds": 1056.0, "type": "sound", "class": "background music"}
+{"seconds": 1057.0, "type": "sound", "class": "background music"}
+{"seconds": 1058.0, "type": "sound", "class": "background music"}
+{"seconds": 1059.0, "type": "sound", "class": "background music"}
+{"seconds": 1060.0, "type": "sound", "class": "background music"}
+{"seconds": 1056, "type": "sound", "class": "background laughing"}
+{"seconds": 1057.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1058.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1059.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1060.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1062, "type": "sound", "class": "background music"}
+{"seconds": 1063.0, "type": "sound", "class": "background music"}
+{"seconds": 1064.0, "type": "sound", "class": "background music"}
+{"seconds": 1064, "type": "sound", "class": "laughing"}
+{"seconds": 1065, "type": "sound", "class": "background laughing"}
+{"seconds": 1066, "type": "sound", "class": "background music"}
+{"seconds": 1067.0, "type": "sound", "class": "background music"}
+{"seconds": 1068.0, "type": "sound", "class": "background music"}
+{"seconds": 1069.0, "type": "sound", "class": "background music"}
+{"seconds": 1067, "type": "sound", "class": "background laughing"}
+{"seconds": 1068.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1069.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1066, "type": "sound", "class": "laughing"}
+{"seconds": 1067.0, "type": "sound", "class": "laughing"}
+{"seconds": 1068.0, "type": "sound", "class": "laughing"}
+{"seconds": 1069.0, "type": "sound", "class": "laughing"}
+{"seconds": 1071, "type": "sound", "class": "background laughing"}
+{"seconds": 1072.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1073.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1074, "type": "sound", "class": "background music"}
+{"seconds": 1078, "type": "sound", "class": "background music"}
+{"seconds": 1079.0, "type": "sound", "class": "background music"}
+{"seconds": 1080.0, "type": "sound", "class": "background music"}
+{"seconds": 1061, "type": "sound", "class": "speaking"}
+{"seconds": 1062.0, "type": "sound", "class": "speaking"}
+{"seconds": 1063.0, "type": "sound", "class": "speaking"}
+{"seconds": 1064.0, "type": "sound", "class": "speaking"}
+{"seconds": 1065.0, "type": "sound", "class": "speaking"}
+{"seconds": 1066.0, "type": "sound", "class": "speaking"}
+{"seconds": 1067.0, "type": "sound", "class": "speaking"}
+{"seconds": 1068.0, "type": "sound", "class": "speaking"}
+{"seconds": 1069.0, "type": "sound", "class": "speaking"}
+{"seconds": 1070.0, "type": "sound", "class": "speaking"}
+{"seconds": 1071.0, "type": "sound", "class": "speaking"}
+{"seconds": 1072.0, "type": "sound", "class": "speaking"}
+{"seconds": 1073.0, "type": "sound", "class": "speaking"}
+{"seconds": 1074.0, "type": "sound", "class": "speaking"}
+{"seconds": 1075.0, "type": "sound", "class": "speaking"}
+{"seconds": 1076.0, "type": "sound", "class": "speaking"}
+{"seconds": 1077.0, "type": "sound", "class": "speaking"}
+{"seconds": 1078.0, "type": "sound", "class": "speaking"}
+{"seconds": 1079.0, "type": "sound", "class": "speaking"}
+{"seconds": 1080.0, "type": "sound", "class": "speaking"}
+{"seconds": 1083, "type": "sound", "class": "background music"}
+{"seconds": 1077, "type": "sound", "class": "background laughing"}
+{"seconds": 1078.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1079.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1080.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1081.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1082.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1083.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1084.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1082, "type": "sound", "class": "speaking"}
+{"seconds": 1083.0, "type": "sound", "class": "speaking"}
+{"seconds": 1084.0, "type": "sound", "class": "speaking"}
+{"seconds": 1085.0, "type": "sound", "class": "speaking"}
+{"seconds": 1086.0, "type": "sound", "class": "speaking"}
+{"seconds": 1087.0, "type": "sound", "class": "speaking"}
+{"seconds": 1088.0, "type": "sound", "class": "speaking"}
+{"seconds": 1087, "type": "sound", "class": "shouting"}
+{"seconds": 1088.0, "type": "sound", "class": "shouting"}
+{"seconds": 1089, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 1090, "type": "sound", "class": "speaking"}
+{"seconds": 1094, "type": "sound", "class": "background music"}
+{"seconds": 1090, "type": "sound", "class": "background laughing"}
+{"seconds": 1091.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1092.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1093.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1094.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1095.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1096.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1097.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1098.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1101, "type": "sound", "class": "background music"}
+{"seconds": 1102.0, "type": "sound", "class": "background music"}
+{"seconds": 1103.0, "type": "sound", "class": "background music"}
+{"seconds": 1100, "type": "sound", "class": "background laughing"}
+{"seconds": 1101.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1102.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1103.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1105, "type": "sound", "class": "background music"}
+{"seconds": 1106.0, "type": "sound", "class": "background music"}
+{"seconds": 1107.0, "type": "sound", "class": "background music"}
+{"seconds": 1108.0, "type": "sound", "class": "background music"}
+{"seconds": 1092, "type": "sound", "class": "speaking"}
+{"seconds": 1093.0, "type": "sound", "class": "speaking"}
+{"seconds": 1094.0, "type": "sound", "class": "speaking"}
+{"seconds": 1095.0, "type": "sound", "class": "speaking"}
+{"seconds": 1096.0, "type": "sound", "class": "speaking"}
+{"seconds": 1097.0, "type": "sound", "class": "speaking"}
+{"seconds": 1098.0, "type": "sound", "class": "speaking"}
+{"seconds": 1099.0, "type": "sound", "class": "speaking"}
+{"seconds": 1100.0, "type": "sound", "class": "speaking"}
+{"seconds": 1101.0, "type": "sound", "class": "speaking"}
+{"seconds": 1102.0, "type": "sound", "class": "speaking"}
+{"seconds": 1103.0, "type": "sound", "class": "speaking"}
+{"seconds": 1104.0, "type": "sound", "class": "speaking"}
+{"seconds": 1105.0, "type": "sound", "class": "speaking"}
+{"seconds": 1106.0, "type": "sound", "class": "speaking"}
+{"seconds": 1107.0, "type": "sound", "class": "speaking"}
+{"seconds": 1108.0, "type": "sound", "class": "speaking"}
+{"seconds": 1105, "type": "sound", "class": "background laughing"}
+{"seconds": 1106.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1107.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1108.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1110, "type": "sound", "class": "background laughing"}
+{"seconds": 1109, "type": "sound", "class": "shouting"}
+{"seconds": 1110.0, "type": "sound", "class": "shouting"}
+{"seconds": 1112, "type": "sound", "class": "shouting"}
+{"seconds": 1114, "type": "sound", "class": "background music"}
+{"seconds": 1113, "type": "sound", "class": "background laughing"}
+{"seconds": 1114.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1116, "type": "sound", "class": "background laughing"}
+{"seconds": 1119, "type": "sound", "class": "background music"}
+{"seconds": 1111, "type": "sound", "class": "speaking"}
+{"seconds": 1112.0, "type": "sound", "class": "speaking"}
+{"seconds": 1113.0, "type": "sound", "class": "speaking"}
+{"seconds": 1114.0, "type": "sound", "class": "speaking"}
+{"seconds": 1115.0, "type": "sound", "class": "speaking"}
+{"seconds": 1116.0, "type": "sound", "class": "speaking"}
+{"seconds": 1117.0, "type": "sound", "class": "speaking"}
+{"seconds": 1118.0, "type": "sound", "class": "speaking"}
+{"seconds": 1119.0, "type": "sound", "class": "speaking"}
+{"seconds": 1120.0, "type": "sound", "class": "speaking"}
+{"seconds": 1121.0, "type": "sound", "class": "speaking"}
+{"seconds": 1122.0, "type": "sound", "class": "speaking"}
+{"seconds": 1123.0, "type": "sound", "class": "speaking"}
+{"seconds": 1118, "type": "sound", "class": "background laughing"}
+{"seconds": 1119.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1120.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1121.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1122.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1123.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1124.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1125, "type": "sound", "class": "background music"}
+{"seconds": 1126.0, "type": "sound", "class": "background music"}
+{"seconds": 1129, "type": "sound", "class": "shouting"}
+{"seconds": 1130, "type": "sound", "class": "background music"}
+{"seconds": 1131.0, "type": "sound", "class": "background music"}
+{"seconds": 1125, "type": "sound", "class": "speaking"}
+{"seconds": 1126.0, "type": "sound", "class": "speaking"}
+{"seconds": 1127.0, "type": "sound", "class": "speaking"}
+{"seconds": 1128.0, "type": "sound", "class": "speaking"}
+{"seconds": 1129.0, "type": "sound", "class": "speaking"}
+{"seconds": 1130.0, "type": "sound", "class": "speaking"}
+{"seconds": 1131.0, "type": "sound", "class": "speaking"}
+{"seconds": 1132.0, "type": "sound", "class": "speaking"}
+{"seconds": 1133.0, "type": "sound", "class": "speaking"}
+{"seconds": 1134.0, "type": "sound", "class": "speaking"}
+{"seconds": 1135.0, "type": "sound", "class": "speaking"}
+{"seconds": 1136.0, "type": "sound", "class": "speaking"}
+{"seconds": 1126, "type": "sound", "class": "background laughing"}
+{"seconds": 1127.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1128.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1129.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1130.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1131.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1132.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1133.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1134.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1135.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1136.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1138, "type": "sound", "class": "speaking"}
+{"seconds": 1139, "type": "sound", "class": "background music"}
+{"seconds": 1140.0, "type": "sound", "class": "background music"}
+{"seconds": 1140, "type": "sound", "class": "speaking"}
+{"seconds": 1141.0, "type": "sound", "class": "speaking"}
+{"seconds": 1138, "type": "sound", "class": "background laughing"}
+{"seconds": 1139.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1140.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1141.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1142, "type": "sound", "class": "shouting"}
+{"seconds": 1144, "type": "sound", "class": "background music"}
+{"seconds": 1144, "type": "sound", "class": "shouting"}
+{"seconds": 1145, "type": "sound", "class": "crashing"}
+{"seconds": 1146, "type": "sound", "class": "background music"}
+{"seconds": 1146, "type": "sound", "class": "laughing"}
+{"seconds": 1143, "type": "sound", "class": "speaking"}
+{"seconds": 1144.0, "type": "sound", "class": "speaking"}
+{"seconds": 1145.0, "type": "sound", "class": "speaking"}
+{"seconds": 1146.0, "type": "sound", "class": "speaking"}
+{"seconds": 1147.0, "type": "sound", "class": "speaking"}
+{"seconds": 1150, "type": "sound", "class": "speaking"}
+{"seconds": 1150, "type": "sound", "class": "laughing"}
+{"seconds": 1151, "type": "sound", "class": "background music"}
+{"seconds": 1152.0, "type": "sound", "class": "background music"}
+{"seconds": 1145, "type": "sound", "class": "background laughing"}
+{"seconds": 1146.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1147.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1148.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1149.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1150.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1151.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1152.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1153, "type": "sound", "class": "speaking"}
+{"seconds": 1154.0, "type": "sound", "class": "speaking"}
+{"seconds": 1155.0, "type": "sound", "class": "speaking"}
+{"seconds": 1154, "type": "sound", "class": "background music"}
+{"seconds": 1155.0, "type": "sound", "class": "background music"}
+{"seconds": 1156.0, "type": "sound", "class": "background music"}
+{"seconds": 1157.0, "type": "sound", "class": "background music"}
+{"seconds": 1155, "type": "sound", "class": "background laughing"}
+{"seconds": 1156.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1157.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1158, "type": "sound", "class": "crashing"}
+{"seconds": 1159.0, "type": "sound", "class": "crashing"}
+{"seconds": 1160.0, "type": "sound", "class": "crashing"}
+{"seconds": 1161.0, "type": "sound", "class": "crashing"}
+{"seconds": 1162.0, "type": "sound", "class": "crashing"}
+{"seconds": 1161, "type": "sound", "class": "background laughing"}
+{"seconds": 1162.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1163.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1165, "type": "sound", "class": "background music"}
+{"seconds": 1168, "type": "sound", "class": "shouting"}
+{"seconds": 1169.0, "type": "sound", "class": "shouting"}
+{"seconds": 1167, "type": "sound", "class": "background laughing"}
+{"seconds": 1168.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1169.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1170.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1171.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1172.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1173.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1174, "type": "sound", "class": "laughing"}
+{"seconds": 1175.0, "type": "sound", "class": "laughing"}
+{"seconds": 1176.0, "type": "sound", "class": "laughing"}
+{"seconds": 1163, "type": "sound", "class": "speaking"}
+{"seconds": 1164.0, "type": "sound", "class": "speaking"}
+{"seconds": 1165.0, "type": "sound", "class": "speaking"}
+{"seconds": 1166.0, "type": "sound", "class": "speaking"}
+{"seconds": 1167.0, "type": "sound", "class": "speaking"}
+{"seconds": 1168.0, "type": "sound", "class": "speaking"}
+{"seconds": 1169.0, "type": "sound", "class": "speaking"}
+{"seconds": 1170.0, "type": "sound", "class": "speaking"}
+{"seconds": 1171.0, "type": "sound", "class": "speaking"}
+{"seconds": 1172.0, "type": "sound", "class": "speaking"}
+{"seconds": 1173.0, "type": "sound", "class": "speaking"}
+{"seconds": 1174.0, "type": "sound", "class": "speaking"}
+{"seconds": 1175.0, "type": "sound", "class": "speaking"}
+{"seconds": 1176.0, "type": "sound", "class": "speaking"}
+{"seconds": 1177.0, "type": "sound", "class": "speaking"}
+{"seconds": 1179, "type": "sound", "class": "background music"}
+{"seconds": 1176, "type": "sound", "class": "background laughing"}
+{"seconds": 1177.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1178.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1179.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1180, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 1181, "type": "sound", "class": "background laughing"}
+{"seconds": 1182.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1183.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1184.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1187, "type": "sound", "class": "background music"}
+{"seconds": 1179, "type": "sound", "class": "speaking"}
+{"seconds": 1180.0, "type": "sound", "class": "speaking"}
+{"seconds": 1181.0, "type": "sound", "class": "speaking"}
+{"seconds": 1182.0, "type": "sound", "class": "speaking"}
+{"seconds": 1183.0, "type": "sound", "class": "speaking"}
+{"seconds": 1184.0, "type": "sound", "class": "speaking"}
+{"seconds": 1185.0, "type": "sound", "class": "speaking"}
+{"seconds": 1186.0, "type": "sound", "class": "speaking"}
+{"seconds": 1187.0, "type": "sound", "class": "speaking"}
+{"seconds": 1188, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 1190, "type": "sound", "class": "speaking"}
+{"seconds": 1191.0, "type": "sound", "class": "speaking"}
+{"seconds": 1186, "type": "sound", "class": "background laughing"}
+{"seconds": 1187.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1188.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1189.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1190.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1191.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1192, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 1197, "type": "sound", "class": "background music"}
+{"seconds": 1193, "type": "sound", "class": "speaking"}
+{"seconds": 1194.0, "type": "sound", "class": "speaking"}
+{"seconds": 1195.0, "type": "sound", "class": "speaking"}
+{"seconds": 1196.0, "type": "sound", "class": "speaking"}
+{"seconds": 1197.0, "type": "sound", "class": "speaking"}
+{"seconds": 1198.0, "type": "sound", "class": "speaking"}
+{"seconds": 1194, "type": "sound", "class": "background laughing"}
+{"seconds": 1195.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1196.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1197.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1198.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1199, "type": "sound", "class": "shouting"}
+{"seconds": 1200, "type": "sound", "class": "background laughing"}
+{"seconds": 1201.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1202.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1203.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1204.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1200, "type": "sound", "class": "speaking"}
+{"seconds": 1201.0, "type": "sound", "class": "speaking"}
+{"seconds": 1202.0, "type": "sound", "class": "speaking"}
+{"seconds": 1203.0, "type": "sound", "class": "speaking"}
+{"seconds": 1204.0, "type": "sound", "class": "speaking"}
+{"seconds": 1205.0, "type": "sound", "class": "speaking"}
+{"seconds": 1206.0, "type": "sound", "class": "speaking"}
+{"seconds": 1207.0, "type": "sound", "class": "speaking"}
+{"seconds": 1207, "type": "sound", "class": "background laughing"}
+{"seconds": 1210, "type": "sound", "class": "background music"}
+{"seconds": 1209, "type": "sound", "class": "background laughing"}
+{"seconds": 1210.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1209, "type": "sound", "class": "speaking"}
+{"seconds": 1210.0, "type": "sound", "class": "speaking"}
+{"seconds": 1211.0, "type": "sound", "class": "speaking"}
+{"seconds": 1212, "type": "sound", "class": "background laughing"}
+{"seconds": 1212, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 1213, "type": "sound", "class": "speaking"}
+{"seconds": 1214, "type": "sound", "class": "shouting"}
+{"seconds": 1214, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 1215.0, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 1217, "type": "sound", "class": "background music"}
+{"seconds": 1217, "type": "sound", "class": "laughing"}
+{"seconds": 1216, "type": "sound", "class": "background laughing"}
+{"seconds": 1217.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1218.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1217, "type": "sound", "class": "speaking"}
+{"seconds": 1218.0, "type": "sound", "class": "speaking"}
+{"seconds": 1219.0, "type": "sound", "class": "speaking"}
+{"seconds": 1220.0, "type": "sound", "class": "speaking"}
+{"seconds": 1222, "type": "sound", "class": "background music"}
+{"seconds": 1222, "type": "sound", "class": "speaking"}
+{"seconds": 1223.0, "type": "sound", "class": "speaking"}
+{"seconds": 1224.0, "type": "sound", "class": "speaking"}
+{"seconds": 1225.0, "type": "sound", "class": "speaking"}
+{"seconds": 1226, "type": "sound", "class": "background music"}
+{"seconds": 1221, "type": "sound", "class": "background laughing"}
+{"seconds": 1222.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1223.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1224.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1225.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1226.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1228, "type": "sound", "class": "background laughing"}
+{"seconds": 1230, "type": "sound", "class": "laughing"}
+{"seconds": 1233, "type": "sound", "class": "laughing"}
+{"seconds": 1230, "type": "sound", "class": "background laughing"}
+{"seconds": 1231.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1232.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1233.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1234.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1235, "type": "sound", "class": "laughing"}
+{"seconds": 1236.0, "type": "sound", "class": "laughing"}
+{"seconds": 1237, "type": "sound", "class": "shouting"}
+{"seconds": 1238, "type": "sound", "class": "laughing"}
+{"seconds": 1238, "type": "sound", "class": "background laughing"}
+{"seconds": 1239.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1240.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1227, "type": "sound", "class": "speaking"}
+{"seconds": 1228.0, "type": "sound", "class": "speaking"}
+{"seconds": 1229.0, "type": "sound", "class": "speaking"}
+{"seconds": 1230.0, "type": "sound", "class": "speaking"}
+{"seconds": 1231.0, "type": "sound", "class": "speaking"}
+{"seconds": 1232.0, "type": "sound", "class": "speaking"}
+{"seconds": 1233.0, "type": "sound", "class": "speaking"}
+{"seconds": 1234.0, "type": "sound", "class": "speaking"}
+{"seconds": 1235.0, "type": "sound", "class": "speaking"}
+{"seconds": 1236.0, "type": "sound", "class": "speaking"}
+{"seconds": 1237.0, "type": "sound", "class": "speaking"}
+{"seconds": 1238.0, "type": "sound", "class": "speaking"}
+{"seconds": 1239.0, "type": "sound", "class": "speaking"}
+{"seconds": 1240.0, "type": "sound", "class": "speaking"}
+{"seconds": 1241.0, "type": "sound", "class": "speaking"}
+{"seconds": 1243, "type": "sound", "class": "background laughing"}
+{"seconds": 1247, "type": "sound", "class": "laughing"}
+{"seconds": 1248, "type": "sound", "class": "background music"}
+{"seconds": 1243, "type": "sound", "class": "speaking"}
+{"seconds": 1244.0, "type": "sound", "class": "speaking"}
+{"seconds": 1245.0, "type": "sound", "class": "speaking"}
+{"seconds": 1246.0, "type": "sound", "class": "speaking"}
+{"seconds": 1247.0, "type": "sound", "class": "speaking"}
+{"seconds": 1248.0, "type": "sound", "class": "speaking"}
+{"seconds": 1249.0, "type": "sound", "class": "speaking"}
+{"seconds": 1246, "type": "sound", "class": "background laughing"}
+{"seconds": 1247.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1248.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1249.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1250, "type": "sound", "class": "background music"}
+{"seconds": 1252, "type": "sound", "class": "background laughing"}
+{"seconds": 1253.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1254.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1252, "type": "sound", "class": "speaking"}
+{"seconds": 1253.0, "type": "sound", "class": "speaking"}
+{"seconds": 1254.0, "type": "sound", "class": "speaking"}
+{"seconds": 1255.0, "type": "sound", "class": "speaking"}
+{"seconds": 1255, "type": "sound", "class": "shouting"}
+{"seconds": 1256.0, "type": "sound", "class": "shouting"}
+{"seconds": 1257, "type": "sound", "class": "speaking"}
+{"seconds": 1263, "type": "sound", "class": "background music"}
+{"seconds": 1260, "type": "sound", "class": "background laughing"}
+{"seconds": 1261.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1262.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1263.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1260, "type": "sound", "class": "speaking"}
+{"seconds": 1261.0, "type": "sound", "class": "speaking"}
+{"seconds": 1262.0, "type": "sound", "class": "speaking"}
+{"seconds": 1263.0, "type": "sound", "class": "speaking"}
+{"seconds": 1264.0, "type": "sound", "class": "speaking"}
+{"seconds": 1265.0, "type": "sound", "class": "speaking"}
+{"seconds": 1266.0, "type": "sound", "class": "speaking"}
+{"seconds": 1267.0, "type": "sound", "class": "speaking"}
+{"seconds": 1269, "type": "sound", "class": "background music"}
+{"seconds": 1265, "type": "sound", "class": "shouting"}
+{"seconds": 1266.0, "type": "sound", "class": "shouting"}
+{"seconds": 1267.0, "type": "sound", "class": "shouting"}
+{"seconds": 1268.0, "type": "sound", "class": "shouting"}
+{"seconds": 1269.0, "type": "sound", "class": "shouting"}
+{"seconds": 1270.0, "type": "sound", "class": "shouting"}
+{"seconds": 1271.0, "type": "sound", "class": "shouting"}
+{"seconds": 1272.0, "type": "sound", "class": "shouting"}
+{"seconds": 1273.0, "type": "sound", "class": "shouting"}
+{"seconds": 1274.0, "type": "sound", "class": "shouting"}
+{"seconds": 1275.0, "type": "sound", "class": "shouting"}
+{"seconds": 1276.0, "type": "sound", "class": "shouting"}
+{"seconds": 1277.0, "type": "sound", "class": "shouting"}
+{"seconds": 1278.0, "type": "sound", "class": "shouting"}
+{"seconds": 1279.0, "type": "sound", "class": "shouting"}
+{"seconds": 1283, "type": "sound", "class": "background music"}
+{"seconds": 1285, "type": "sound", "class": "background music"}
+{"seconds": 1280, "type": "sound", "class": "background laughing"}
+{"seconds": 1281.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1282.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1283.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1284.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1285.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1281, "type": "sound", "class": "speaking"}
+{"seconds": 1282.0, "type": "sound", "class": "speaking"}
+{"seconds": 1283.0, "type": "sound", "class": "speaking"}
+{"seconds": 1284.0, "type": "sound", "class": "speaking"}
+{"seconds": 1285.0, "type": "sound", "class": "speaking"}
+{"seconds": 1286.0, "type": "sound", "class": "speaking"}
+{"seconds": 1287, "type": "sound", "class": "shouting"}
+{"seconds": 1288.0, "type": "sound", "class": "shouting"}
+{"seconds": 1289.0, "type": "sound", "class": "shouting"}
+{"seconds": 1290.0, "type": "sound", "class": "shouting"}
+{"seconds": 1291.0, "type": "sound", "class": "shouting"}
+{"seconds": 1292.0, "type": "sound", "class": "shouting"}
+{"seconds": 1293.0, "type": "sound", "class": "shouting"}
+{"seconds": 1294.0, "type": "sound", "class": "shouting"}
+{"seconds": 1295.0, "type": "sound", "class": "shouting"}
+{"seconds": 1296.0, "type": "sound", "class": "shouting"}
+{"seconds": 1297.0, "type": "sound", "class": "shouting"}
+{"seconds": 1298, "type": "sound", "class": "speaking"}
+{"seconds": 1299, "type": "sound", "class": "background music"}
+{"seconds": 1300.0, "type": "sound", "class": "background music"}
+{"seconds": 1298, "type": "sound", "class": "background laughing"}
+{"seconds": 1299.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1300.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1301.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1302, "type": "sound", "class": "laughing"}
+{"seconds": 1301, "type": "sound", "class": "speaking"}
+{"seconds": 1302.0, "type": "sound", "class": "speaking"}
+{"seconds": 1303.0, "type": "sound", "class": "speaking"}
+{"seconds": 1304.0, "type": "sound", "class": "speaking"}
+{"seconds": 1305.0, "type": "sound", "class": "speaking"}
+{"seconds": 1306, "type": "sound", "class": "laughing"}
+{"seconds": 1307, "type": "sound", "class": "crashing"}
+{"seconds": 1308, "type": "sound", "class": "speaking"}
+{"seconds": 1309.0, "type": "sound", "class": "speaking"}
+{"seconds": 1308, "type": "sound", "class": "background laughing"}
+{"seconds": 1309.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1310, "type": "sound", "class": "crashing"}
+{"seconds": 1311, "type": "sound", "class": "background music"}
+{"seconds": 1312.0, "type": "sound", "class": "background music"}
+{"seconds": 1313.0, "type": "sound", "class": "background music"}
+{"seconds": 1315, "type": "sound", "class": "background music"}
+{"seconds": 1315, "type": "sound", "class": "speaking"}
+{"seconds": 1316.0, "type": "sound", "class": "speaking"}
+{"seconds": 1317, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 1311, "type": "sound", "class": "background laughing"}
+{"seconds": 1312.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1313.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1314.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1315.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1316.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1317.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1318.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1319.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1320.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1321.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1323, "type": "sound", "class": "shouting"}
+{"seconds": 1324, "type": "sound", "class": "laughing"}
+{"seconds": 1327, "type": "sound", "class": "background music"}
+{"seconds": 1325, "type": "sound", "class": "background laughing"}
+{"seconds": 1326.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1327.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1328.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1318, "type": "sound", "class": "speaking"}
+{"seconds": 1319.0, "type": "sound", "class": "speaking"}
+{"seconds": 1320.0, "type": "sound", "class": "speaking"}
+{"seconds": 1321.0, "type": "sound", "class": "speaking"}
+{"seconds": 1322.0, "type": "sound", "class": "speaking"}
+{"seconds": 1323.0, "type": "sound", "class": "speaking"}
+{"seconds": 1324.0, "type": "sound", "class": "speaking"}
+{"seconds": 1325.0, "type": "sound", "class": "speaking"}
+{"seconds": 1326.0, "type": "sound", "class": "speaking"}
+{"seconds": 1327.0, "type": "sound", "class": "speaking"}
+{"seconds": 1328.0, "type": "sound", "class": "speaking"}
+{"seconds": 1329.0, "type": "sound", "class": "speaking"}
+{"seconds": 1330.0, "type": "sound", "class": "speaking"}
+{"seconds": 1331.0, "type": "sound", "class": "speaking"}
+{"seconds": 1332.0, "type": "sound", "class": "speaking"}
+{"seconds": 1333, "type": "sound", "class": "shouting"}
+{"seconds": 1335, "type": "sound", "class": "speaking"}
+{"seconds": 1336.0, "type": "sound", "class": "speaking"}
+{"seconds": 1337.0, "type": "sound", "class": "speaking"}
+{"seconds": 1338.0, "type": "sound", "class": "speaking"}
+{"seconds": 1335, "type": "sound", "class": "background laughing"}
+{"seconds": 1336.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1337.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1338.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1339.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1340.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1342, "type": "sound", "class": "background laughing"}
+{"seconds": 1343.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1344.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1346, "type": "sound", "class": "background music"}
+{"seconds": 1340, "type": "sound", "class": "speaking"}
+{"seconds": 1341.0, "type": "sound", "class": "speaking"}
+{"seconds": 1342.0, "type": "sound", "class": "speaking"}
+{"seconds": 1343.0, "type": "sound", "class": "speaking"}
+{"seconds": 1344.0, "type": "sound", "class": "speaking"}
+{"seconds": 1345.0, "type": "sound", "class": "speaking"}
+{"seconds": 1346.0, "type": "sound", "class": "speaking"}
+{"seconds": 1347.0, "type": "sound", "class": "speaking"}
+{"seconds": 1348, "type": "sound", "class": "shouting"}
+{"seconds": 1349.0, "type": "sound", "class": "shouting"}
+{"seconds": 1351, "type": "sound", "class": "opening/closing doors"}
+{"seconds": 1350, "type": "sound", "class": "speaking"}
+{"seconds": 1351.0, "type": "sound", "class": "speaking"}
+{"seconds": 1352.0, "type": "sound", "class": "speaking"}
+{"seconds": 1353, "type": "sound", "class": "background music"}
+{"seconds": 1354.0, "type": "sound", "class": "background music"}
+{"seconds": 1355.0, "type": "sound", "class": "background music"}
+{"seconds": 1356.0, "type": "sound", "class": "background music"}
+{"seconds": 1349, "type": "sound", "class": "background laughing"}
+{"seconds": 1350.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1351.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1352.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1353.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1354.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1355.0, "type": "sound", "class": "background laughing"}
+{"seconds": 1356.0, "type": "sound", "class": "background laughing"}

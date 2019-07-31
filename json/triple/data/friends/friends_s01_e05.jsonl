@@ -1,0 +1,8 @@
+{"script": "Can I get an espresso and a latte over here, please?", "source": {"id": "object_cuban_espresso"}, "target": {"id": "object_cuba"}, "type": "relation", "subclass": "country", "seconds": 555.0, "class": "position"}
+{"script": "Can I get an espresso and a latte over here, please?", "source": {"id": "object_cuban_espresso"}, "target": {"id": "object_cuba"}, "type": "relation", "subclass": "country", "seconds": 556.0, "class": "position"}
+{"script": "Can I get an espresso and a latte over here, please?", "source": {"id": "object_cuban_espresso"}, "target": {"id": "object_cuba"}, "type": "relation", "subclass": "country", "seconds": 557.0, "class": "position"}
+{"script": "Can I get an espresso and a latte over here, please?", "source": {"id": "object_cuban_espresso"}, "target": {"id": "object_cuba"}, "type": "relation", "subclass": "country", "seconds": 558.0, "class": "position"}
+{"script": "I'm gonna get another espresso. More latte?", "source": {"id": "object_cuban_espresso"}, "target": {"id": "object_cuba"}, "type": "relation", "subclass": "country", "seconds": 604.0, "class": "position"}
+{"script": "I'm gonna get another espresso. More latte?", "source": {"id": "object_cuban_espresso"}, "target": {"id": "object_cuba"}, "type": "relation", "subclass": "country", "seconds": 605.0, "class": "position"}
+{"script": "I'm gonna get another espresso. More latte?", "source": {"id": "object_cuban_espresso"}, "target": {"id": "object_cuba"}, "type": "relation", "subclass": "country", "seconds": 606.0, "class": "position"}
+{"script": "I'm gonna get another espresso. More latte?", "source": {"id": "object_cuban_espresso"}, "target": {"id": "object_cuba"}, "type": "relation", "subclass": "country", "seconds": 607.0, "class": "position"}

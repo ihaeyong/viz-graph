@@ -1,0 +1,9 @@
+{"script": "The Milner's farm in Connecticut?", "subclass": "capital", "type": "relation", "target": {"id": "object_hartford_connecticut"}, "seconds": 66.0, "source": {"id": "object_connecticut"}, "class": "position"}
+{"script": "The Milner's farm in Connecticut?", "subclass": "location", "type": "relation", "target": {"id": "object_conneticut"}, "seconds": 66.0, "source": {"id": "object_harkness_tower"}, "class": "position"}
+{"script": "The Milner's farm in Connecticut?", "subclass": "isPartOf", "type": "relation", "target": {"id": "object_connecticut"}, "seconds": 66.0, "source": {"id": "object_downtown_new_haven"}, "class": "position"}
+{"script": "The Milner's farm in Connecticut?", "subclass": "capital", "type": "relation", "target": {"id": "object_hartford_connecticut"}, "seconds": 67.0, "source": {"id": "object_connecticut"}, "class": "position"}
+{"script": "The Milner's farm in Connecticut?", "subclass": "location", "type": "relation", "target": {"id": "object_conneticut"}, "seconds": 67.0, "source": {"id": "object_harkness_tower"}, "class": "position"}
+{"script": "The Milner's farm in Connecticut?", "subclass": "isPartOf", "type": "relation", "target": {"id": "object_connecticut"}, "seconds": 67.0, "source": {"id": "object_downtown_new_haven"}, "class": "position"}
+{"script": "The Milner's farm in Connecticut?", "subclass": "capital", "type": "relation", "target": {"id": "object_hartford_connecticut"}, "seconds": 68.0, "source": {"id": "object_connecticut"}, "class": "position"}
+{"script": "The Milner's farm in Connecticut?", "subclass": "location", "type": "relation", "target": {"id": "object_conneticut"}, "seconds": 68.0, "source": {"id": "object_harkness_tower"}, "class": "position"}
+{"script": "The Milner's farm in Connecticut?", "subclass": "isPartOf", "type": "relation", "target": {"id": "object_connecticut"}, "seconds": 68.0, "source": {"id": "object_downtown_new_haven"}, "class": "position"}

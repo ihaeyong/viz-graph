@@ -1,0 +1,30 @@
+{"seconds": 136.0, "type": "relation", "script": "Let me get you some coffee.", "target": {"id": "object_coffee"}, "class": "position", "source": {"id": "object_azacualpa"}, "subclass": "isPartOf"}
+{"seconds": 136.0, "type": "relation", "script": "Let me get you some coffee.", "target": {"id": "object_coffee"}, "class": "position", "source": {"id": "object_lavazza"}, "subclass": "location"}
+{"seconds": 137.0, "type": "relation", "script": "Let me get you some coffee.", "target": {"id": "object_coffee"}, "class": "position", "source": {"id": "object_azacualpa"}, "subclass": "isPartOf"}
+{"seconds": 137.0, "type": "relation", "script": "Let me get you some coffee.", "target": {"id": "object_coffee"}, "class": "position", "source": {"id": "object_lavazza"}, "subclass": "location"}
+{"seconds": 224.0, "type": "relation", "script": "Can I get you some coffee?", "target": {"id": "object_coffee"}, "class": "position", "source": {"id": "object_azacualpa"}, "subclass": "isPartOf"}
+{"seconds": 224.0, "type": "relation", "script": "Can I get you some coffee?", "target": {"id": "object_coffee"}, "class": "position", "source": {"id": "object_lavazza"}, "subclass": "location"}
+{"seconds": 225.0, "type": "relation", "script": "Can I get you some coffee?", "target": {"id": "object_coffee"}, "class": "position", "source": {"id": "object_azacualpa"}, "subclass": "isPartOf"}
+{"seconds": 225.0, "type": "relation", "script": "Can I get you some coffee?", "target": {"id": "object_coffee"}, "class": "position", "source": {"id": "object_lavazza"}, "subclass": "location"}
+{"seconds": 857.0, "type": "relation", "script": "I mean, I have never made coffee before in my life.", "target": {"id": "object_coffee"}, "class": "position", "source": {"id": "object_azacualpa"}, "subclass": "isPartOf"}
+{"seconds": 857.0, "type": "relation", "script": "I mean, I have never made coffee before in my life.", "target": {"id": "object_coffee"}, "class": "position", "source": {"id": "object_lavazza"}, "subclass": "location"}
+{"seconds": 858.0, "type": "relation", "script": "I mean, I have never made coffee before in my life.", "target": {"id": "object_coffee"}, "class": "position", "source": {"id": "object_azacualpa"}, "subclass": "isPartOf"}
+{"seconds": 858.0, "type": "relation", "script": "I mean, I have never made coffee before in my life.", "target": {"id": "object_coffee"}, "class": "position", "source": {"id": "object_lavazza"}, "subclass": "location"}
+{"seconds": 859.0, "type": "relation", "script": "I mean, I have never made coffee before in my life.", "target": {"id": "object_coffee"}, "class": "position", "source": {"id": "object_azacualpa"}, "subclass": "isPartOf"}
+{"seconds": 859.0, "type": "relation", "script": "I mean, I have never made coffee before in my life.", "target": {"id": "object_coffee"}, "class": "position", "source": {"id": "object_lavazza"}, "subclass": "location"}
+{"seconds": 860.0, "type": "relation", "script": "I mean, I have never made coffee before in my life.", "target": {"id": "object_coffee"}, "class": "position", "source": {"id": "object_azacualpa"}, "subclass": "isPartOf"}
+{"seconds": 860.0, "type": "relation", "script": "I mean, I have never made coffee before in my life.", "target": {"id": "object_coffee"}, "class": "position", "source": {"id": "object_lavazza"}, "subclass": "location"}
+{"seconds": 1342.0, "type": "relation", "script": "Would anybody like more coffee?", "target": {"id": "object_coffee"}, "class": "position", "source": {"id": "object_azacualpa"}, "subclass": "isPartOf"}
+{"seconds": 1342.0, "type": "relation", "script": "Would anybody like more coffee?", "target": {"id": "object_coffee"}, "class": "position", "source": {"id": "object_lavazza"}, "subclass": "location"}
+{"seconds": 1343.0, "type": "relation", "script": "Would anybody like more coffee?", "target": {"id": "object_coffee"}, "class": "position", "source": {"id": "object_azacualpa"}, "subclass": "isPartOf"}
+{"seconds": 1343.0, "type": "relation", "script": "Would anybody like more coffee?", "target": {"id": "object_coffee"}, "class": "position", "source": {"id": "object_lavazza"}, "subclass": "location"}
+{"seconds": 1344.0, "type": "relation", "script": "Would anybody like more coffee?", "target": {"id": "object_coffee"}, "class": "position", "source": {"id": "object_azacualpa"}, "subclass": "isPartOf"}
+{"seconds": 1344.0, "type": "relation", "script": "Would anybody like more coffee?", "target": {"id": "object_coffee"}, "class": "position", "source": {"id": "object_lavazza"}, "subclass": "location"}
+{"seconds": 1349.0, "type": "relation", "script": "I'm just serving it. coffee.", "target": {"id": "object_coffee"}, "class": "position", "source": {"id": "object_azacualpa"}, "subclass": "isPartOf"}
+{"seconds": 1349.0, "type": "relation", "script": "I'm just serving it. coffee.", "target": {"id": "object_coffee"}, "class": "position", "source": {"id": "object_lavazza"}, "subclass": "location"}
+{"seconds": 1350.0, "type": "relation", "script": "I'm just serving it. coffee.", "target": {"id": "object_coffee"}, "class": "position", "source": {"id": "object_azacualpa"}, "subclass": "isPartOf"}
+{"seconds": 1350.0, "type": "relation", "script": "I'm just serving it. coffee.", "target": {"id": "object_coffee"}, "class": "position", "source": {"id": "object_lavazza"}, "subclass": "location"}
+{"seconds": 1350.0, "type": "relation", "script": "I'll have a cup of coffee.", "target": {"id": "object_coffee"}, "class": "position", "source": {"id": "object_azacualpa"}, "subclass": "isPartOf"}
+{"seconds": 1350.0, "type": "relation", "script": "I'll have a cup of coffee.", "target": {"id": "object_coffee"}, "class": "position", "source": {"id": "object_lavazza"}, "subclass": "location"}
+{"seconds": 1351.0, "type": "relation", "script": "I'll have a cup of coffee.", "target": {"id": "object_coffee"}, "class": "position", "source": {"id": "object_azacualpa"}, "subclass": "isPartOf"}
+{"seconds": 1351.0, "type": "relation", "script": "I'll have a cup of coffee.", "target": {"id": "object_coffee"}, "class": "position", "source": {"id": "object_lavazza"}, "subclass": "location"}
