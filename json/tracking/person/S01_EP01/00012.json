@@ -1,0 +1,1 @@
+[{"bottomright": {"x": 703, "y": 543}, "confidence": 0.2, "topleft": {"x": 547, "y": 340}, "label": "wine glass"}, {"bottomright": {"x": 681, "y": 517}, "confidence": 0.12, "topleft": {"x": 557, "y": 420}, "label": "wine glass"}, {"bottomright": {"x": 800, "y": 662}, "confidence": 0.82, "topleft": {"x": 472, "y": 520}, "label": "chair"}]
