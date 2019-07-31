@@ -688,7 +688,7 @@ class Friends(App, Labels):
                     #relation_fpath = "./../tracking/relation_obj/S{:02d}_EP{:02d}_RE/{:05d}.json".format(self.season, self.episode, frame_number)
 
                     bbox_fpath = "./json/tracking/person/S{:02d}_EP{:02d}/{:05d}.json".format(self.season, self.episode, frame_number)
-                    imgs_fpath = "./json/tracking/frames/S{:02d}_EP{:02d}/{:05d}.jpg".format(self.season, self.episode, frame_number)
+                    imgs_fpath = "./frames/S{:02d}_EP{:02d}/{:05d}.jpg".format(self.season, self.episode, frame_number)
                     relation_fpath = "./json/tracking/relation_obj/S{:02d}_EP{:02d}/{:05d}.json".format(self.season, self.episode, frame_number)
 
                     frame = cv2.imread(imgs_fpath)
