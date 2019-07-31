@@ -670,7 +670,8 @@ class Friends(App, Labels):
             #kvTexture1.blit_buffer(frame.tostring(), colorfmt='bgr', bufferfmt='ubyte')
 
             # save detection results
-            save_path = './../tracking/det/S{:02d}_EP{:02d}'.format(self.season, self.episode)
+            #save_path = './../tracking/det/S{:02d}_EP{:02d}'.format(self.season, self.episode)
+            save_path = './json/tracking/det/S{:02d}_EP{:02d}'.format(self.season, self.episode)
             save_file = save_path + '/det.txt'.format(self.season, self.episode)
             self.mkdirs(save_path)
 
@@ -682,9 +683,13 @@ class Friends(App, Labels):
                 #frame_number = int(self.seconds / 6.0) + 5
                 frame_number = int(self.seconds)
                 if self.seconds > 1:
-                    bbox_fpath = "./../tracking/person/S{:02d}_EP{:02d}/{:05d}.json".format(self.season, self.episode, frame_number)
-                    imgs_fpath = "./../tracking/frames/S{:02d}_EP{:02d}/{:05d}.jpg".format(self.season, self.episode, frame_number)
-                    relation_fpath = "./../tracking/relation_obj/S{:02d}_EP{:02d}_RE/{:05d}.json".format(self.season, self.episode, frame_number)
+                    #bbox_fpath = "./../tracking/person/S{:02d}_EP{:02d}/{:05d}.json".format(self.season, self.episode, frame_number)
+                    #imgs_fpath = "./../tracking/frames/S{:02d}_EP{:02d}/{:05d}.jpg".format(self.season, self.episode, frame_number)
+                    #relation_fpath = "./../tracking/relation_obj/S{:02d}_EP{:02d}_RE/{:05d}.json".format(self.season, self.episode, frame_number)
+
+                    bbox_fpath = "./json/tracking/person/S{:02d}_EP{:02d}/{:05d}.json".format(self.season, self.episode, frame_number)
+                    imgs_fpath = "./json/tracking/frames/S{:02d}_EP{:02d}/{:05d}.jpg".format(self.season, self.episode, frame_number)
+                    relation_fpath = "./json/tracking/relation_obj/S{:02d}_EP{:02d}/{:05d}.json".format(self.season, self.episode, frame_number)
 
                     frame = cv2.imread(imgs_fpath)
                     frame_left = frame.copy()

@@ -37,38 +37,47 @@ formats below.
 
 * `{"type": "object", "class": "person", "label": "Person A", "seconds": 15.0, "coordinates": [100, 200, 20, 30]}`
 * `{"type": "object", "id": "person_ross_geller", "class": "person", "label": "Ross Geller", "seconds": 15.0, "coordinates": [100, 200, 20, 30]}`
+* https://github.com/vtt-project/DRCaptioning
 
 **Behavior**
 
 * `{"type": "behavior", "class": "stand", "seconds": 15.0, "object": Object}`
+* https://github.com/vtt-project/vtt-action-recognition
 
 **Emotion**
 
 * `{"type": "emotion", "class": "happy", "seconds": 15.0, "object": Object}`
+* https://github.com/vtt-project/VTT_vid_emotion
 
 **Relation**
 
 * `{"type": "relation", "class": RelationalClass, "subclass": "wear", "seconds": 15.0, "source": Object, "target": Object}`
+* https://github.com/vtt-project/vtt-char-identify
 
-**Location**
+**Place**
 
 * `{"type": "location", "class": "central_perk", "seconds": 15.0}`
+* https://github.com/vtt-project/2nd-year
 
-**Sound**
+**Sound event**
 
 * `{"type": "sound", "class": "glass_crashing", "seconds": 15.0}`
+* https://github.com/vtt-project/vtt-sound-event-detection
 
-*Object*
+**Person re-id**
 
 * `{"id": "person_ross_geller"}` or
 * `{"coordinates": [100, 200, 20, 30]}`
+* https://github.com/vtt-project/VTT_TRACKING
 
-*RelationalClass*
+**RelationalClass**
 
 * `"behavior"` for subclass `"wear"`, `"hold"`, `"hug"`, …
 * `"emotion"` for subclass `"love"`, `"like"`, …
 * `"position"` for subclass `"above"`, `"below"`, `"next_to"`, …
 * `"social"` for subclass `"son_of"`, `"father_of"`, `"lover_of"`, `"friend_of"`, …
+
+
 
 ### How to use
 `kivyVideoOpencvLabel.py` takes input data from several modules and visualize the results on video frames.
