@@ -28,7 +28,7 @@ Install the dependencies and kivy
 ![visualization of video](https://user-images.githubusercontent.com/14289457/62134415-674b7c80-b31b-11e9-8312-cdc7a6d7c507.PNG)
 
 ### Input frames :
-Given the following video frames at 3 [FPS]
+Given the following video frames at 5 [FPS]
 
 * [E01_S01](https://www.dropbox.com/sh/sblafxoo7ktv16n/AAD5GRzwni4Xk3b27dkQl9Qna?dl=0)
 
