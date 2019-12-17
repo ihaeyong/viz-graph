@@ -28,11 +28,11 @@ Install the dependencies and kivy
 ![visualization of video](https://user-images.githubusercontent.com/14289457/62134415-674b7c80-b31b-11e9-8312-cdc7a6d7c507.PNG)
 
 ### Input frames :
-Given the following video frames at 5 [FPS]
+Downloads the following video frames, outputs(json), and subtitles
 
-* [E01_S01](https://www.dropbox.com/sh/sblafxoo7ktv16n/AAD5GRzwni4Xk3b27dkQl9Qna?dl=0)
-
-
+* [frames](https://drive.google.com/drive/folders/1HEXpEuLv-ptaE3q3CjuiJnjaNgHkR42Q?usp=sharing)
+* [json](https://drive.google.com/drive/folders/1gKA2_dvvgwftCFivSd8xyNcgNyRi3bf3?usp=sharing)
+* [subtitle](https://drive.google.com/drive/folders/1t9ttwPpWzWODbVatn4HPlZmA2lBD8eI3?usp=sharing)
 ### Input format
 
 Input data must be JSONLines that contains multiple JSON objects in one of the

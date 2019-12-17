@@ -5,6 +5,9 @@ __pycache__/
 
 # C extensions
 *.so
+frames/
+json/
+subtitle
 
 # Distribution / packaging
 .Python
