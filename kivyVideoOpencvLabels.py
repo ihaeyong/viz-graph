@@ -1002,7 +1002,7 @@ class Friends(App, Labels):
                             label = bbox['label']
 
                             cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 255, 0), 3)
-                            cv2.putText(frame, str(id), (x2, y2), cv2.FONT_HERSHEY_PLAIN, 2, (0,255,0))
+                            #cv2.putText(frame, str(id), (x2, y2), cv2.FONT_HERSHEY_PLAIN, 2, (0,255,0))
                             #cv2.putText(frame, ":" + str(label), (x2+14, y2), cv2.FONT_HERSHEY_PLAIN, 2, (0, 255, 0))
 
                             # saving format
@@ -1100,8 +1100,9 @@ class Friends(App, Labels):
                     label = results[i]['value']['classes']
 
                     cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 0, 255), 2)
-                    #cv2.putText(frame, str(id), (x2, y2), cv2.FONT_HERSHEY_PLAIN, 2, (0, 255, 0))
-                    cv2.putText(frame, str(label), (x1, y1), cv2.FONT_HERSHEY_PLAIN, 2, (0, 0, 255))
+                    if 0 :
+                        cv2.putText(frame, str(id), (x2, y2), cv2.FONT_HERSHEY_PLAIN, 2, (0, 255, 0))
+                        cv2.putText(frame, str(label), (x1, y1), cv2.FONT_HERSHEY_PLAIN, 2, (0, 0, 255))
 
                 elif results[i]['class'] == 'behavior':
                     self.behavior_label.text = 'behavior: ' + results[i]['value']['classes']
