@@ -33,6 +33,221 @@ logger = None
 
 video_file = './../video/1x01.mkv'
 
+
+
+class LabelsFrame:
+    def __init__(self, merge_time_window=MERGE_TIME_WINDOW, merge_overlap_threshold=MERGE_OVERLAP_THRESHOLD):
+        self.entities = {}
+        self.abstract_object_ids = collections.defaultdict(dict)
+        self.coordinate_object_ids = collections.defaultdict(dict)
+        self.located_at_property_ids = collections.defaultdict(list)
+        self.video_entity_id = None
+        self.ids = {}
+        self.property_id = 0
+        self.object_id = 0
+        self.merge_time_window = merge_time_window
+        self.merge_overlap_threshold = merge_overlap_threshold
+
+    def get_property_id(self):
+        self.property_id += 1
+        return 'P%d' % self.property_id
+
+    def get_object_id(self):
+        self.object_id += 1
+        return 'O%d' % self.object_id
+
+    def get_entities_iter(self):
+        for entity_id, entity in self.entities.items():
+            yield entity
+
+    def is_coordinates_mergeable(self, coord_a, coord_b):
+        # [x, y, width, height]
+        a_x, a_y, a_width, a_height = coord_a
+        a_x2 = a_x + a_width
+        a_y2 = a_y + a_height
+        b_x, b_y, b_width, b_height = coord_b
+        b_x2 = b_x + b_width
+        b_y2 = b_y + b_height
+        overlap_width = max(0, min(a_x2, b_x2) - max(a_x, b_x))
+        overlap_height = max(0, min(a_y2, b_y2) - max(a_y, b_y))
+        a_area = a_width * a_height
+        b_area = b_width * b_height
+        overlap_area = overlap_width * overlap_height
+        return (overlap_area > a_area * self.merge_overlap_threshold) and (overlap_area > b_area * self.merge_overlap_threshold)
+
+    def add_entity(self, entity):
+        self.entities[entity['id']] = entity
+        if entity['entity_type'] == 'property' and entity['class'] == 'located_at':
+            seconds = entity['value']['seconds']
+            self.located_at_property_ids[math.floor(seconds)].append(entity['id'])
+
+    def get_video_object(self):
+        if self.video_entity_id is None:
+            entity = {
+                'entity_type': 'object',
+                'id': self.get_object_id(),
+                'class': 'video'
+            }
+            self.video_entity_id = entity['id']
+            self.add_entity(entity)
+            return entity
+        else:
+            return self.entities[self.video_entity_id]
+
+    def get_entity_id_by_coord(self, frames, coordinates):
+        range_start = max(math.floor(frames) - math.ceil(self.merge_time_window), 0)
+        range_end = math.ceil(frames) + math.ceil(self.merge_time_window) + 1
+        for i in range(range_start, range_end):
+            for prop_id in self.located_at_property_ids[i]:
+                prop = self.entities[prop_id]
+                time_mergeable = abs(prop['value']['frames'] - seconds) <= self.merge_time_window
+                prop_coord = self.entities[prop['target']]
+                coord_mergeable = self.is_coordinates_mergeable(coordinates, prop_coord['value']['coordinates'])
+                if time_mergeable and coord_mergeable:
+                    return prop['source']
+        return None
+
+    def get_object_by_coord(self, frames, classes):
+        entity_id = self.get_entity_id_by_coord(frames, classes)
+        if entity_id is not None:
+            return self.entities[entity_id]
+        else:
+            entity = {
+                'entity_type': 'object',
+                'id': self.get_object_id(),
+                'class': 'unknown'
+            }
+            self.add_entity(entity)
+            return entity
+
+    def get_object(self, seconds, obj):
+        if 'id' in obj:
+            #obj_id = self.ids[obj['id']]
+
+            # refine_obj = obj['id'].split('_')[1]
+            if obj['id'] in self.ids :
+                obj_id = self.ids[obj['id']]
+            else:
+                print('error: get_object.')
+                #for key, value in self.entities.items():
+                #    print(key, value)
+                #    obj_id = key
+                #    break
+            return self.entities[obj_id]
+
+        elif 'coordinates' in obj:
+            return self.get_object_by_coord(seconds, obj['coordinates'])
+        else:
+            logger.error('Unknown type of object found in %s' % obj)
+            return None
+
+    def get_coordinate_object(self,types, frames, coordinates, classes,id):
+        coordinates_key = ','.join([str(i) for i in coordinates])
+        if coordinates_key in self.coordinate_object_ids[frames]:
+            return self.coordinate_object_ids[frames][coordinates_key]
+        else:
+            obj = {
+                'entity_type': 'object',
+                'id': self.get_object_id(),
+                'class': types,
+                'value': {
+                    'classes' : classes,
+                    'coordinates': coordinates,
+                    'id' : id,
+                    'frames': frames
+                }
+            }
+            self.coordinate_object_ids[frames][coordinates_key] = obj
+            self.add_entity(obj)
+            return obj
+
+    def get_behave_object(self,types, frames, coordinates, classes):
+        coordinates_key = ','.join([str(i) for i in coordinates])
+        if coordinates_key in self.coordinate_object_ids[frames]:
+            return self.coordinate_object_ids[frames][coordinates_key]
+        else:
+            obj = {
+                'entity_type': 'object',
+                'id': self.get_object_id(),
+                'class': types,
+                'value': {
+                    'classes' : classes,
+                    'coordinates': coordinates,
+                    'frames': frames
+                }
+            }
+            self.coordinate_object_ids[frames][coordinates_key] = obj
+            self.add_entity(obj)
+            return obj
+
+    def get_label_property(self, seconds, object_class, source, target):
+        prop_entity = {
+            'entity_type': 'property',
+            'id': self.get_property_id(),
+            'class': object_class,
+            'source': source['id'],
+            'target': target['id'],
+            'value': {
+                'seconds': seconds,
+                'label': source['value']['label'] # added by haeyong.k
+            }
+        }
+        self.add_entity(prop_entity)
+        return prop_entity
+
+    def get_emotion_property(self, frames, object_class, source, target):
+        prop_entity = {
+            'entity_type': 'property',
+            'id': source['value']['id'],
+            'class': object_class,
+            'source': source['id'],
+            'target': target['id'],
+            'value': {
+                'frames': frames,
+                'label': source['value']['classes'],  # added by haeyong.k
+                'coordinates': source['value']['coordinates']
+            }
+        }
+        #print(source['input_ids'][0])
+        self.add_entity(prop_entity)
+        return prop_entity
+
+    def get_behavior_property(self, frames, object_class, source, target):
+        prop_entity = {
+            'entity_type': 'property',
+            'class': object_class,
+            'id': self.get_property_id(),
+            'source': source['id'],
+            'target': target['id'],
+            'value': {
+                'frames': frames,
+                'label': source['value']['classes'],  # added by haeyong.k
+                'coordinates': source['value']['coordinates']
+            }
+        }
+        #print(source['input_ids'][0])
+        self.add_entity(prop_entity)
+        return prop_entity
+
+    def add_label(self, label):
+        new_entities = []
+        if label['type'] == 'emotion':
+
+            # Overwrite the entity
+            # {"type": "emotion", "class": "neutral", "seconds": 3.167, "object": {"id": "person_phoebe"}}
+            # {"type": "emotion", "class": "surprise", "frames": 34, "coordinates": [393,337,464,409], "id": 1}
+            entity = self.get_coordinate_object('emotion',label['frames'], label['coordinates'],label['class'],label['id'])
+            video_entity = self.get_video_object()
+            entity['value']['id'] = label['id']
+            prop_entity = self.get_emotion_property(label['frames'], 'feel', entity, video_entity)
+
+        elif label['type'] == 'behavior':
+            entity = self.get_behave_object('behavior', label['frames'], label['object']['coordinates'], label['class'])
+            behavior_entity = self.get_video_object()
+            prop_entity = self.get_behavior_property(label['frames'], 'do', entity, behavior_entity)
+
+
+
 class Labels:
     def __init__(self, merge_time_window=MERGE_TIME_WINDOW, merge_overlap_threshold=MERGE_OVERLAP_THRESHOLD):
         self.entities = {}
@@ -173,6 +388,24 @@ class Labels:
             self.abstract_object_ids[object_class][label] = obj
             return obj
 
+    def get_event_object(self, object_class, label, sentences):
+
+        if label in self.abstract_object_ids[object_class]:
+            return self.abstract_object_ids[object_class][label]
+        else:
+            obj = {
+                'entity_type': 'object',
+                'id': self.get_object_id(),
+                'class': object_class,
+                'value': {
+                    'verbs': sentences[0]['verbs'],
+                    'sentence': sentences[0]['sentence']
+                }
+            }
+            self.add_entity(obj)
+            self.abstract_object_ids[object_class][label] = obj
+            return obj
+
     def get_label_property(self, seconds, object_class, source, target):
         prop_entity = {
             'entity_type': 'property',
@@ -183,6 +416,22 @@ class Labels:
             'value': {
                 'seconds': seconds,
                 'label': source['value']['label'] # added by haeyong.k
+            }
+        }
+        self.add_entity(prop_entity)
+        return prop_entity
+
+
+    def get_event_property(self, seconds, object_class, source, target):
+        prop_entity = {
+            'entity_type': 'property',
+            'id': self.get_property_id(),
+            'class': object_class,
+            'source': source['id'],
+            'target': target['id'],
+            'value': {
+                'seconds': seconds,
+                'verbs': source['value']['verbs'] # added by haeyong.k
             }
         }
         self.add_entity(prop_entity)
@@ -308,31 +557,6 @@ class Labels:
             coord_entity = self.get_coordinate_object(label['seconds'], label['coordinates'])
             prop_entity = self.get_property(label['seconds'], 'located_at', entity, coord_entity)
 
-        elif label['type'] == 'behavior':
-            entity = self.get_object(label['seconds'], label['object'])
-            behavior_entity = self.get_abstract_object('behavior', label['class'])
-            prop_entity = self.get_behavior_property(label['seconds'], 'do', entity, behavior_entity)
-
-        elif label['type'] == 'emotion':
-
-            # Overwrite the entity
-            entity = self.get_object_by_coord(label['seconds'], [0,0,0,0])
-            entity['entity_type'] = 'object'
-            entity['class'] = label['class']
-            entity['value'] = {'label': label['class']}
-
-            if 'id' in label['object'] and label['object']['id'] is not None:
-                if 'input_ids' not in entity:
-                    entity['input_ids'] = []
-                # entity['input_ids'].append(label['id'].split(' ')[0])
-                # self.ids[label['id'].split(' ')[0]] = entity['id']
-                entity['input_ids'].append(label['object']['id'])
-                self.ids[label['object']['id']] = entity['id']
-
-            entity = self.get_object(label['seconds'], label['object'])
-            emotion_entity = self.get_abstract_object('emotion', label['class'])
-            prop_entity = self.get_emotion_property(label['seconds'], 'feel', entity, emotion_entity)
-
         elif label['type'] == 'relation':
             relation_type_entity = self.get_abstract_object(label['class'], label['subclass'])
             # Overwrite the entity
@@ -409,11 +633,35 @@ class Labels:
             video_entity = self.get_video_object()
             prop_entity = self.get_label_property(label['seconds'], 'sound_of', entity, video_entity)
 
+        elif label['type'] == 'emotion':
+
+            # Overwrite the entity
+            # {"type": "emotion", "class": "neutral", "seconds": 3.167, "object": {"id": "person_phoebe"}}
+            # {"type": "emotion", "class": "surprise", "frames": 34, "coordinates": [393,337,464,409], "id": 1}
+            entity = self.get_object_by_coord(label['frames'], label['class'])
+            entity['entity_type'] = 'object'
+            entity['class'] = label['class']
+            entity['value'] = {'label': label['class']}
+
+            entity = self.get_object(label['frames'], label['coordinates'])
+            emotion_entity = self.get_abstract_object('emotion', label['class'])
+            prop_entity = self.get_emotion_property(label['frames'], 'feel', entity, emotion_entity)
+
+        elif label['type'] == 'behavior':
+            entity = self.get_object(label['frames'], label['object'])
+            behavior_entity = self.get_abstract_object('behavior', label['class'])
+            prop_entity = self.get_behavior_property(label['frames'], 'do', entity, behavior_entity)
+
         elif label['type'] == 'subtitle':
             entity = self.get_abstract_object('subtitle', label['subtitle'])
             video_entity = self.get_video_object()
             entity['value']['id'] = label['id']
             prop_entity = self.get_subtitle_property(label['start_time'], 'subtitle_of', entity, video_entity)
+
+        elif label['type'] == 'event':
+            entity = self.get_event_object('event', label['subtitle'], label['sentences'])
+            video_entity = self.get_video_object()
+            prop_entity = self.get_event_property(label['start_time'], 'event_of', entity, video_entity)
 
 class Friends(App, Labels):
 
@@ -422,7 +670,7 @@ class Friends(App, Labels):
         # initialize parameters
         # friend season and episode settings
         self.season = 1
-        self.episode = 1
+        self.episode = 6
 
         # initial seconds
         self.seconds = 1
@@ -435,100 +683,139 @@ class Friends(App, Labels):
         self.flag = False
         self.object_relation_flag = False
 
-        #dir = "./../tracking/person/S{:02d}_EP{:02d}".format(self.season, self.episode)
-        dir = "./json/tracking/person/S{:02d}_EP{:02d}".format(self.season, self.episode)
+        # define flag
+        self.PERSON_TRACKING = True
+        self.conf = False
+
+        self.RELATION_OBJECT = False
+        self.PLACE = True
+        self.BEHAVE = True
+        self.EMOTION = True
+
+        self.SOUND = True
+        self.KB_PERSON = True
+        self.RELATION_KBB = True
+        self.SUBTITLE = True
+
+        self.EVENT = True
+
+        # number of frames
+        dir = "./frames/S{:02d}_EP{:02d}".format(self.season, self.episode)
         frame_list = os.listdir(dir)  # dir is your directory path
         self.num_frames = len(frame_list)
 
         self.labels = Labels()
-        # tracking data
-        episode = '01'
+        self.labels_frames = LabelsFrame()
         file = 'friends_s{:02d}_e{:02d}.jsonl'.format(self.season,self.episode)
 
-        #tracking = './../VTT_TRACKING_DATA/data/friends/' + file
-        sound = './json/sound_event/data/friends/' + file
-        place = './json/place/data/friends/' + file
-        behavior = './json/action/data/friends/' + file
-        emotion = './json/emotion/data/friends/' + file
-        relation_kbb = './json/triple/data/friends/' + file
-        relation_kbh = './json/swrc/data/friends/' + file
-        relation_object = './json/object/data/friends/' + file
+        if self.SOUND :
+            sound = './json/sound_event/data/friends/' + file
+            with jsonlines.open(sound) as reader:
+                for obj in reader:
+                    self.labels.add_label(obj)
+            print('sound event detection added successfully.')
+
+        if self.EMOTION:
+            emotion = './json/emotion/data/friends/' + file
+            # add emotion
+            with jsonlines.open(emotion) as reader:
+                for obj in reader:
+                    self.labels_frames.add_label(obj)
+            print('emotion added successfully.')
+
+        if self.BEHAVE :
+            behavior = './json/action/data/friends/' + file
+            # add behavior
+            with jsonlines.open(behavior) as reader:
+                for obj in reader:
+                    self.labels_frames.add_label(obj)
+            print('behavior added successfully.')
+
+        if self.PLACE :
+            place = './json/place/data/friends/' + file
+            with jsonlines.open(place) as reader:
+                for obj in reader:
+                    self.labels.add_label(obj)
+            print('places added successfully.')
+
+        if self.RELATION_OBJECT:
+            relation_object = './json/object/data/friends/' + file
+
+            with jsonlines.open(relation_object) as reader:
+                for obj in reader:
+                    obj['type'] = 'relation_object'
+                    obj['source']['id'] = obj['caption'].split(' ')[0] + '_' + obj['caption'].split(' ')[1]
+                    target = ''
+                    for word in obj['caption'].split(' ')[3:]:
+                        if '_' in target:
+                            target = target + '_' + word
+                        else:
+                            target = word
+                    obj['target']['id'] = target
+                    obj['class'] = 'related_to_object'
+                    obj['subclass'] = obj['caption'].split(' ')[2]
+                    self.labels.add_label(obj)
+            print('relation added successfully.')
+
+
+        if self.RELATION_KBB:
+            relation_kbb = './json/triple/data/friends/' + file
+
+            # add knowlege background
+            with jsonlines.open(relation_kbb) as reader:
+                for obj in reader:
+                    self.labels.add_label(obj)
+            print('knowlege added successfully.')
+
+        if self.KB_PERSON :
+            # add knowlege person
+            relation_kbh = './json/swrc/data/friends/' + file
+            with jsonlines.open(relation_kbh) as reader:
+                for obj in reader:
+                    self.labels.add_label(obj)
+            print('knowlege added successfully.')
 
         # subtitle
-        subtitle_file = 's{:02d}_e{:02d}.jsonl'.format(self.season, self.episode)
-        subtitle = './subtitle/' + subtitle_file
+        if self.SUBTITLE :
+            subtitle_file = 's{:02d}_e{:02d}.jsonl'.format(self.season, self.episode)
+            subtitle = './subtitle/' + subtitle_file
 
-        # add places
-        with jsonlines.open(place) as reader:
-            for obj in reader:
-                self.labels.add_label(obj)
-        print('places added successfully.')
+            with jsonlines.open(subtitle) as reader:
+                for obj in reader:
+                    if 'type' not in obj:
+                        obj['type'] = 'subtitle'
+                    self.labels.add_label(obj)
 
-        # add sound
-        with jsonlines.open(sound) as reader:
-            for obj in reader:
-                self.labels.add_label(obj)
-        print('sound event detection added successfully.')
+        if self.EVENT :
+            event_file = 'friends_s{:02d}_e{:02d}.json'.format(self.season, self.episode)
+            event = './json/event/data/friends/' + event_file
 
-        # add tracking
-        #with jsonlines.open(tracking) as reader:
-        #    for obj in reader:
-        #        self.labels.add_label(obj)
-        #print('human tracking added successfully.')
-
-        # add behavior
-        with jsonlines.open(behavior) as reader:
-            for obj in reader:
-                self.labels.add_label(obj)
-        print('behavior added successfully.')
-
-        # add emotion
-        with jsonlines.open(emotion) as reader:
-            for obj in reader:
-                self.labels.add_label(obj)
-        print('emotion added successfully.')
-
-        # add knowlege background
-        with jsonlines.open(relation_kbb) as reader:
-            for obj in reader:
-                self.labels.add_label(obj)
-        print('knowlege added successfully.')
-
-        # add knowlege background
-        with jsonlines.open(relation_kbh) as reader:
-            for obj in reader:
-                self.labels.add_label(obj)
-        print('knowlege added successfully.')
-
-
-        # add relation
-        with jsonlines.open(relation_object) as reader:
-            for obj in reader:
-                obj['type'] = 'relation_object'
-                obj['source']['id'] = obj['caption'].split(' ')[0] + '_' + obj['caption'].split(' ')[1]
-                target = ''
-                for word in obj['caption'].split(' ')[3:]:
-                    if '_' in target:
-                        target = target + '_' + word
-                    else:
-                        target = word
-                obj['target']['id'] = target
-                obj['class'] = 'related_to_object'
-                obj['subclass'] = obj['caption'].split(' ')[2]
-                self.labels.add_label(obj)
-        print('relation added successfully.')
-
-        with jsonlines.open(subtitle) as reader:
-            for obj in reader:
+            with open(event, 'rt',  encoding='UTF8') as reader:
+                data = reader.read()
+            event_data = json.loads(data)
+            for obj in event_data:
                 if 'type' not in obj:
-                    obj['type'] = 'subtitle'
+                     obj['type'] = 'event'
                 self.labels.add_label(obj)
 
+
+
+        # add available entities
         self.avail_entity = []
         for entity in self.labels.get_entities_iter():
             if 'value' in entity:
                 if 'seconds' in entity['value']:
                     self.avail_entity.append(entity)
+                else:
+                    pass
+            else:
+                pass
+
+        self.avail_frame_entity = []
+        for entity in self.labels_frames.get_entities_iter():
+            if 'value' in entity:
+                if 'frames' in entity['value']:
+                    self.avail_frame_entity.append(entity)
                 else:
                     pass
             else:
@@ -540,9 +827,15 @@ class Friends(App, Labels):
             print(d)
         print('done.')
 
+
+        # find the dictionary by time, test the annotations
+        results = list(filter(lambda x: x['value']['frames'] > 0.0 and x['value']['frames'] < 100.0, self.avail_frame_entity))
+        for d in results:
+            print(d)
+        print('done.')
+
     # build
     def build(self):
-        #self._cap = cv2.VideoCapture(video_file)
         # define botton
         kvButtonPlay = Button(text="play", size_hint=(1.0, 0.1))
         kvButtonPlay.bind(on_press = self.buttonCallbackPlay)
@@ -555,26 +848,23 @@ class Friends(App, Labels):
         self.kvImage_pros = Image()
 
         # define video layout and add image
-        #VideoLayout = BoxLayout(orientation='vertical')
         VideoLayout = GridLayout(cols=2)
         VideoLayout.add_widget(self.kvImage_raw)
         VideoLayout.add_widget(self.kvImage_pros)
 
         # BoxLayout
-        #scrollLayout = BoxLayout(orientation='vertical', size_hint=(1.0, 0.2))
         self.SliderLabel = Label(text='...', size_hint=(1.0, 0.1), halign='center')
         SliderBar = Slider(min=1, max= self.num_frames, size_hint=(1.0, 0.1))
         SliderBar.bind(value=self.slideCallback)
-        #kvLayout1.add_widget(kvLayout2)
-        #kvLayout2.add_widget(kvSlider1)
 
         # add buttons to layout
         self.subtitle = Label(text='subtitle: ' + '...', halign='left', color=(1, 1, 1, 1), size_hint=(1.0, 0.4))
+        self.event = Label(text='language extension: ' + '...', halign='left', color=(1, 1, 1, 1), size_hint=(1.0, 0.4))
         self.relation_obj = Label(text='relation_obj: ' + '...', halign='left', color=(1, 1, 1, 1))
         ButtonLayout = BoxLayout(orientation='vertical', size_hint=(1.0, 1.0))
         VideoLayout.add_widget(ButtonLayout)
         ButtonLayout.add_widget(self.subtitle)
-        #ButtonLayout.add_widget(self.relation_obj)
+        ButtonLayout.add_widget(self.event)
         ButtonLayout.add_widget(self.SliderLabel)
         ButtonLayout.add_widget(SliderBar)
         ButtonLayout.add_widget(kvButtonPlay)
@@ -588,7 +878,6 @@ class Friends(App, Labels):
         self.emotion_label = Label(text='emotion: ' + '...', halign='left', color=(1, 1, 1, 1))
         self.relation_kbb = Label(text='knowlege_base: ' + '...', halign='left', color=(1, 1, 1, 1))
 
-
         # add information in Label layout
         LabelLayout = BoxLayout(orientation='vertical', size_hint=(1.0, 1.0))
         VideoLayout.add_widget(LabelLayout)
@@ -600,10 +889,6 @@ class Friends(App, Labels):
         LabelLayout.add_widget(self.relation_kbb)
         LabelLayout.add_widget(self.relation_obj)
 
-        # wait for opencv video capture
-        #while not self._cap.isOpened():
-        #    pass
-        #self._cap.set(cv2.CAP_PROP_FPS, 5)
         # update/clear schedules
         Clock.schedule_interval(self.update, 1.0/ self.frame_rate)
         Clock.schedule_interval(self.clear, self.clear_rate)
@@ -647,10 +932,6 @@ class Friends(App, Labels):
         self.relation_obj.color = (1, 1, 1, 1)
 
     def clear_kb(self, dt):
-
-        #self.relation_kbb.text = 'knowlege_base: ' + '...'
-        #self.relation_kbb.color = (1, 1, 1, 1)
-
         self.subtitle.text = 'subtitle: ' + '...'
         self.subtitle.color = (1, 1, 1, 1)
 
@@ -659,18 +940,35 @@ class Friends(App, Labels):
             return
         os.makedirs(path)
 
+    def bb_intersection_over_union(self, boxA, boxB):
+        # determine the (x, y)-coordinates of the intersection rectangle
+        xA = max(boxA[0], boxB[0])
+        yA = max(boxA[1], boxB[1])
+        xB = min(boxA[2], boxB[2])
+        yB = min(boxA[3], boxB[3])
+
+        # compute the area of intersection rectangle
+        interArea = max(0, xB - xA + 1) * max(0, yB - yA + 1)
+
+        # compute the area of both the prediction and ground-truth
+        # rectangles
+        boxAArea = (boxA[2] - boxA[0] + 1) * (boxA[3] - boxA[1] + 1)
+        boxBArea = (boxB[2] - boxB[0] + 1) * (boxB[3] - boxB[1] + 1)
+
+        # compute the intersection over union by taking the intersection
+        # area and dividing it by the sum of prediction + ground-truth
+        # areas - the interesection area
+        iou = interArea / float(boxAArea + boxBArea - interArea)
+
+        # return the intersection over union value
+        return iou
+
 
     def update(self, dt):
         # OpenCV processing
 
         if self.flag == True:
-            #ret, frame = self._cap.read()
-            #frame = cv2.flip(frame, 0)
-            #kvTexture1 = Texture.create(size=(frame.shape[1], frame.shape[0]), colorfmt='bgr')
-            #kvTexture1.blit_buffer(frame.tostring(), colorfmt='bgr', bufferfmt='ubyte')
-
             # save detection results
-            #save_path = './../tracking/det/S{:02d}_EP{:02d}'.format(self.season, self.episode)
             save_path = './json/tracking/det/S{:02d}_EP{:02d}'.format(self.season, self.episode)
             save_file = save_path + '/det.txt'.format(self.season, self.episode)
             self.mkdirs(save_path)
@@ -683,131 +981,184 @@ class Friends(App, Labels):
                 #frame_number = int(self.seconds / 6.0) + 5
                 frame_number = int(self.seconds)
                 if self.seconds > 1:
-                    #bbox_fpath = "./../tracking/person/S{:02d}_EP{:02d}/{:05d}.json".format(self.season, self.episode, frame_number)
-                    #imgs_fpath = "./../tracking/frames/S{:02d}_EP{:02d}/{:05d}.jpg".format(self.season, self.episode, frame_number)
-                    #relation_fpath = "./../tracking/relation_obj/S{:02d}_EP{:02d}_RE/{:05d}.json".format(self.season, self.episode, frame_number)
-
                     bbox_fpath = "./json/tracking/person/S{:02d}_EP{:02d}/{:05d}.json".format(self.season, self.episode, frame_number)
                     imgs_fpath = "./frames/S{:02d}_EP{:02d}/{:05d}.jpg".format(self.season, self.episode, frame_number)
                     relation_fpath = "./json/tracking/relation_obj/S{:02d}_EP{:02d}/{:05d}.json".format(self.season, self.episode, frame_number)
 
                     frame = cv2.imread(imgs_fpath)
                     frame_left = frame.copy()
-                    #frame_left = cv2.flip(frame_left, 0)
 
-                    print(bbox_fpath)
-                    with open(bbox_fpath, 'r') as fin:
-                        bboxes = json.load(fin)
-                    bboxes_ = [bbox for bbox in bboxes if bbox['confidence'] > 0.5 and bbox['label'] == 'person']
+                    if self.PERSON_TRACKING :
+                        print(bbox_fpath)
+                        with open(bbox_fpath, 'r') as fin:
+                            bboxes = json.load(fin)
+                        #bboxes_ = [bbox for bbox in bboxes if bbox['confidence'] > 0.5 and bbox['label'] == 'person']
+                        bboxes_ = [bbox for bbox in bboxes if bbox['label'] == 'person']
 
-                    for bbox in bboxes_:
-                        x1, y1 = bbox['topleft']['x'], bbox['topleft']['y']
-                        x2, y2 = bbox['bottomright']['x'], bbox['bottomright']['y']
+                        for bbox in bboxes_:
+                            x1, y1 = bbox['topleft']['x'], bbox['topleft']['y']
+                            x2, y2 = bbox['bottomright']['x'], bbox['bottomright']['y']
+                            id = bbox['id']
+                            label = bbox['label']
 
-                        #print('x1:', str(x1), 'y1:', str(y1), 'x2:', str(x2), 'y2:', str(y2))
-                        cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 255, 0), 3)
+                            cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 255, 0), 3)
+                            cv2.putText(frame, str(id), (x2, y2), cv2.FONT_HERSHEY_PLAIN, 2, (0,255,0))
+                            #cv2.putText(frame, ":" + str(label), (x2+14, y2), cv2.FONT_HERSHEY_PLAIN, 2, (0, 255, 0))
 
-                        # saving format
-                        id = -1
-                        w = x2-x1
-                        h = y2-y1
-                        conf = bbox['confidence'] - 0.5
-                        #save_format = '{frame},{id},{x1},{y1},{w},{h},1,-1,-1,-1'
-                        ped_info = '%d,%d,%f,%f,%f,%f,%f,%d,%d,%d \n' % (frame_number, id, x1,y1,w,h,conf,-1,-1,-1)
-                        f.write(ped_info)
-
-                    with open(relation_fpath, 'r') as fin:
-                        bboxes = json.load(fin)
-
-                    # relation_object
-                    bboxes_obj_cap = []
-                    bboxes_obj = []
-                    man_cnt = 0
-                    woman_cnt = 0
-                    for boxes in bboxes:
-                        if man_cnt >= 3:
-                            break
-                        if woman_cnt >= 3:
-                            break
-
-                        boxes['type'] = 'relation_object'
-                        boxes['source']['id'] = boxes['caption'].split(' ')[0] + '_' + boxes['caption'].split(' ')[1]
-                        target = ''
-                        for word in boxes['caption'].split(' ')[3:]:
-                            if '_' in target:
-                                target = target + '_' + word
+                            # saving format
+                            id = -1
+                            w = x2-x1
+                            h = y2-y1
+                            if self.conf:
+                                conf = bbox['confidence'] - 0.5
+                                ped_info = '%d,%d,%f,%f,%f,%f,%f,%d,%d,%d \n' % (frame_number, id, x1,y1,w,h,conf,-1,-1,-1)
                             else:
-                                target = word
-                        boxes['target']['id'] = target
-                        boxes['class'] = 'related_to_object'
-                        if 'subclass' not in boxes:
-                            boxes['subclass'] = boxes['caption'].split(' ')[2]
+                                ped_info = '%d,%d,%f,%f,%f,%f,%d,%d,%d \n' % (
+                                frame_number, id, x1, y1, w, h, -1, -1, -1)
+                            f.write(ped_info)
 
-                        bboxes_obj.append(boxes)
+                    if self.RELATION_OBJECT :
+                        with open(relation_fpath, 'r') as fin:
+                            bboxes = json.load(fin)
 
-                        if boxes['caption'].find("man") >= 1 or boxes['caption'].find("woman") >= 1 :
-                            # source object bounding box
-                            x = int(boxes['source']['coordinates'][0] * (1280/720))
-                            y = int(boxes['source']['coordinates'][1] * (720/402))
-                            w = int(boxes['source']['coordinates'][2] * (1280/720))
-                            h = int(boxes['source']['coordinates'][3] * (720/402))
-                            cv2.rectangle(frame_left, (x, y), (x+w, y+h), (255, 0, 0), 2)
-                            cv2.putText(frame_left, boxes['subject'], (x, y), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 1, cv2.LINE_AA)
+                        # relation_object
+                        bboxes_obj_cap = []
+                        bboxes_obj = []
+                        man_cnt = 0
+                        woman_cnt = 0
+                        for boxes in bboxes:
+                            if man_cnt >= 3:
+                                break
+                            if woman_cnt >= 3:
+                                break
 
-                            # target object bounding box
-                            x = int(boxes['target']['coordinates'][0] * (1280/720))
-                            y = int(boxes['target']['coordinates'][1] * (720/402))
-                            w = int(boxes['target']['coordinates'][2] * (1280/720))
-                            h = int(boxes['target']['coordinates'][3] * (720/402))
-                            cv2.rectangle(frame_left, (x, y), (x+w, y+h), (0, 0, 255), 2)
-                            cv2.putText(frame_left, boxes['object'], (x, y), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255),1, cv2.LINE_AA)
-                            bboxes_obj_cap.append(boxes['caption'])
+                            boxes['type'] = 'relation_object'
+                            boxes['source']['id'] = boxes['caption'].split(' ')[0] + '_' + boxes['caption'].split(' ')[1]
+                            target = ''
+                            for word in boxes['caption'].split(' ')[3:]:
+                                if '_' in target:
+                                    target = target + '_' + word
+                                else:
+                                    target = word
+                            boxes['target']['id'] = target
+                            boxes['class'] = 'related_to_object'
+                            if 'subclass' not in boxes:
+                                boxes['subclass'] = boxes['caption'].split(' ')[2]
 
-                            if boxes['caption'].find("man") >= 1:
-                                man_cnt += 1
-                            if boxes['caption'].find("woman") >= 1:
-                                woman_cnt += 1
+                            bboxes_obj.append(boxes)
 
-                    captions = ''
-                    for cap in bboxes_obj_cap:
-                        if '\n' in captions:
-                            captions = captions + cap + '\n'
-                        else:
-                            captions = cap + '\n'
+                            if boxes['caption'].find("man") >= 1 or boxes['caption'].find("woman") >= 1 :
+                                # source object bounding box
+                                x = int(boxes['source']['coordinates'][0] * (1280/720))
+                                y = int(boxes['source']['coordinates'][1] * (720/402))
+                                w = int(boxes['source']['coordinates'][2] * (1280/720))
+                                h = int(boxes['source']['coordinates'][3] * (720/402))
+                                cv2.rectangle(frame_left, (x, y), (x+w, y+h), (255, 0, 0), 2)
+                                cv2.putText(frame_left, boxes['subject'], (x, y), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 1, cv2.LINE_AA)
 
-                    self.relation_obj.text = captions
-                    self.relation_obj.color = (1, 0, 0, 1)
+                                # target object bounding box
+                                x = int(boxes['target']['coordinates'][0] * (1280/720))
+                                y = int(boxes['target']['coordinates'][1] * (720/402))
+                                w = int(boxes['target']['coordinates'][2] * (1280/720))
+                                h = int(boxes['target']['coordinates'][3] * (720/402))
+                                cv2.rectangle(frame_left, (x, y), (x+w, y+h), (0, 0, 255), 2)
+                                cv2.putText(frame_left, boxes['object'], (x, y), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255),1, cv2.LINE_AA)
+                                bboxes_obj_cap.append(boxes['caption'])
+
+                                if boxes['caption'].find("man") >= 1:
+                                    man_cnt += 1
+                                if boxes['caption'].find("woman") >= 1:
+                                    woman_cnt += 1
+
+                        captions = ''
+                        for cap in bboxes_obj_cap:
+                            if '\n' in captions:
+                                captions = captions + cap + '\n'
+                            else:
+                                captions = cap + '\n'
+
+                        self.relation_obj.text = captions
+                        self.relation_obj.color = (1, 0, 0, 1)
 
 
             f.close()
 
+            results = list(
+                filter(lambda x: x['value']['frames'] >= self.seconds and x['value']['frames'] < self.seconds + 1, self.avail_frame_entity)
+            )
 
-            #self.text = 'hello'
-            #self.label = Label(text='Hello', color=(1,0,1,1))
+            # --------------------------------------------------------------------------------------------------------
+            # --------------------------------< per frame >-----------------------------------------------------------
+            for i in range(len(results)):
+                if results[i]['class'] == 'emotion':
+                    self.emotion_label.text = 'emotion: ' + str(results[i]['value']['id']) + '_' + results[i]['value']['classes']
+                    self.emotion_label.color = (1, 0, 1, 1)
+
+                    x1, y1 = results[i]['value']['coordinates'][0], results[i]['value']['coordinates'][1]
+                    x2, y2 = results[i]['value']['coordinates'][2], results[i]['value']['coordinates'][3]
+                    id = results[i]['value']['id']
+                    label = results[i]['value']['classes']
+
+                    cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 0, 255), 2)
+                    #cv2.putText(frame, str(id), (x2, y2), cv2.FONT_HERSHEY_PLAIN, 2, (0, 255, 0))
+                    cv2.putText(frame, str(label), (x1, y1), cv2.FONT_HERSHEY_PLAIN, 2, (0, 0, 255))
+
+                elif results[i]['class'] == 'behavior':
+                    self.behavior_label.text = 'behavior: ' + results[i]['value']['classes']
+                    self.behavior_label.color = (1, 0, 1, 1)
+
+                    x1, y1 = results[i]['value']['coordinates'][0], results[i]['value']['coordinates'][1]
+                    x2, y2 = results[i]['value']['coordinates'][2], results[i]['value']['coordinates'][3]
+                    label = results[i]['value']['classes']
+
+                    #cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 0, 255), 2)
+                    # cv2.putText(frame, str(id), (x2, y2), cv2.FONT_HERSHEY_PLAIN, 2, (0, 255, 0))
+                    #cv2.putText(frame, str(label), (x1, y1), cv2.FONT_HERSHEY_PLAIN, 1, (0, 0, 255))
+
+            # ---------------------------------------------------------------------------------------------------------
+            # --------------------------------< per second >-----------------------------------------------------------
             self.second_label.text = 'second: ' + str(int(self.seconds / self.frame_rate)) + ', frame: ' + str(frame_number)
             self.second_label.color = (1,1,1,1)
 
             results = list(filter(lambda x: x['value']['seconds'] >= int(self.seconds / self.frame_rate) and x['value']['seconds'] < int(self.seconds / self.frame_rate)+1.0, self.avail_entity))
 
-            # subtitle
             for i in range(len(results)):
                 if results[i]['class'] == 'location_of':
                     self.place_label.text = 'place: ' + results[i]['value']['label']
                     self.place_label.color = (1,0,1,1)
+                    p_x, p_y = 10, 50
+                    cv2.putText(frame_left, self.place_label.text, (p_x, p_y), cv2.FONT_HERSHEY_PLAIN, 2, (0, 255, 0))
+
                 elif results[i]['class'] == 'sound_of':
                     self.sound_label.text = 'sound: ' + results[i]['value']['label']
                     self.sound_label.color = (1,0.5,0.5,1)
+
+                    p_x, p_y = 10, 50 * 2
+                    cv2.putText(frame_left, self.sound_label.text, (p_x, p_y), cv2.FONT_HERSHEY_PLAIN, 2, (0, 255, 0))
+
                 elif results[i]['class'] == 'subtitle_of':
                     self.subtitle.text = results[i]['value']['id']+ ': '+results[i]['value']['label']
                     self.subtitle.color = (1,0.5,0.5,1)
+
+                elif results[i]['class'] == 'event_of':
+                    es = 'language extension'
+                    for event in results[i]['value']['verbs'] :
+                        #event['verb_num']
+                        #event['verb']
+                        #event['wn_synset_num']
+                        #event['esf_type']
+                        for e in event['esf']:
+                            if e['se_type'] == 'pre-state':
+                                es += 'pre-state:' + e['se_form'] + '\n'
+                            elif e['se_type'] == 'process':
+                                es = 'process:' + e['se_form']  + '\n'
+                            #elif e['se_type'] == 'post-state':
+                            #    es += 'post-state:' + e['se_form']  + '\n'
+
+                    self.event.text = es
+                    self.event.color = (1, 0.5, 0.5, 1)
+
                 elif results[i]['class'] == 'video_box':
-                    # [255, 305, 351, 523]
-                    # draw a green rectangle to visualize the bounding rect
-                    #x = results[i]['value']['coordinates'][0]
-                    #y = results[i]['value']['coordinates'][1]
-                    #w = results[i]['value']['coordinates'][2]
-                    #h = results[i]['value']['coordinates'][3]
-                    #frame = cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
                     pass
 
                 elif results[i]['class'] == 'do':
@@ -825,8 +1176,6 @@ class Friends(App, Labels):
                     self.relation_kbb.color = (1, 0, 0, 1)
 
                 elif results[i]['class'] == 'related_to_object':
-                    #self.relation_obj.text = 'relation_obj: ' + results[i]['value']['source'][0]+' <--> '+ \
-                    #                                results[i]['value']['relation_obj'] + ' <--> ' + results[i]['value']['target'][0]
                     self.relation_obj.text = captions
                     self.relation_obj.color = (1, 0, 0, 1)
 
