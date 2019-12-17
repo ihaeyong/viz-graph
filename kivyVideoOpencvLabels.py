@@ -1107,13 +1107,13 @@ class Friends(App, Labels):
                     self.behavior_label.text = 'behavior: ' + results[i]['value']['classes']
                     self.behavior_label.color = (1, 0, 1, 1)
 
-                    x1, y1 = results[i]['value']['coordinates'][0], results[i]['value']['coordinates'][1]
-                    x2, y2 = results[i]['value']['coordinates'][2], results[i]['value']['coordinates'][3]
-                    label = results[i]['value']['classes']
+                    if 0 :
+                        x1, y1 = results[i]['value']['coordinates'][0], results[i]['value']['coordinates'][1]
+                        x2, y2 = results[i]['value']['coordinates'][2], results[i]['value']['coordinates'][3]
+                        label = results[i]['value']['classes']
 
-                    #cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 0, 255), 2)
-                    # cv2.putText(frame, str(id), (x2, y2), cv2.FONT_HERSHEY_PLAIN, 2, (0, 255, 0))
-                    #cv2.putText(frame, str(label), (x1, y1), cv2.FONT_HERSHEY_PLAIN, 1, (0, 0, 255))
+                        cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 0, 255), 2)
+                        cv2.putText(frame, str(label), (x1, y1), cv2.FONT_HERSHEY_PLAIN, 1, (0, 0, 255))
 
             # ---------------------------------------------------------------------------------------------------------
             # --------------------------------< per second >-----------------------------------------------------------
