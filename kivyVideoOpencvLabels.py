@@ -687,7 +687,7 @@ class Friends(App, Labels):
         self.PERSON_TRACKING = True
         self.conf = False
 
-        self.RELATION_OBJECT = False
+        self.RELATION_OBJECT = True
         self.PLACE = True
         self.BEHAVE = True
         self.EMOTION = True
@@ -738,7 +738,7 @@ class Friends(App, Labels):
                     self.labels.add_label(obj)
             print('places added successfully.')
 
-        if self.RELATION_OBJECT:
+        if 0 :
             relation_object = './json/object/data/friends/' + file
 
             with jsonlines.open(relation_object) as reader:
@@ -1049,20 +1049,20 @@ class Friends(App, Labels):
 
                             if boxes['caption'].find("man") >= 1 or boxes['caption'].find("woman") >= 1 :
                                 # source object bounding box
-                                x = int(boxes['source']['coordinates'][0] * (1280/720))
-                                y = int(boxes['source']['coordinates'][1] * (720/402))
-                                w = int(boxes['source']['coordinates'][2] * (1280/720))
-                                h = int(boxes['source']['coordinates'][3] * (720/402))
-                                cv2.rectangle(frame_left, (x, y), (x+w, y+h), (255, 0, 0), 2)
-                                cv2.putText(frame_left, boxes['subject'], (x, y), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 1, cv2.LINE_AA)
+                                x = int(boxes['source']['coordinates'][0] * (1280/720)) # (1280/720)
+                                y = int(boxes['source']['coordinates'][1] * (720/402)) # (720/402)
+                                w = int(boxes['source']['coordinates'][2] * (1280/720)) # (1280/720)
+                                h = int(boxes['source']['coordinates'][3] * (720/402)) # (720/402)
+                                #cv2.rectangle(frame_left, (x, y), (x+w, y+h), (255, 0, 0), 2)
+                                #cv2.putText(frame_left, boxes['subject'], (x, y), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 1, cv2.LINE_AA)
 
                                 # target object bounding box
                                 x = int(boxes['target']['coordinates'][0] * (1280/720))
                                 y = int(boxes['target']['coordinates'][1] * (720/402))
                                 w = int(boxes['target']['coordinates'][2] * (1280/720))
                                 h = int(boxes['target']['coordinates'][3] * (720/402))
-                                cv2.rectangle(frame_left, (x, y), (x+w, y+h), (0, 0, 255), 2)
-                                cv2.putText(frame_left, boxes['object'], (x, y), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255),1, cv2.LINE_AA)
+                                #cv2.rectangle(frame_left, (x, y), (x+w, y+h), (0, 0, 255), 2)
+                                #cv2.putText(frame_left, boxes['object'], (x, y), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255),1, cv2.LINE_AA)
                                 bboxes_obj_cap.append(boxes['caption'])
 
                                 if boxes['caption'].find("man") >= 1:
